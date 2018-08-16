@@ -1,0 +1,70 @@
+{% if page.permalink == '/' %}
+    {% include promo.html %}
+{% endif %}
+
+<footer class="ft">
+    <p>
+    &copy; 2018
+    <a href="{{site.baseurl}}/">{{site.title}}</a> &bull;
+    <a href="/privacy">Privacy</a> &bull;
+    <a href="/people">Our Team</a> &bull;
+    <a href="/contact">Contact</a> &bull;
+    Follow <a href="https://twitter.com/{{site.twitter.username}}" target="
+    ">@{{site.twitter.username}}</a> on Twitter for news and status updates.
+    </p>
+</footer>
+
+</div><!-- /.app -->
+
+<script>
+var cdn_domain = '{{site.cdn.domain}}';
+var imgpx_domain = '{{site.cdn.imgpx_domain}}';
+</script>
+
+<script>
+function getQuery(r) {
+	for (var t = window.location.search.substring(1), n = t.split("&"), i = 0; i < n.length; i++) {
+		var e = n[i].split("=");
+		if (e[0] == r) return e[1];
+	}
+	return !1;
+}
+
+if (getQuery('url') ) {
+    document.getElementById('url').value = getQuery('url');
+}
+
+{% if page.permalink == '/contact' %}
+if (getQuery('subject') ) {
+    document.getElementById('subject').value = getQuery('subject');
+}
+{% endif %}
+
+</script>
+
+<script>
+var dev_message = '{{site.data.promo-on-console.title}}, {{site.data.promo-on-console.description}}, {{site.baseurl}}{{site.data.promo-on-console.link}}';
+console.log(dev_message);
+</script>
+
+{% if page.permalink == '/' %}
+<script src="{{site.baseurl}}/static/js/app.js"></script>
+{% endif %}
+
+{% if page.permalink == '/imgpx' %}
+<script src="{{site.cdn.url}}/zenorocha/clipboard.js/v1.5.10/dist/clipboard.min.js"></script>
+<script src="{{site.baseurl}}/static/js/imgpx.js"></script>
+{% endif %}
+
+<script defer src="{{site.baseurl}}/static/js/fonts.js"></script>
+
+{% include analytics.html %}
+
+<noscript>
+    <div class="announcement">
+        <p>Can only work with js!</p>
+    </div>
+</noscript>
+
+</body>
+</html>

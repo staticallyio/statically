@@ -1,0 +1,12 @@
+{% include header.html %}
+
+<div class="bd">
+    <div class="content">
+        <div class="page {{ page.class }}">
+            <h1{% if page.title_show == false %} class="none"{% endif %}>{{page.title}}</h1>
+            {{content}}
+        </div>
+    </div>
+</div>
+
+{% include footer.html %}

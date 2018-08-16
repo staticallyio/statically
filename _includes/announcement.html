@@ -1,0 +1,12 @@
+<div class="announcement">
+    <p>
+        {% if site.data.announcement.icon %}
+            <i class="fa fa-{{site.data.announcement.icon}}"></i>
+        {% endif %}
+
+        {{site.data.announcement.description}}
+        {% if site.data.announcement.link %}
+            <a href="{{site.data.announcement.link}}?utm_source=announcement&amp;utm_medium=header">{{site.data.announcement.linktext}}</a>
+        {% endif %}
+    </p>
+</div>

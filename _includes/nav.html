@@ -1,0 +1,22 @@
+<nav class="nav">
+    <ul>
+        <li{% if page.permalink == '/' %} class="active"{% endif %}>
+            <a href="{{site.baseurl}}/"><i class="fa fa-home prime"></i> Home</a>
+        </li>
+        <li{% if page.permalink == '/imgpx' %} class="active"{% endif %}>
+            <a href="{{site.baseurl}}/imgpx"><i class="fa fa-bolt optimus"></i> Imgpx</a>
+        </li>
+        <li{% if page.permalink == '/sponsors' %} class="active"{% endif %}>
+            <a href="{{site.baseurl}}/sponsors"><i class="fa fa-award bumble"></i> Sponsors</a>
+        </li>
+        <li{% if page.permalink == '/stats' %} class="active"{% endif %}>
+            <a href="{{site.baseurl}}/stats"><i class="fa fa-chart-pie bee"></i> Stats</a>
+        </li>
+        <li{% if page.permalink == '/network' %} class="active"{% endif %}>
+            <a href="{{site.baseurl}}/network"><i class="fa fa-globe sentinel"></i> Network</a>
+        </li>
+        <li>
+            <a href="{{site.staticaly.blog_url}}/"><i class="fa fa-bookmark blue"></i> Blog</a>
+        </li>
+    </ul>
+</nav>

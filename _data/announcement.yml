@@ -1,0 +1,12 @@
+# Show (true|false)
+show: true
+
+# Icon (Font Awesome)
+icon: bolt
+
+# Attractive description
+description: Fast with HTTP/2 For All Traffic.
+
+# Show link only when it exist
+link: https://blog.staticaly.com/http2
+linktext: Learn more

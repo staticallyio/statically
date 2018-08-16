@@ -1,0 +1,25 @@
+<script>
+var Countly = Countly || {};
+Countly.q = Countly.q || [];
+
+Countly.app_key = '{{site.marsble.analytics_id}}';
+Countly.url = '{{site.marsble.analytics_url}}';
+
+Countly.q.push(['track_sessions']);
+Countly.q.push(['track_pageview']);
+Countly.q.push(['track_clicks']);
+Countly.q.push(['track_scrolls']);
+Countly.q.push(['track_errors']);
+Countly.q.push(['track_links']);
+Countly.q.push(['track_forms']);
+Countly.q.push(['collect_from_forms']);
+
+(function() {
+   var cly = document.createElement('script'); cly.type = 'text/javascript';
+   cly.async = true;
+   cly.src = '{{site.cdn.static_url}}/js/sdk/web/a.js';
+   cly.onload = function(){Countly.init()};
+   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(cly, s);
+})();
+</script>
+<noscript><img src='{{site.marsble.analytics_url}}/pixel.png?app_key={{site.marsble.analytics_id}}&begin_session=1'></noscript>

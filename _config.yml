@@ -1,0 +1,88 @@
+# General
+title: Staticaly
+tagline: Make it Static!
+description: Staticaly is Free, Open Source CDN Library with Advanced features so you can load your project more easer.
+logo: /static/images/staticaly_icon.png
+lang: en_US
+url: https://www.staticaly.com
+encoding: UTF-8
+permalink: /:title
+year: 2018
+highlighter: rouge
+env: production
+
+# Utilities
+future: true
+jailed: false
+gfm_quirks: paragraph_end
+
+# Staticaly
+staticaly:
+    blog_url: https://blog.staticaly.com
+    devs_url: https://developers.staticaly.com
+    datacenter_num: 152
+    api:
+        contact: https://apis.staticaly.com/contact/v1/post
+
+# The author
+author:
+    twitter: fransallen
+
+# Default image for socmed
+defaults:
+  - scope:
+      path: ''
+    values:
+      image: /static/images/staticaly_icon.png
+
+# Analytics
+marsble:
+    analytics_url: https://pixel.marsble.com
+    analytics_id: d6cfed887ab23035d6de8fafeafe845e48d7158f
+
+# Social
+social:
+    name: Staticaly
+    links:
+      - https://twitter.com/staticalycom
+      - https://www.facebook.com/staticaly
+      - https://www.linkedin.com/company/staticaly
+      - https://plus.google.com/+staticaly
+      - https://github.com/staticaly
+
+# Twitter
+twitter:
+    username: staticalycom
+
+# Facebook
+facebook:
+    app_id: 1234
+    publisher: staticaly
+    admins: fransallen
+
+# Static files
+cdn:
+    domain: cdn.staticaly.com
+    imgpx_domain: img.staticaly.com
+    url: https://cdn.staticaly.com
+    imgpx_url: https://img.staticaly.com
+    static_url: https://static.marsble.com
+sass:
+    sass_dir: ./static/css
+    style: compressed
+
+include:
+    - '_pages'
+    - '_redirections'
+
+kramdown:
+    input: GFM
+    hard_wrap: false
+
+# Plugins
+plugins:
+    - jekyll-coffeescript
+    - jekyll-seo-tag
+    - jekyll-redirect-from
+    - jekyll-sitemap
+    - jekyll-feed

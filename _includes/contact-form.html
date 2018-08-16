@@ -1,0 +1,10 @@
+<form action="{{site.staticaly.api.contact}}" method="post">
+    <input id="subject" class="inp" type="text" placeholder="Subject: Awesome things.." name="_subject" required>
+    <input class="inp" type="text" name="name" placeholder="Full Name">
+    <input class="inp" type="email" placeholder="your@example.com" name="_replyto">
+    <input type="hidden" name="_cc" value="support@marsble.com">
+    <input type="hidden" name="_next" value="{{site.url}}/contact?h2=Thanks for get in touch">
+    <input type="text" name="_gotcha" style="display:none">
+    <textarea class="inp" placeholder="Tell us your amazing ideas.." name="message" required></textarea>
+    <button class="btn btn-white" type="submit">Submit <i class="fa fa-arrow-right"></i></button>
+</form>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html class="no-js" lang="{% if page.lang %}{{page.lang}}{% else %}{{site.lang}}{% endif %}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>
+	{% if page.permalink == '/' %}
+		{{site.title}} - {{site.tagline}}
+	{% else %}
+		{{page.title}} - {{site.title}}
+	{% endif %}
+</title>
+
+{% seo title=false %}
+
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="{{site.title}}">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:400,700">
+{% if page.layout == 'blog' %}
+<link rel="stylesheet" href="">
+{% else %}
+<link rel="stylesheet" href="{{site.baseurl}}/static/css/app.css">
+{% endif %}
+
+<link rel="icon" href="{{site.logo}}">
+
+{% include js-detector.html %}
+
+{% if page.permalink == '/contact' %}
+<script src="https://www.google.com/recaptcha/api.js"></script>
+{% endif %}
+
+</head>
+<body class="lo-{{page.layout}}
+
+			{{page.permalink | remove: '/'}}
+
+			{% if page.layout == 'page' %}
+				{% if page.bgcolor %}
+					bg bg-{{page.bgcolor}}
+				{% endif %}
+			{% endif %}">
+
+	<div class="app">
+
+	{% if site.data.announcement.show %}
+		{% include announcement.html %}
+	{% endif %}
+
+    <header class="hd">
+        <{% if page.permalink == '/' %}h1{% else %}h2{% endif %} class="title">
+            <a href="{{site.baseurl}}/">
+				<img class="logo" src="{{site.logo}}" alt="{{site.title}}" role="presentation">
+				{{site.title}}
+			</a>
+        </{% if page.permalink == '/' %}h1{% else %}h2{% endif %}>
+
+        {% include nav.html %}
+    </header>

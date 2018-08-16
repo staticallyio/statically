@@ -1,0 +1,13 @@
+- name: Frans Allen
+  title: 'Project Leader'
+  picture: 08f0a729d038026338d8fc51221be03b
+  quote: 'Make tools to manage static files more easer, more secure, more faster.'
+  twitter: fransallen
+  url: https://www.fransallen.com
+
+- name: Kevin
+  title: 'Project Dev'
+  picture:
+  quote: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+  twitter:
+  url: 
