@@ -567,6 +567,10 @@ hr {
     color: #ea2727;
 }
 
+.pink {
+    color: #ef3b3b;
+}
+
 .bg-tosca {
     background: linear-gradient(to bottom left, #ffeb71, #00afb7) !important
 }
