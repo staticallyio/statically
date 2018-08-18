@@ -1,11 +1,12 @@
+<script>
 (function(doc) {
     "use strict";
-    var TEMPLATES = [
-        [/^(https?):\/\/((.*.)?[a-zA-Z0-9]{1,61}[a-zA-Z0-9](?:\.[a-zA-Z]{2,}))\/(.+)/i, '$1://'+ imgpx_domain +'/$2/$4']
-    ];
+
+    {% include js/{{page.js}}.js %}
+
     var prodEl = doc.getElementById('url-prod');
     var urlEl = doc.getElementById('url');
-    new Clipboard('.url-copy-button');
+    new Clipboard('.inp-copy-button');
     var prodCopyButton = doc.getElementById('url-prod-copy');
     if (doc.queryCommandSupported && doc.queryCommandSupported('copy')) {
         prodCopyButton.style.display = 'inline-block';
@@ -42,3 +43,4 @@
         }, 1);
     }
 }(document));
+</script>

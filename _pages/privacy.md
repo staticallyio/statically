@@ -2,6 +2,7 @@
 layout: page
 title: Privacy Policy
 description: Learn about privacy policy on Staticaly
+promo: true
 permalink: /privacy
 ---
 

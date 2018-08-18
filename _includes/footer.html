@@ -1,16 +1,23 @@
-{% if page.permalink == '/' %}
-    {% include promo.html %}
+{% if page.promo %}
+    {% include promo-v2.html %}
 {% endif %}
 
 <footer class="ft">
-    <p>
-    &copy; 2018
-    <a href="{{site.baseurl}}/">{{site.title}}</a> &bull;
-    <a href="/privacy">Privacy</a> &bull;
-    <a href="/people">Our Team</a> &bull;
-    <a href="/contact">Contact</a> &bull;
-    Follow <a href="https://twitter.com/{{site.twitter.username}}" target="
-    ">@{{site.twitter.username}}</a> on Twitter for news and status updates.
+    <p class="link">
+        &copy; 2018
+        <a href="{{site.baseurl}}/">{{site.title}}</a> &bull;
+        <a href="/privacy">Privacy</a> &bull;
+        <a href="/people">Our Team</a> &bull;
+        <a href="/contact">Contact</a>
+    </p>
+
+    <p class="link right social">
+        <a href="https://github.com/{{site.github_username}}" target="_blank
+        "><i class="fab fa-github"></i></a>
+        <a href="https://twitter.com/{{site.twitter.username}}" target="_blank
+        "><i class="fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com/{{site.facebook.publisher}}" target="_blank
+        "><i class="fab fa-facebook"></i></a>
     </p>
 </footer>
 
@@ -18,7 +25,10 @@
 
 <script>
 var cdn_domain = '{{site.cdn.domain}}';
-var imgpx_domain = '{{site.cdn.imgpx_domain}}';
+
+{% if page.app_domain %}
+var app_domain = '{{page.app_domain}}.staticaly.com';
+{% endif %}
 </script>
 
 <script>
@@ -51,9 +61,13 @@ console.log(dev_message);
 <script src="{{site.baseurl}}/static/js/app.js"></script>
 {% endif %}
 
-{% if page.permalink == '/imgpx' %}
+{% if page.permalink == '/imgpx' or page.permalink == '/favicons' %}
 <script src="{{site.cdn.url}}/zenorocha/clipboard.js/v1.5.10/dist/clipboard.min.js"></script>
-<script src="{{site.baseurl}}/static/js/imgpx.js"></script>
+
+    {% if page.js %}
+    {% include js/app-js.html %}
+    {% endif %}
+
 {% endif %}
 
 <script defer src="{{site.baseurl}}/static/js/fonts.js"></script>
