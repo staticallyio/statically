@@ -4,7 +4,7 @@
 
 <footer class="ft">
     <p class="link">
-        &copy; 2018
+        &copy; {{site.year}}
         <a href="{{site.baseurl}}/">{{site.title}}</a> &bull;
         <a href="/privacy">Privacy</a> &bull;
         <a href="/people">Our Team</a> &bull;
@@ -22,14 +22,6 @@
 </footer>
 
 </div><!-- /.app -->
-
-<script>
-var cdn_domain = '{{site.cdn.domain}}';
-
-{% if page.app_domain %}
-var app_domain = '{{page.app_domain}}.staticaly.com';
-{% endif %}
-</script>
 
 <script>
 function getQuery(r) {
@@ -58,7 +50,7 @@ console.log(dev_message);
 </script>
 
 {% if page.permalink == '/' %}
-<script src="{{site.baseurl}}/static/js/app.js"></script>
+<script src="{{site.baseurl}}/static/js/app.min.js"></script>
 {% endif %}
 
 {% if page.permalink == '/imgpx' or page.permalink == '/favicons' %}

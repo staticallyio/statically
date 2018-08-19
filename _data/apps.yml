@@ -1,0 +1,17 @@
+- name: Imgpx
+  description: Imgpx is an image proxy that can be used to get every images on the web. It's fast and advanced.
+  icon: bolt optimus
+  link: /imgpx
+  linktext: Get App
+
+- name: Statistics Usage
+  description: 1000+ hits/month and counting. Learn more about Staticaly Statistics usage.
+  icon: chart-pie bumble
+  link: /stats
+  linktext: See Traffic
+
+- name: Our Network
+  description: Staticaly is running on <script>document.write(datacenter_num);</script> and counting data centers around the world.
+  icon: globe sentinel
+  link: /network
+  linktext: Learn More

@@ -1,12 +1,9 @@
 <div class="main">
+    {% for app in site.data.apps' %}
     <div class="column">
-        <h3>Statistics Usage</h3>
-        <p>1000+ hits/month and counting. Learn more about Staticaly Statistics usage.</p>
-        <a class="btn" href="/stats">Stats</a>
+        <h3><i class="fa fa-{{app.icon}}"></i> {{app.name}}</h3>
+        <p>{{app.description}}</p>
+        <a class="btn" href="{{app.link}}">{{app.linktext}} <i class="fa fa-arrow-right"></i></a>
     </div>
-    <div class="column">
-        <h3>Our Network</h3>
-        <p>Staticaly is running on {{site.staticaly.datacenter_num}} and counting data centers around the world.</p>
-        <a class="btn" href="/network">Learn More</a>
-    </div>
+    {% endfor %}
 </div>

@@ -5,6 +5,7 @@ description: Make images more faster with Highscalability Super Fast Global CDN
 bgcolor: optimus
 app_domain: img
 imgdemo: www.fransallen.com/files/2018/08/clouds.jpg
+promo: true
 js: imgpx
 permalink: /imgpx
 ---
@@ -78,6 +79,12 @@ permalink: /imgpx
                 <img src="{{site.cdn.imgpx_url}}/{{page.imgdemo}}" alt="{{page.title}}">
             </div>
         </div>
+
+        <hr>
+
+        {% include features/imgpx.html %}
+
+        <hr>
 
         <div class="main center">
             <p class="lead">See more documentation on Developers page</p>

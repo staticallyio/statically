@@ -452,7 +452,7 @@ pre {
     background: #eee;
 }
 
-.hd .nav a .svg-inline--fa {
+.hd .nav a .fa {
     margin-right: 3px;
 }
 
@@ -881,11 +881,16 @@ hr {
     text-decoration: none !important;
     border-radius: 2px;
     transition: 0.15s ease-in-out;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3)
 }
 
-.btn:hover, .btn:focus {
+.btn:hover {
     background: #444;
-    color: #fff
+    color: #fff;
+}
+
+.btn:focus {
+    box-shadow: none;
 }
 
 .btn+.btn {
@@ -898,7 +903,7 @@ hr {
 }
 
 .btn-white:hover, .btn-white:focus {
-    background: #fffc;
+    background: rgba(255, 255, 255, 0.8);
     color: #8176b5;
 }
 
@@ -960,11 +965,11 @@ form .inp {
     font-size: 2em;
 }
 
-.btn .svg-inline--fa {
+.btn .fa {
     margin-left: 5px;
 }
 
-h2 .svg-inline--fa {
+h2 .fa {
     margin-right: 5px;
 }
 
@@ -1035,9 +1040,17 @@ h2 .svg-inline--fa {
 }
 
 ::placeholder {
-    color: #fff
+    color: #fff;
 }
 
 ::selection {
-    background: #8cc3f64d
+    background: rgba(140, 195, 246, 0.30196078431372547);
+}
+
+button {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
 }
