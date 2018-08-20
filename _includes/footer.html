@@ -7,7 +7,6 @@
         &copy; {{site.year}}
         <a href="{{site.baseurl}}/">{{site.title}}</a> &bull;
         <a href="/privacy">Privacy</a> &bull;
-        <a href="/people">Our Team</a> &bull;
         <a href="/contact">Contact</a>
     </p>
 
@@ -67,13 +66,13 @@ console.log(dev_message);
 {% if page.permalink == '/contact' %}
 <script src="https://cdn.staticaly.com/jquery"></script>
 <script>
-$("#contact").submit(function(e) {
-  e.preventDefault();
+$('#contact').submit(function(e) {
+    e.preventDefault();
 
-  var $form = $(this);
-  $.post($form.attr("action"), $form.serialize()).then(function() {
-    alert("Thank you!");
-  });
+    var $form = $(this);
+    $.post($form.attr('action'), $form.serialize()).then(function() {
+        alert('Thank you!');
+    });
 });
 </script>
 {% endif %}
