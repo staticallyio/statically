@@ -37,20 +37,6 @@ var app_domain = '{{page.app_domain}}.staticaly.com';
 var datacenter_num = '{{site.staticaly.datacenter_num}}';
 </script>
 
-{% if page.permalink == '/contact' %}
-<script src="https://cdn.staticaly.com/jquery"></script>
-<script>
-$("#contact").submit(function(e) {
-  e.preventDefault();
-
-  var $form = $(this);
-  $.post($form.attr("action"), $form.serialize()).then(function() {
-    alert("Thank you!");
-  });
-});
-</script>
-{% endif %}
-
 </head>
 <body class="lo-{{page.layout}}
 
