@@ -27,22 +27,6 @@
 
 <link rel="icon" href="{{site.logo}}">
 
-{% if page.permalink == '/contact' %}
-<script src="https://cdn.staticaly.com/jquery"></script>
-<script src="https://www.google.com/recaptcha/api.js"></script>
-
-<script>
-$("#contact").submit(function(e) {
-  e.preventDefault();
-
-  var $form = $(this);
-  $.post($form.attr("action"), $form.serialize()).then(function() {
-    alert("Thank you!");
-  });
-});
-</script>
-{% endif %}
-
 <script>
 var cdn_domain = '{{site.cdn.domain}}';
 
