@@ -530,6 +530,10 @@ hr {
     color: #68a1ff;
 }
 
+.blue-light {
+    color: #97beff;
+}
+
 .bg-bumble {
     background: linear-gradient(to bottom left, #ffeb71, #00afb7);
 }
@@ -568,7 +572,7 @@ hr {
 }
 
 .pink {
-    color: #ef3b3b;
+    color: #ff5555;
 }
 
 .bg-tosca {

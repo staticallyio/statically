@@ -16,34 +16,20 @@ future: true
 jailed: false
 gfm_quirks: paragraph_end
 
-# GitHub
-github_username: staticaly
-
 # Staticaly
 staticaly:
     blog_url: https://blog.staticaly.com
     devs_url: https://developers.staticaly.com
     datacenter_num: 152
     newsletter_url: https://marsble.us18.list-manage.com/subscribe/post?u=4dfd4ae04677bf4f6248182fc&amp;id=397ea962f2
-    api:
-        contact: https://apis.staticaly.com/contact/v1/post
-
-# The author
-author:
-    twitter: fransallen
-
-# Default image for socmed
-defaults:
-  - scope:
-      path: ''
-    values:
-      image: /static/images/staticaly_icon_bg_dark_lg.png
 
 # Analytics
 marsble:
+    username: staticaly
     analytics_url: https://pixel.marsble.com
     analytics_id: d6cfed887ab23035d6de8fafeafe845e48d7158f
 
+# Google
 google:
     analytics_id: UA-74801412-7
 
@@ -53,6 +39,7 @@ social:
     links:
       - https://www.marsble.com/user/staticaly
       - https://twitter.com/staticalycom
+      - https://www.instagram.com/staticalycom
       - https://www.facebook.com/staticaly
       - https://www.linkedin.com/company/staticaly
       - https://plus.google.com/+staticaly
@@ -67,6 +54,24 @@ facebook:
     app_id: 1234
     publisher: staticaly
     admins: fransallen
+
+# Instagram
+instagram:
+    username: staticalycom
+
+# GitHub
+github_username: staticaly
+
+# The author
+author:
+    twitter: fransallen
+
+# Default image for socmed
+defaults:
+  - scope:
+      path: ''
+    values:
+      image: /static/images/staticaly_icon_bg_dark_lg.png
 
 # Static files
 cdn:
