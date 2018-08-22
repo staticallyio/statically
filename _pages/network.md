@@ -52,4 +52,4 @@ Staticaly cache behavior terbagi menjadi dua bagian, yaitu **Production** dan **
 
     For testing purpose only, you may check the Header Response of Staticaly CDN with Header Checker Tools provided by Marsble.
 
-    *   [https://developers.marsble.com/tools/headers](https://tools.marsble.com/headers)
+    *   [https://developers.marsble.com/tools/headers](https://developers.marsble.com/tools/headers)
