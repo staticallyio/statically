@@ -56,7 +56,7 @@ console.log(
 </script>
 
 {% if page.permalink == '/' %}
-<script src="{{site.baseurl}}/static/js/app.min.js"></script>
+<script src="{{site.baseurl}}/static/js/app.min.js?v={{site.version}}"></script>
 {% endif %}
 
 {% if page.permalink == '/imgpx' or page.permalink == '/favicons' %}

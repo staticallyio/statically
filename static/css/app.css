@@ -833,6 +833,9 @@ hr {
     #sponsors-optimus .column {
         padding: 1em;
     }
+    .sponsor-title {
+        margin-top: 2em;
+    }
 }
 
 /* -- page ------------------------------------------------------------------ */
@@ -1057,4 +1060,13 @@ button {
 
 button:focus {
     outline: 0;
+}
+
+.sponsor-title {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #555;
+    font-style: italic;
 }

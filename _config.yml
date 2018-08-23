@@ -7,9 +7,10 @@ lang: en_US
 url: https://www.staticaly.com
 encoding: UTF-8
 permalink: /:title
-year: 2018
 highlighter: rouge
 env: production
+version: 0.1
+year: 2018
 
 # Utilities
 future: true
