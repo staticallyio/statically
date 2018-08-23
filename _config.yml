@@ -28,7 +28,7 @@ staticaly:
 marsble:
     username: staticaly
     analytics_url: https://pixel.marsble.com
-    analytics_id: d6cfed887ab23035d6de8fafeafe845e48d7158f
+    analytics_id: 921b301945cfd2a048e13a9d1a1b67a86be4b8c8
 
 # Google
 google:
