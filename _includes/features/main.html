@@ -8,9 +8,27 @@
     <div class="column">
         <h3>Example</h3>
         <p>Load the production file of <strong>jQuery</strong> from GitHub</p>
-        <code><a href="{{site.cdn.url}}/jquery/jquery-dist/master/dist/jquery.min.js" target="_blank">{{site.cdn.url}}/jquery/jquery-dist/master/dist/jquery.min.js</a></code>
-      
-        <p>Or <strong>Bootstrap CSS</strong></p>
-        <code><a href="{{site.cdn.url}}/twbs/bootstrap/v4-dev/dist/css/bootstrap.min.css" target="_blank">{{site.cdn.url}}/twbs/bootstrap/v4-dev/dist/css/bootstrap.min.css</a></code>
+        <div class="inp-container normal">
+            <input id="js-jquery" class="inp" value="{{site.cdn.url}}/jquery/jquery-dist/master/dist/jquery.min.js" readonly tabindex="2">
+            <button data-clipboard-target="#js-jquery" class="inp-copy-button" title="Copy URL">
+                <i class="fa fa-copy"></i>
+            </button>
+        </div>
+
+        <p>And <strong>Bootstrap CSS</strong></p>
+        <div class="inp-container normal">
+            <input id="css-bs" class="inp" value="{{site.cdn.url}}/twbs/bootstrap/v4-dev/dist/css/bootstrap.min.css" readonly tabindex="2">
+            <button data-clipboard-target="#css-bs" class="inp-copy-button" title="Copy URL">
+                <i class="fa fa-copy"></i>
+            </button>
+        </div>
+
+        <p>Or <strong>Font Awesome CSS</strong></p>
+        <div class="inp-container normal">
+            <input id="css-fa" class="inp" value="{{site.cdn.url}}/FortAwesome/Font-Awesome/master/web-fonts-with-css/css/fontawesome-all.min.css" readonly tabindex="2">
+            <button data-clipboard-target="#css-fa" class="inp-copy-button" title="Copy URL">
+                <i class="fa fa-copy"></i>
+            </button>
+        </div>
     </div>
 </div>

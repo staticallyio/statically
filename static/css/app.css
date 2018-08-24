@@ -597,7 +597,7 @@ hr {
 }
 
 .bg-optimus a {
-    border-bottom: 2px solid #fff;
+    border-color: #fff;
 }
 
 .bd, .ft {
@@ -1008,7 +1008,7 @@ h2 .fa {
     font-style: italic;
 }
 
-.main.sponsors a:hover {
+.main.sponsors a:hover, .main.sponsors a:focus {
     background: none;
 }
 
@@ -1069,4 +1069,23 @@ button:focus {
     margin-bottom: 10px;
     color: #555;
     font-style: italic;
+}
+
+.inp-container.normal .inp {
+    background: #efeeee;
+}
+
+.inp-container.normal .inp:focus {
+    border-color: #68a1ff;
+}
+
+.inp-container.normal .inp-copy-button {
+    display: block;
+    background: #4285f4;
+    color: #fff;
+}
+
+.inp-container.normal .inp-copy-button:hover {
+    background: #2976f5;
+    border-color: #2976f5;
 }

@@ -4,6 +4,12 @@
   link: /imgpx
   linktext: Get App
 
+- name: Favicons
+  description: Staticaly Favicons API can be used for getting a favicon from external domain.
+  icon: heart pink
+  link: /favicons
+  linktext: Get App
+
 - name: Statistics Usage
   description: 1000+ hits/month and counting. Learn more about Staticaly Statistics usage.
   icon: chart-pie bumble
