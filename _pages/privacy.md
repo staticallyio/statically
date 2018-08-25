@@ -7,7 +7,7 @@ date: 25-08-2018
 permalink: /privacy
 ---
 
-*Effective date: August 25, 2018* [View Archives](/policies/archives)
+*Effective date: August 25, 2018*
 
 > This Privacy Policy is meant to help you understand what information we collect, and why we collect it.
 

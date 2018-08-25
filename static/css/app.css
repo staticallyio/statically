@@ -836,6 +836,9 @@ hr {
     .sponsor-title {
         margin-top: 2em;
     }
+    body.sponsors .column+.column {
+        padding-top: 3em;
+    }
 }
 
 /* -- page ------------------------------------------------------------------ */
