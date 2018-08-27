@@ -55,23 +55,26 @@ console.log(
 );
 </script>
 
+<!-- Bundle.js (global) -->
+<script src="{{site.baseurl}}/static/js/bundle.js?v={{site.version}}"></script>
+
+<!-- App.js (homepage) -->
 {% if page.permalink == '/' %}
 <script src="{{site.baseurl}}/static/js/app.min.js?v={{site.version}}"></script>
 {% endif %}
 
+<!-- App-js (inline js on defined app) -->
 {% if page.permalink == '/imgpx' or page.permalink == '/favicons' %}
-<script src="{{site.cdn.url}}/zenorocha/clipboard.js/v1.5.10/dist/clipboard.min.js"></script>
-
     {% if page.js %}
     {% include js/app-js.html %}
     {% endif %}
-
 {% endif %}
 
 {% include analytics.html %}
 
+<!-- jQuery (for now display only on contact page) -->
 {% if page.permalink == '/contact' %}
-<script src="https://cdn.staticaly.com/jquery"></script>
+<script src="https://cdn.staticaly.com/jquery/jquery-dist/master/dist/jquery.min.js"></script>
 <script>
 $('#contact').submit(function(e) {
     e.preventDefault();

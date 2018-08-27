@@ -1,9 +1,10 @@
 ---
 layout: special
-title: Imgpx
-description: Optimize your images with Highscalability Super Fast Global CDN!
+title: Imgpx, Free CDN for Images
+description: Free CDN for Images. Optimize your images with Highscalability Super Fast Global CDN!
 bgcolor: optimus
-app_domain: img
+app_domain: img.staticaly.com
+app_url: "https://img.staticaly.com"
 imgdemo: www.fransallen.com/files/3/2018/08/clouds.jpg
 promo: true
 js: imgpx
@@ -29,7 +30,7 @@ permalink: /imgpx
                     <h2>Use this URL in <strong>production</strong></h2>
 
                     <div class="inp-container">
-                        <input id="url-prod" class="inp" placeholder="{{site.cdn.imgpx_url}}/:website/:file" readonly tabindex="2">
+                        <input id="url-prod" class="inp" placeholder="{{page.app_url}}/:website/:file" readonly tabindex="2">
                         <button id="url-prod-copy" class="inp-copy-button" data-clipboard-target="#url-prod" title="Copy URL" disabled>
                             <i class="fa fa-copy"></i>
                         </button>
@@ -45,12 +46,15 @@ permalink: /imgpx
                         <li>
                             <p>Files are cached on your browser for 1 year. Learn more about <a class="white" href="/network#cache">Cache Behavior</a>.</p>
                         </li>
+                        <li>
+                            <p>Supported Content-Type: PNG, JPG, GIF</p>
+                        </li>
                     </ul>
                 </div>
 
                 <div class="column">
                     <h2>Load the image more faster</h2>
-                    <img class="img-feature" src="/static/images/app-2.svg" alt="App 2">
+                    <img class="img-feature" src="/static/images/apps/imgpx.svg" alt="{{page.title}}">
                 </div>
             </div>
         </div>
@@ -69,14 +73,27 @@ permalink: /imgpx
             <div class="column">
                 <h3>Usage</h3>
                 <p>Simple usage of Imgpx.</p>
-                <code>{{site.cdn.imgpx_url}}/:website/:file</code>
+                <code>{{page.app_url}}/:website/:file</code>
 
                 <h3>Example</h3>
-                <code><a href="{{site.cdn.imgpx_url}}/{{page.imgdemo}}" target="_blank">{{site.cdn.imgpx_url}}/{{page.imgdemo}}</a></code>
+                <code><a href="{{page.app_url}}/{{page.imgdemo}}" target="_blank">{{page.app_url}}/{{page.imgdemo}}</a></code>
             </div>
             <div class="column">
                 <h3>Output</h3>
-                <img src="{{site.cdn.imgpx_url}}/{{page.imgdemo}}" alt="{{page.title}}">
+                <img src="{{page.app_url}}/{{page.imgdemo}}" alt="{{page.title}}">
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="column">
+                <h3>Random</h3>
+                <p>Get random images with Imgpx.</p>
+                <h3>Example</h3>
+                <code><a href="{{page.app_url}}/random" target="_blank">{{page.app_url}}/random</a></code>
+            </div>
+            <div class="column">
+                <h3>Output</h3>
+                <img src="{{page.app_url}}/random" alt="{{page.title}}">
             </div>
         </div>
 
@@ -88,7 +105,7 @@ permalink: /imgpx
 
         <div class="main center">
             <p class="lead">See more documentation on Developers page</p>
-            <a class="btn" href="{{site.staticaly.devs_url}}/docs/imgpx">Take me to Developers page <i class="fa fa-arrow-right"></i></a>
+            <a class="btn" href="{{site.staticaly.devs_url}}/imgpx">Take me to Developers page <i class="fa fa-arrow-right"></i></a>
         </div>
     </div>
 </div>

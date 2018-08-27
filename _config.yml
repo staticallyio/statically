@@ -19,8 +19,7 @@ gfm_quirks: paragraph_end
 
 # Staticaly
 staticaly:
-    blog_url: https://blog.staticaly.com
-    devs_url: https://developers.staticaly.com
+    devs_url: https://developers.marsble.com
     datacenter_num: 152
     newsletter_url: https://marsble.us18.list-manage.com/subscribe/post?u=4dfd4ae04677bf4f6248182fc&amp;id=397ea962f2
 
@@ -80,8 +79,8 @@ cdn:
     url: https://cdn.staticaly.com
     imgpx_domain: img.staticaly.com
     imgpx_url: https://img.staticaly.com
-    favicons_domain: favicons.staticaly.com
-    favicons_url: https://favicons.staticaly.com
+    favicons_domain: favicons.marsble.com
+    favicons_url: https://favicons.marsble.com
     static_url: https://static.marsble.com
 sass:
     sass_dir: ./static/css

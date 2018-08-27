@@ -11,7 +11,7 @@ permalink: /about
 
 The simple answer to answering this question is Free, Open Source CDN Library with Advanced features so you can load your project more easily. You can load the project onto the web very easily using Staticaly, where it will be very useful if you make a demo or load static files for your project.
 
-Staticaly is [open source](https://github.com/staticaly/staticaly) project built and maintained by [Frans Allen](https://www.fransallen.com).
+Staticaly is [open source](https://github.com/staticaly/staticaly) project built and maintained by [Marsble](https://www.marsble.com/).
 
 ## Sponsors
 

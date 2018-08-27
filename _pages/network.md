@@ -15,7 +15,7 @@ published: true
 
 Yes, Staticaly comes with modern technology, **Supports http2.0/http/https**.
 
-![Network Map](/static/images/network_152.png)
+![Network Map](/static/images/features/network_152.png)
 
 ## Statistics Usage
 

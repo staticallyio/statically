@@ -1,9 +1,10 @@
 ---
 layout: special
-title: Favicons
+title: Favicons, Free Favicon API
 description: Free Favicon API, Easy to Get Favicon from A Domain!
 bgcolor: blue
-app_domain: favicons
+app_domain: favicons.marsble.com
+app_url: "https://favicons.marsble.com"
 domain_demo: google.com
 domain_demo2: github.com
 domain_demo3: fransallen.com
@@ -32,7 +33,7 @@ permalink: /favicons
                     <h2>Use this URL in production</h2>
 
                     <div class="inp-container">
-                        <input id="url-prod" class="inp" placeholder="{{site.cdn.favicons_url}}/:domain" readonly tabindex="2">
+                        <input id="url-prod" class="inp" placeholder="{{page.app_url}}/:domain" readonly tabindex="2">
                         <button id="url-prod-copy" class="inp-copy-button" data-clipboard-target="#url-prod" title="Copy URL" disabled>
                             <i class="fa fa-copy"></i>
                         </button>
@@ -52,8 +53,8 @@ permalink: /favicons
                 </div>
 
                 <div class="column">
-                    <h2>Load the favicon more faster</h2>
-                    <img class="img-feature" src="/static/images/app-2.svg" alt="App 3">
+                    <h2>Load the favicon more easier!</h2>
+                    <img class="img-feature" src="/static/images/apps/favicons.svg" alt="{{page.title}}">
                 </div>
             </div>
         </div>
@@ -72,22 +73,22 @@ permalink: /favicons
             <div class="column">
                 <h3>Usage</h3>
                 <p>Simple usage of Favicons.</p>
-                <code>{{site.cdn.favicons_url}}/:domain</code>
+                <code>{{page.app_url}}/:domain</code>
 
                 <h3>Example</h3>
-                <code><a href="{{site.cdn.favicons_url}}/{{page.domain_demo}}" target="_blank">{{site.cdn.favicons_url}}/{{page.domain_demo}}</a></code>
+                <code><a href="{{page.app_url}}/{{page.domain_demo}}" target="_blank">{{page.app_url}}/{{page.domain_demo}}</a></code>
 
-                <code><a href="{{site.cdn.favicons_url}}/{{page.domain_demo2}}" target="_blank">{{site.cdn.favicons_url}}/{{page.domain_demo2}}</a></code>
+                <code><a href="{{page.app_url}}/{{page.domain_demo2}}" target="_blank">{{page.app_url}}/{{page.domain_demo2}}</a></code>
 
-                <code><a href="{{site.cdn.favicons_url}}/{{page.domain_demo3}}" target="_blank">{{site.cdn.favicons_url}}/{{page.domain_demo3}}</a></code>
+                <code><a href="{{page.app_url}}/{{page.domain_demo3}}" target="_blank">{{page.app_url}}/{{page.domain_demo3}}</a></code>
             </div>
             <div class="column">
                 <h3>Output</h3>
-                <img src="{{site.cdn.favicons_url}}/{{page.domain_demo}}" alt="{{page.title}}">
+                <img src="{{page.app_url}}/{{page.domain_demo}}" alt="{{page.title}}">
 
-                <img src="{{site.cdn.favicons_url}}/{{page.domain_demo2}}" alt="{{page.title}}">
+                <img src="{{page.app_url}}/{{page.domain_demo2}}" alt="{{page.title}}">
 
-                <img src="{{site.cdn.favicons_url}}/{{page.domain_demo3}}" alt="{{page.title}}">
+                <img src="{{page.app_url}}/{{page.domain_demo3}}" alt="{{page.title}}">
             </div>
         </div>
 
@@ -95,7 +96,7 @@ permalink: /favicons
 
         <div class="main center">
             <p class="lead">See more documentation on Developers page</p>
-            <a class="btn" href="{{site.staticaly.devs_url}}/docs/favicons">Take me to Developers page <i class="fa fa-arrow-right"></i></a>
+            <a class="btn" href="{{site.staticaly.devs_url}}/favicons">Take me to Developers page <i class="fa fa-arrow-right"></i></a>
         </div>
     </div>
 </div>
