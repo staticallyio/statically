@@ -37,9 +37,9 @@
   const REGEX_BITBUCKET_REPO_URL = /^https?:\/\/bitbucket\.org\/([^\/]+\/[^\/]+)\/(?:raw|src)\/(.+\..+?)(?:\?.*)?$/i;
 
   // -- Init -------------------------------------------------------------------
-  var copyButtonProd = doc.getElementById('url-prod-copy');
-  var inputProd      = doc.getElementById('url-prod');
-  var inputUrl       = doc.getElementById('url');
+  let copyButtonProd = doc.getElementById('url-prod-copy');
+  let inputProd      = doc.getElementById('url-prod');
+  let inputUrl       = doc.getElementById('url');
 
   new Clipboard('.inp-copy-button');
 
@@ -76,7 +76,7 @@
   }
 
   function formatRepoUrl(url) {
-    var matches = url.match(REGEX_REPO_URL);
+    let matches = url.match(REGEX_REPO_URL);
 
     if (matches[3] !== 'master') {
       inputProd.value = url.replace(REGEX_REPO_URL, 'https://' + cdn_domain + '/$1/$2/$3/$4');
@@ -84,10 +84,10 @@
       return;
     }
 
-    var apiUrl = '${GITHUB_API_URL}/repos/${matches[1]}/${matches[2]}/commits/${matches[3]}';
+    let apiUrl = `${GITHUB_API_URL}/repos/${matches[1]}/${matches[2]}/commits/${matches[3]}`;
 
     fetch(apiUrl)
-      .then(res, function() {
+      .then(res => {
         if (!res.ok) {
           console.error('Failed to fetch latest repo commit from GitHub API');
           return;
@@ -96,12 +96,12 @@
         return res.json();
       })
 
-      .then(data, function() {
-        var ref = data && data.sha
+      .then(data => {
+        let ref = data && data.sha
           ? data.sha.slice(0, 8)
           : matches[3];
 
-        inputProd.value = url.replace(REGEX_REPO_URL, 'https://${cdn_domain}/$1/$2/${ref}/$4');
+        inputProd.value = url.replace(REGEX_REPO_URL, `https://${cdn_domain}/$1/$2/${ref}/$4`);
         setValid();
       });
   }
@@ -119,7 +119,7 @@
   }
 
   function formatUrl() {
-    var url = inputUrl.value.trim();
+    let url = inputUrl.value.trim();
 
     if (REGEX_RAW_REPO_URL.test(url)) {
       formatRawRepoUrl(url);
@@ -145,13 +145,13 @@
   }
 
   function requestGistUrl(url) {
-    var matches = url.match(REGEX_GIST_URL);
+    let matches = url.match(REGEX_GIST_URL);
 
-    var apiUrl = GITHUB_API_URL + '/gists/' + matches[1]
+    let apiUrl = GITHUB_API_URL + '/gists/' + matches[1]
       + (matches[2] ? '/' + matches[2] : '');
 
     return fetch(apiUrl)
-      .then(res, function() {
+      .then(res => {
         if (!res.ok) {
           setInvalid();
           throw new Error('Failed to fetch gist URL from GitHub API');
@@ -161,14 +161,14 @@
       })
 
       .then(data, function() {
-        var files     = data && data.files;
-        var filenames = files && Object.keys(data.files);
+        let files     = data && data.files;
+        let filenames = files && Object.keys(data.files);
 
         if (!filenames || !filenames.length) {
           return void setInvalid();
         }
 
-        var rawUrl = files[filenames[0]] && files[filenames[0]].raw_url;
+        let rawUrl = files[filenames[0]] && files[filenames[0]].raw_url;
 
         if (rawUrl) {
           formatRawGistUrl(rawUrl);
