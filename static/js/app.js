@@ -160,7 +160,7 @@
         return res.json();
       })
 
-      .then(data, function() {
+      .then(data => {
         let files     = data && data.files;
         let filenames = files && Object.keys(data.files);
 
