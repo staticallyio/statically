@@ -9,7 +9,7 @@ encoding: UTF-8
 permalink: /:title
 highlighter: rouge
 env: production
-version: 0.2
+version: 0.3
 year: 2018
 
 # Utilities
