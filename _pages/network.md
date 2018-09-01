@@ -11,7 +11,7 @@ published: true
 
 > Welcome to the Staticaly Network, learn more about networking
 
-**Staticaly is a Free, Reliable and Open Source CDN Library with Advanced features** so you can load your project more easier. Staticaly also allow you to serves raw files from [Supported Providers](#supported-providers) with **Super Fast Global Content Delivery Network provided by CloudFlare**.
+**Staticaly is a Free, Reliable and Open Source CDN for GitHub, GitLab and BitBucket with advanced features** so you can load your project more easier. Staticaly serves raw files from [Supported Providers](#supported-providers) with **Super Fast Global Content Delivery Network provided by CloudFlare, StackPath, Fastly and CDN77**.
 
 Yes, Staticaly comes with modern technology, **Supports http2.0/http/https**.
 
@@ -43,6 +43,6 @@ There are two versions of Staticaly: **Production and Development**. Below you w
 
 *   **Development CDN** `?env=dev`
 
-    You can use Staticaly as a Development CDN, it means Staticaly CDN will cache files only for **24 hour**. Development CDN will works when you set up `?env=dev` query string on the URL.
+    You can use Staticaly as a Development CDN, it means Staticaly CDN will cache files only for **5 minutes**. Development CDN will works when you set up `?env=dev` query string on the URL.
 
     *   Example: `https://cdn.staticaly.com/jquery/jquery-dist/master/dist/jquery.min.js?env=dev`

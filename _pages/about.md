@@ -13,7 +13,7 @@ The simple answer to answering this question is Free, Open Source CDN Library wi
 
 Staticaly is [open source](https://github.com/staticaly/staticaly) project built and maintained by [Marsble](https://www.marsble.com/).
 
-## Sponsors
+## Sponsorship
 
 Staticaly won't be running perfectly without Our Sponsors. [Meet Our Sponsor](/sponsors) or [Become A Sponsors](/become-a-sponsors).
 
@@ -23,10 +23,11 @@ Staticaly is a free, best-effort service and cannot provide any uptime or suppor
 
 ## Abuse
 
-Staticaly maintains a list of packages that are known to be malicious. If you find such a package on [Supported Providers](/network#supported-providers), please let us know!
+Staticaly maintains a list of packages that are known to be malicious. If you find such a package on [Supported Providers](/network#supported-providers), please [let us know](/contact?subject=Abuse)!
 
 ## Resources
 
 The following are some good sources for knowing more about Staticaly:
 
-*   [https://www.fransallen.com/building-staticaly](https://www.fransallen.com/build-staticaly)
+*   [Building Staticaly](https://www.fransallen.com/building-staticaly)
+*   [Introducting Staticaly Free CDN for Github, Gitlab, and Bitbucket](https://www.marsble.com/topic/23/introducting-staticaly-free-cdn-for-github-gitlab-and-bitbucket)
