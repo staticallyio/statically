@@ -1,3 +1,9 @@
+# Security for all pages
+/*
+    Cache-Control: public, 300
+    X-Frame-Options: DENY
+    X-XSS-Protection: 1; mode=block
+
 # Cache control for statica files
 /static/*
-    Cache-Control: 31536000
+    Cache-Control: public, 31536000
