@@ -87,6 +87,7 @@ sass:
     style: compressed
 
 include:
+    - '_headers'
     - '_pages'
     - '_redirections'
 
