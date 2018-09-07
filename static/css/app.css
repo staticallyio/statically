@@ -1011,10 +1011,6 @@ h2 .fa {
     font-style: italic;
 }
 
-.main.sponsors a:hover, .main.sponsors a:focus {
-    background: none;
-}
-
 .circle {
     border-radius: 50%
 }
@@ -1041,7 +1037,11 @@ h2 .fa {
     margin-left: 1em;
 }
 
-.link.social a:hover {
+.clear {
+    border: 0!important;
+}
+
+.main.sponsors a:hover, .main.sponsors a:focus, .link.social a:hover, .clear:hover, .clear:focus {
     background: none;
 }
 
@@ -1091,4 +1091,13 @@ button:focus {
 .inp-container.normal .inp-copy-button:hover {
     background: #2976f5;
     border-color: #2976f5;
+}
+
+.about-optimus img {
+    margin: 0 5px;
+}
+
+td {
+    padding: 12px 13px 6px;
+    border: 1px solid #dfe2e5;
 }

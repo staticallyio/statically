@@ -4,6 +4,6 @@
     X-Frame-Options: DENY
     X-XSS-Protection: 1; mode=block
 
-# Cache control for statica files
+# Cache control for static files
 /static/*
     Cache-Control: public, 31536000
