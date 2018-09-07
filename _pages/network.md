@@ -1,29 +1,29 @@
 ---
 layout: page
 title: Network
-description: Running on 153+ data centers around the world.
+description: Running on Multiple CDN like {{site.staticaly.main_cdn}} around The Globe.
 promo: true
 permalink: /network
 published: true
 ---
 
-## Running on {{site.staticaly.datacenter_num}}+ around The Globe
+## Staticaly is Running on Multiple CDN like {{site.staticaly.main_cdn}} around The Globe
 
-> Welcome to the Staticaly Network, learn more about networking
+![Network Map](/static/images/features/staticaly_net.png)
 
-**Staticaly is a Free, Reliable and Open Source CDN for GitHub, GitLab and BitBucket with advanced features** so you can load your project more easier. Staticaly serves raw files from [Supported Providers](#supported-providers) with **Super Fast Global Content Delivery Network provided by CloudFlare, StackPath, Fastly and CDN77**.
+{{site.data.about.staticaly}}
 
-Yes, Staticaly comes with modern technology, **Supports http2.0/http/https**.
+## Performance
 
-![Network Map](/static/images/features/network_152.png)
+Yes, Staticaly comes with modern technology, **Supports http2.0/http/https** and for Content-Encoding, we use **Brotli**.
 
 ## Statistics Usage
 
-<p class="lead">Wondering about Staticaly data? Visit <a href="/stats">Our Statistics page</a></p>
+Wondering about Staticaly data? Visit [Our Statistics page](/stats)
 
 ## Supported Providers
 
-<p class="lead">Staticaly can proxy <strong>raw files</strong> from these providers and make it more faster</p>
+Staticaly can proxy **raw files** with proper Content-Type headers from these providers and make it more faster.
 
 **GitHub \| GitLab \| BitBucket**
 
@@ -33,16 +33,25 @@ There are two versions of Staticaly: **Production and Development**. Below you w
 
 *   **Production CDN**
 
-    By default on Staticaly main CDN (**cdn.staticaly.com**), files cache are set to **1 year** via `Cache-Control` header for every **Branch**, because Staticaly only support for production environment. But if you want to use Staticaly as a **Development CDN** you can add query string `?env=dev` for domain **cdn.staticaly.com**, you can learn more at Development CDN section below.
+    By default, Staticaly main CDN (**cdn.staticaly.com**), cache are set to **1 year** via `Cache-Control` header for every files except on the **master** branch, we set cache for **master** branch **for an hour** so new changes you push to GitHub will be reflected within minutes.
 
-    The CDN caches files based on their permanent URL. CDN will ignore query string like `?ver=1234` and if query string provided, it will be fallback to the main files.
+    But if you want to use Staticaly as a **Development CDN** you can add query string `?env=dev` for domain **cdn.staticaly.com** to tell CDN to not cache your files, you can learn more at Development CDN section below.
 
-    *   Example: `https://cdn.staticaly.com/jquery/jquery-dist/master/dist/jquery.min.js`
+    The CDN caches files based on their permanent URL.
 
-    *   And if query string like `?ver=1234` is set to `https://cdn.staticaly.com/jquery/jquery-dist/master/dist/jquery.min.js?ver=1234`, the CDN will give you content from `https://cdn.staticaly.com/jquery/jquery-dist/master/dist/jquery.min.js`.
+    Example:
+
+    * [https://cdn.staticaly.com/jquery/jquery-dist/master/dist/jquery.min.js](https://cdn.staticaly.com/jquery/jquery-dist/master/dist/jquery.min.js)
+    * [https://img.staticaly.com/www.fransallen.com/files/3/2018/08/clouds.jpg](https://img.staticaly.com/www.fransallen.com/files/3/2018/08/clouds.jpg)
 
 *   **Development CDN** `?env=dev`
 
-    You can use Staticaly as a Development CDN, it means Staticaly CDN will cache files only for **5 minutes**. Development CDN will works when you set up `?env=dev` query string on the URL.
+    You can use Staticaly as a Development CDN, it means Staticaly CDN will not cache files, new changes you push to GitHub will be reflected within seconds. Development CDN will works when you set up `?env=dev` query string on the URL.
 
-    *   Example: `https://cdn.staticaly.com/jquery/jquery-dist/master/dist/jquery.min.js?env=dev`
+    Example:
+
+    * [https://cdn.staticaly.com/jquery/jquery-dist/master/dist/jquery.min.js?env=dev](https://cdn.staticaly.com/jquery/jquery-dist/master/dist/jquery.min.js?env=dev)
+
+## Uptime
+
+Kami menjauhkan pengguna dari segala downtime, untuk hal itu kami menggunakan Cedexis sebagai load balancing pintar kami, saat Cedexis bekerja, ia akan mengecek CDN yang paling sehat dan memprovide untukmu.

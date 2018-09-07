@@ -1,7 +1,7 @@
 # General
 title: Staticaly
 tagline: Free CDN for Everyone! Load Project from GitHub, GitLab and Bitbucket more easier #Make it Static!
-description: Staticaly is Free, Open Source CDN Library with Advanced features so you can load your project more easier.
+description: Staticaly is Free, Open Source CDN for GitHub, GitLab and Bitbucket with Advanced features so you can load your project more easier.
 logo: /static/images/staticaly_icon.png
 lang: en_US
 url: https://www.staticaly.com
@@ -21,6 +21,7 @@ gfm_quirks: paragraph_end
 staticaly:
     devs_url: https://developers.marsble.com
     datacenter_num: 152+
+    main_cdn: CloudFlare, Fastly, StackPath, and CDN77
     newsletter_url: https://marsble.us18.list-manage.com/subscribe/post?u=4dfd4ae04677bf4f6248182fc&amp;id=397ea962f2
 
 # Analytics
@@ -69,9 +70,9 @@ author:
 # Default image for socmed
 defaults:
   - scope:
-      path: ''
+      path: '/static/images'
     values:
-      image: /static/images/staticaly_icon_bg_dark_lg.png
+      image: /staticaly_icon_bg_dark_lg.png
 
 # Static files
 cdn:

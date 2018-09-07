@@ -18,12 +18,8 @@
 <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="{{site.title}}">
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:400,700">
-<link rel="stylesheet" href="https://cdn.staticaly.com/FortAwesome/Font-Awesome/master/web-fonts-with-css/css/fontawesome-all.min.css">
-{% if page.layout == 'blog' %}
-<link rel="stylesheet" href="">
-{% else %}
+<link rel="stylesheet" href="{{site.cdn.url}}/fortawesome/font-awesome/master/web-fonts-with-css/css/fontawesome-all.min.css">
 <link rel="stylesheet" href="{{site.baseurl}}/static/css/app.min.css?v={{site.version}}">
-{% endif %}
 
 <link rel="icon" href="{{site.logo}}">
 
@@ -35,6 +31,7 @@ var app_domain = '{{page.app_domain}}';
 {% endif %}
 
 var datacenter_num = '{{site.staticaly.datacenter_num}}';
+var main_cdn = '{{site.staticaly.main_cdn}}';
 </script>
 
 </head>

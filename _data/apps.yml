@@ -17,7 +17,7 @@
   linktext: See Traffic
 
 - name: Our Network
-  description: Staticaly is running on <script>document.write(datacenter_num);</script> and counting data centers around the world.
+  description: Staticaly is running on <strong>Multiple CDN</strong> like <script>document.write(main_cdn);</script>.
   icon: globe sentinel
   link: /network
   linktext: Learn More

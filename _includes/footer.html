@@ -73,21 +73,6 @@ console.log(
 
 {% include analytics.html %}
 
-<!-- jQuery (for now display only on contact page)
-{% if page.permalink == '/contact' %}
-<script src="https://cdn.staticaly.com/jquery/jquery-dist/master/dist/jquery.min.js"></script>
-<script>
-$('#contact').submit(function(e) {
-    e.preventDefault();
-
-    var $form = $(this);
-    $.post($form.attr('action'), $form.serialize()).then(function() {
-        alert('Thank you!');
-    });
-});
-</script>
-{% endif %} -->
-
 <noscript>
     <div class="announcement">
         <p>Can only work with js!</p>
