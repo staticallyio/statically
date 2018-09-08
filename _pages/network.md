@@ -54,4 +54,4 @@ There are two versions of Staticaly: **Production and Development**. Below you w
 
 ## Uptime
 
-Kami menjauhkan pengguna dari segala downtime, untuk hal itu kami menggunakan Cedexis sebagai load balancing pintar kami, saat Cedexis bekerja, ia akan mengecek CDN yang paling sehat dan memprovide untukmu.
+We keep users away from all downtime, for that we use Cedexis as our smart load balancing, when Cedexis works, he will check the healthiest CDN and provide it for you.
