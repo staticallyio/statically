@@ -90,6 +90,7 @@ sass:
 include:
     - '_headers'
     - '_pages'
+    - '_redirects'
     - '_redirections'
 
 kramdown:
