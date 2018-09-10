@@ -2,4 +2,5 @@ _layouts/test*
 _site
 
 Gemfile.lock
-test*
+test/
+auto-update*
