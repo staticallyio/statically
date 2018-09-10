@@ -42,7 +42,7 @@ There are two versions of Staticaly: **Production and Development**. Below you w
     Example:
 
     * [https://cdn.staticaly.com/jquery/jquery-dist/master/dist/jquery.min.js](https://cdn.staticaly.com/jquery/jquery-dist/master/dist/jquery.min.js)
-    * [https://img.staticaly.com/www.fransallen.com/files/3/2018/08/clouds.jpg](https://img.staticaly.com/www.fransallen.com/files/3/2018/08/clouds.jpg)
+    * [https://img.staticaly.com/i.imgur.com/9usQKZg.jpg](https://img.staticaly.com/i.imgur.com/9usQKZg.jpg)
 
 *   **Development CDN** `?env=dev`
 
