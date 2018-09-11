@@ -93,6 +93,8 @@ include:
     - '_redirects'
     - '_redirections'
 
+exclude: [vendor]
+
 kramdown:
     input: GFM
     hard_wrap: false
