@@ -5,6 +5,7 @@ description:          Staticaly is Free, Open Source CDN for GitHub, GitLab and 
 logo:                 https://cdn.staticaly.com/_static/images/staticaly_icon.png
 lang:                 en_US
 
+baseurl:              https://www.staticaly.com
 url:                  https://www.staticaly.com
 encoding:             UTF-8
 permalink:            /:title

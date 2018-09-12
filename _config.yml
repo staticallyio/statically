@@ -4,6 +4,7 @@ tagline:              Free CDN for Everyone! Load Project from GitHub, GitLab an
 description:          Staticaly is Free, Open Source CDN for GitHub, GitLab and Bitbucket with Advanced features so you can load your project more easier.
 logo:                 /_static/images/staticaly_icon.png
 lang:                 en_US
+
 url:                  http://localhost:4000
 encoding:             UTF-8
 permalink:            /:title
