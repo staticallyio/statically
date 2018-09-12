@@ -9,7 +9,7 @@ published: true
 
 ## Staticaly is Running on Multiple CDN like {{site.staticaly.main_cdn}} around The Globe
 
-![Network Map](/static/images/features/staticaly_net.png)
+![Network Map]({{site.cdn.static}}/images/features/staticaly_net.png)
 
 {{site.data.about.staticaly}}
 

@@ -57,11 +57,11 @@ console.log(
 </script>
 
 <!-- Bundle.js (global) -->
-<script src="{{site.baseurl}}/static/js/bundle.js?v={{site.version}}"></script>
+<script src="{{site.cdn.static}}/js/bundle.js?v={{site.version}}"></script>
 
 <!-- App.js (homepage) -->
 {% if page.permalink == '/' %}
-<script src="{{site.baseurl}}/static/js/app.js?v={{site.version}}"></script>
+<script src="{{site.cdn.static}}/js/app.js?v={{site.version}}"></script>
 {% endif %}
 
 <!-- App-js (inline js on defined app) -->
