@@ -5,7 +5,7 @@
 <footer class="ft">
     <p class="link">
         &copy; {{site.year}}
-        <a href="{{site.baseurl}}/">{{site.title}}</a> &bull;
+        <a href="{{site.url}}/">{{site.title}}</a> &bull;
         <a href="/about">About</a> &bull;
         <a href="/privacy">Privacy</a> &bull;
         <a href="/about#abuse">Abuse</a> &bull;
@@ -52,7 +52,7 @@ if (getQuery('subject') ) {
 <script>
 console.log('%c{{site.data.promo-on-console.title}}', 'color:#4285f4;font-size:xx-large;font-weight:bold;');
 console.log(
-    '%c{{site.data.promo-on-console.description}}, {{site.baseurl}}{{site.data.promo-on-console.link}}', 'color:#444;font-size:large;font-weight:bold;'
+    '%c{{site.data.promo-on-console.description}}, {{site.url}}{{site.data.promo-on-console.link}}', 'color:#444;font-size:large;font-weight:bold;'
 );
 </script>
 
