@@ -71,7 +71,9 @@ console.log(
     {% endif %}
 {% endif %}
 
-{% include analytics.html %}
+{% if jekyll.environment == "production" %}
+    {% include analytics.html %}
+{% endif %}
 
 <noscript>
     <div class="announcement">
