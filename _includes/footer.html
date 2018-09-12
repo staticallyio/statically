@@ -71,6 +71,19 @@ console.log(
     {% endif %}
 {% endif %}
 
+{% if page.layout == "markdown" %}
+<script src="{{site.cdn.url}}/markedjs/marked/7f2a917b/marked.min.js"></script>
+<script src="{{site.cdn.url}}/github/fetch/c17d373d/fetch.js"></script>
+<script>
+fetch('{{page.file}}').then(function(response) {
+    return response.text()
+}).then(function(content) {
+    $('#content').html( marked(content) );
+    $('.animated-bg').remove();
+})
+</script>
+{% endif %}
+
 {% if jekyll.environment == "production" %}
     {% include analytics.html %}
 {% endif %}

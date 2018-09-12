@@ -1,0 +1,15 @@
+{% include header.html %}
+
+<div class="bd">
+    <div class="content">
+        <div class="page {{ page.class }}">
+            <h1{% if page.title_show == false %} class="none"{% endif %}>{{page.title}}</h1>
+
+            <div class="animated-bg"></div>
+
+            <div id="content"></div>
+        </div>
+    </div>
+</div>
+
+{% include footer.html %}
