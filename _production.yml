@@ -20,7 +20,7 @@ url:                  "https://www.staticaly.com"
 encoding:             "UTF-8"
 permalink:            /:title
 highlighter:          rouge
-version:              0.6
+version:              0.7
 year:                 2018
 
 # Utilities
