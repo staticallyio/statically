@@ -1,23 +1,27 @@
 - name: Imgpx
-  description: Imgpx is an image proxy that can be used to get every images on the web. It's fast and advanced.
   icon: bolt optimus
   link: /imgpx
   linktext: Get App
+  description: >-
+      Imgpx is an image proxy that can be used to get every images on the web. It's fast and advanced.
 
 - name: Favicons
-  description: Staticaly Favicons API can be used for getting a favicon from external domain.
   icon: heart pink
   link: /favicons
   linktext: Get App
+  description: >-
+      Staticaly Favicons API can be used for getting a favicon from external domain.
 
 - name: Statistics Usage
-  description: 1000+ hits/month and counting. Learn more about Staticaly Statistics usage.
   icon: chart-pie bumble
   link: /stats
   linktext: See Traffic
+  description: >-
+      1000+ hits/month and counting. Learn more about Staticaly Statistics usage.
 
 - name: Our Network
-  description: Staticaly is running on <strong>Multiple CDN</strong> like <script>document.write(main_cdn);</script>.
   icon: globe sentinel
   link: /network
   linktext: Learn More
+  description: >-
+      Staticaly is running on <strong>Multiple CDN</strong> like <script>document.write(main_cdn);</script>.

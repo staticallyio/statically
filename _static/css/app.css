@@ -381,6 +381,7 @@ blockquote {
 a {
     color: #ed2f3c;
     text-decoration: none;
+    overflow-wrap: break-word;
 }
 
 a:hover, a:focus {
@@ -770,6 +771,12 @@ hr {
     height: 200px;
 }
 
+.img-feature.blocking {
+    margin-bottom: -10em;
+    position: relative;
+    z-index: 2;
+}
+
 #url-form {
     text-align: center;
 }
@@ -827,8 +834,8 @@ hr {
     }
     #sponsors-optimus {
         text-align: center;
-        padding-bottom: 3em!important;
-        padding-top: 1em!important;
+        padding-bottom: 3em !important;
+        padding-top: 1em !important;
     }
     #sponsors-optimus .column {
         padding: 1em;
@@ -845,6 +852,7 @@ hr {
 
 .page {
     margin: 0 auto;
+    margin-top: 2em;
     max-width: 900px;
     padding-bottom: 2em;
 }
@@ -1038,7 +1046,7 @@ h2 .fa {
 }
 
 .clear {
-    border: 0!important;
+    border: 0 !important;
 }
 
 .main.sponsors a:hover, .main.sponsors a:focus, .link.social a:hover, .clear:hover, .clear:focus {
@@ -1102,11 +1110,11 @@ td {
     border: 1px solid #dfe2e5;
 }
 
-@keyframes placeHolderShimmer{
-    0%{
+@keyframes placeHolderShimmer {
+    0% {
         background-position: -468px 0
     }
-    100%{
+    100% {
         background-position: 468px 0
     }
 }
@@ -1122,4 +1130,35 @@ td {
     background-size: 800px 104px;
     height: 96px;
     position: relative;
+}
+
+*::-webkit-scrollbar {
+    width: 6px !important;
+    height: 6px !important;
+    width: 6px !important;
+    height: 6px !important;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+*::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.wave {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    transform: translateY(-90%);
+    color: #fff;
+    z-index: 1;
+}
+
+.wave svg {
+    fill: currentColor;
+    width: 102%;
+    margin-left: -1%;
+    height: auto;
 }

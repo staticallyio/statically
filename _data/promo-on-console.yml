@@ -1,4 +1,5 @@
 # Show promo on dev console
 title: Howdy, devs!
-description: I\'m Staticalybot, wanna come and join the team?
 link: /contact?subject=JoinTheTeam
+description: >-
+    I\'m Staticalybot, wanna come and join the team?

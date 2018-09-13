@@ -1,16 +1,26 @@
 # General
-title:                Staticaly
-tagline:              Free CDN for Everyone! Load Project from GitHub, GitLab and Bitbucket more easier #Make it Static!
-description:          Staticaly is Free, Open Source CDN for GitHub, GitLab and Bitbucket with Advanced features so you can load your project more easier.
-logo:                 https://cdn.staticaly.com/_static/images/staticaly_icon.png
-lang:                 en_US
+title:                "Staticaly"
 
-url:                  https://www.staticaly.com
-encoding:             UTF-8
+# A simple tagline: Make it Static!
+tagline:              >-
+    Free CDN for Everyone! Load Project from GitHub, GitLab and Bitbucket more easier
+
+# Define description for the site
+description:          >-
+    Staticaly is Free, Open Source CDN for GitHub, GitLab and Bitbucket with Advanced features so you can load your project more easier.
+
+# Also used for SEO Tag
+logo:                 "/_static/images/staticaly_icon.png"
+lang:                 "en_US"
+
+# URL must be set to localhost
+# If on development config
+url:                  "https://www.staticaly.com"
+
+encoding:             "UTF-8"
 permalink:            /:title
 highlighter:          rouge
-env:                  production
-version:              0.5
+version:              0.6
 year:                 2018
 
 # Utilities
@@ -20,24 +30,25 @@ gfm_quirks:           paragraph_end
 
 # Staticaly
 staticaly:
-    devs_url:         https://developers.marsble.com
+    devs_url:         "https://developers.marsble.com"
     datacenter_num:   152+
-    main_cdn:         CloudFlare, Fastly, StackPath, and CDN77
-    newsletter_url:   https://marsble.us18.list-manage.com/subscribe/post?u=4dfd4ae04677bf4f6248182fc&amp;id=397ea962f2
+    main_cdn:         "CloudFlare, Fastly, StackPath, and CDN77"
+    newsletter_url:  >-
+        https://marsble.us18.list-manage.com/subscribe/post?u=4dfd4ae04677bf4f6248182fc&amp;id=397ea962f2
 
 # Analytics
 marsble:
     username:         staticaly
-    analytics_url:    https://pixel.marsble.com
-    analytics_id:     921b301945cfd2a048e13a9d1a1b67a86be4b8c8
+    analytics_url:    "https://pixel.marsble.com"
+    analytics_id:     "921b301945cfd2a048e13a9d1a1b67a86be4b8c8"
 
 # Google
 google:
-    analytics_id:     UA-74801412-7
+    analytics_id:     "UA-74801412-7"
 
 # Social
 social:
-    name:             Staticaly
+    name:             "Staticaly"
     links:
       - https://www.marsble.com/user/staticaly
       - https://twitter.com/staticalycom
@@ -71,32 +82,35 @@ author:
 # Default image for socmed
 defaults:
   - scope:
-      path:           '/_static/images'
+      path:           "/_static/images"
     values:
-      image:          /staticaly_icon_bg_dark_lg.png
+      image:          "/staticaly_icon_bg_dark_lg.png"
 
 # Static files
 cdn:
-    domain:           cdn.staticaly.com
-    url:              https://cdn.staticaly.com
-    imgpx_domain:     img.staticaly.com
-    imgpx_url:        https://img.staticaly.com
-    favicons_domain:  favicons.marsble.com
-    favicons_url:     https://favicons.marsble.com
-    static:           https://cdn.staticaly.com/_static
+    domain:           "cdn.staticaly.com"
+    url:              "https://cdn.staticaly.com"
+    imgpx_domain:     "img.staticaly.com"
+    imgpx_url:        "https://img.staticaly.com"
+    favicons_domain:  "favicons.marsble.com"
+    favicons_url:     "https://favicons.marsble.com"
+    static:           "https://cdn.staticaly.com/_static"
 
 sass:
-    sass_dir:         ./_static/css
+    sass_dir:         "./_static/css"
     style:            compressed
 
+# Include to public directory
 include:
-    - '_headers'
-    - '_pages'
-    - '_redirects'
-    - '_redirections'
-    - '_static'
+    - "_headers"
+    - "_pages"
+    - "_redirects"
+    - "_redirections"
+    - "_static"
 
-exclude:              [vendor]
+# Exclude from public directory
+exclude:
+    - "scripts"
 
 kramdown:
     input:            GFM
@@ -109,3 +123,11 @@ plugins:
     - jekyll-redirect-from
     - jekyll-sitemap
     - jekyll-feed
+    - jekyll-minifier
+
+# From here
+# Don't include on development config
+jekyll-minifier:
+    remove_https_protocol: true
+    exclude:
+        - "_static/js/app.js"

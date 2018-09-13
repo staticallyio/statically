@@ -2,8 +2,13 @@
 <html class="no-js" lang="{% if page.lang %}{{page.lang}}{% else %}{{site.lang}}{% endif %}">
 <head>
 {% include js-detector.html %}
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
+
+<meta name="apple-mobile-web-app-title" content="{{site.title}}">
+<meta name="application-name" content="{{site.title}}">
+<meta name="theme-color" content="#ffffff">
 
 <title>
 	{% if page.permalink == '/' %}
@@ -19,7 +24,7 @@
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:400,700">
 <link rel="stylesheet" href="{{site.cdn.url}}/FortAwesome/Font-Awesome/dafc5f5d/web-fonts-with-css/css/fontawesome-all.min.css">
-<link rel="stylesheet" href="{{site.cdn.static}}/css/app.min.css?v={{site.version}}">
+<link rel="stylesheet" href="{{site.cdn.static}}/css/app.css?v={{site.version}}">
 
 <link rel="icon" href="{{site.logo}}">
 
@@ -46,6 +51,10 @@ var main_cdn = '{{site.staticaly.main_cdn}}';
 					bg bg-{{page.bgcolor}}
 				{% endif %}
 			{% endif %}">
+
+	<div class="hidden">
+		{% include svg.html %}
+	</div>
 
 	<div class="app">
 

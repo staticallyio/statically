@@ -64,8 +64,8 @@ console.log(
 <script src="{{site.cdn.static}}/js/app.js?v={{site.version}}"></script>
 {% endif %}
 
-<!-- App-js (inline js on defined app) -->
 {% if page.permalink == '/imgpx' or page.permalink == '/favicons' %}
+    <!-- App-js (inline js on defined app) -->
     {% if page.js %}
     {% include js/app-js.html %}
     {% endif %}
