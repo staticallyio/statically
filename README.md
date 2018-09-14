@@ -4,6 +4,15 @@
     <a href="https://travis-ci.org/marsble/staticaly" target="_blank">
         <img src="https://cdn.staticaly.com/badges/travis/marsble/staticaly.svg" alt="Travis CI Build Status">
     </a>
+    <a href="https://github.com/marsble/staticaly/network" target="_blank">
+        <img src="https://cdn.staticaly.com/badges/github/forks/marsble/staticaly.svg?style=social" alt="Forks">
+    </a>
+    <a href="https://github.com/marsble/staticaly/issues" target="_blank">
+        <img src="https://cdn.staticaly.com/badges/github/issues/marsble/staticaly.svg?style=social" alt="Issues">
+    </a>
+    <a href="https://github.com/marsble/staticaly/stargazers" target="_blank">
+        <img src="https://cdn.staticaly.com/badges/github/stars/marsble/staticaly.svg?style=social" alt="Stars">
+    </a>
 </p>
 
 <h2 align="center">

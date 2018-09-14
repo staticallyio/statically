@@ -94,6 +94,8 @@ cdn:
     imgpx_url:        "https://cdn.staticaly.com/img"
     favicons_domain:  "cdn.staticaly.com/favicons"
     favicons_url:     "https://cdn.staticaly.com/favicons"
+    badge_domain:     "cdn.staticaly.com/badges"
+    badge_url:        "https://cdn.staticaly.com/badges"
     static:           "/_static"
 
 sass:
