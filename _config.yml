@@ -111,6 +111,7 @@ include:
 # Exclude from public directory
 exclude:
     - "scripts"
+    - "vendor"
 
 kramdown:
     input:            GFM
