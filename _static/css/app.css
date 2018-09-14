@@ -1162,3 +1162,11 @@ td {
     margin-left: -1%;
     height: auto;
 }
+
+.staticaly-badge a {
+    border-bottom: 0;
+}
+
+.staticaly-badge a:hover, .staticaly-badge a:focus {
+    background: none;
+}
