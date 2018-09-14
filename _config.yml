@@ -90,10 +90,10 @@ defaults:
 cdn:
     domain:           "cdn.staticaly.com"
     url:              "https://cdn.staticaly.com"
-    imgpx_domain:     "img.staticaly.com"
-    imgpx_url:        "https://img.staticaly.com"
-    favicons_domain:  "favicons.marsble.com"
-    favicons_url:     "https://favicons.marsble.com"
+    imgpx_domain:     "cdn.staticaly.com/img"
+    imgpx_url:        "https://cdn.staticaly.com/img"
+    favicons_domain:  "cdn.staticaly.com/favicons"
+    favicons_url:     "https://cdn.staticaly.com/favicons"
     static:           "/_static"
 
 sass:

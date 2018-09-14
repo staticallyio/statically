@@ -1,8 +1,8 @@
-<p align="center"><a class="clear" href="https://www.staticaly.com/" target="_blank"><img width="92" src="https://img.staticaly.com/www.staticaly.com/_static/images/staticaly_icon.png" alt="Staticaly logo"></a></p>
+<p align="center"><a class="clear" href="https://www.staticaly.com/" target="_blank"><img width="92" src="https://cdn.staticaly.com/img/www.staticaly.com/_static/images/staticaly_icon.png" alt="Staticaly logo"></a></p>
 
 <p class="staticaly-badge" align="center">
     <a href="https://travis-ci.org/marsble/staticaly" target="_blank">
-        <img src="https://badge.staticaly.com/travis/marsble/staticaly.svg" alt="Travis CI Build Status">
+        <img src="https://cdn.staticaly.com/badges/travis/marsble/staticaly.svg" alt="Travis CI Build Status">
     </a>
 </p>
 
@@ -36,27 +36,27 @@ Staticaly is [open source](https://github.com/marsble/staticaly) project built a
     <tr>
       <td align="center" valign="middle">
         <a class="clear" href="https://www.cloudflare.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://img.staticaly.com/www.staticaly.com/_static/images/sponsors/cloudflare.png">
+          <img width="150px" src="https://cdn.staticaly.com/img/www.staticaly.com/_static/images/sponsors/cloudflare.png">
         </a>
       </td>
       <td align="center" valign="middle">
         <a class="clear" href="http://www.stackpath.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://img.staticaly.com/www.staticaly.com/_static/images/sponsors/stackpath.png">
+          <img width="150px" src="https://cdn.staticaly.com/img/www.staticaly.com/_static/images/sponsors/stackpath.png">
         </a>
       </td>
       <td align="center" valign="middle">
         <a class="clear" href="https://www.cedexis.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://img.staticaly.com/www.staticaly.com/_static/images/sponsors/cedexis.png">
+          <img width="150px" src="https://cdn.staticaly.com/img/www.staticaly.com/_static/images/sponsors/cedexis.png">
         </a>
       </td>
       <td align="center" valign="middle">
         <a class="clear" href="https://www.fastly.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://img.staticaly.com/www.staticaly.com/_static/images/sponsors/fastly.png">
+          <img width="150px" src="https://cdn.staticaly.com/img/www.staticaly.com/_static/images/sponsors/fastly.png">
         </a>
       </td>
       <td align="center" valign="middle">
       <a class="clear" href="https://www.cdn77.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-        <img width="150px" src="https://img.staticaly.com/www.staticaly.com/_static/images/sponsors/cdn77.png">
+        <img width="150px" src="https://cdn.staticaly.com/img/www.staticaly.com/_static/images/sponsors/cdn77.png">
       </a>
       </td>
     </tr>
