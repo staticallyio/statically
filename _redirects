@@ -2,4 +2,4 @@
 https://staticaly.netlify.com/* https://www.staticaly.com/:splat 301!
 
 # Redirect domain badges.staticaly.com to Badges homepage
-https://badges.staticaly.com/* https://www.staticaly.com/badges 301!
+https://badges.staticaly.com/* https://badge.staticaly.com/:splat 301!
