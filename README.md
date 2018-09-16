@@ -79,7 +79,7 @@ Staticaly won't be running perfectly without Our Sponsors. [Meet Our Sponsor](ht
 
 ### 🚀 Support
 
-Staticaly is free, but we make it a bit more professional. If have a questions or find a bugs, please create an issue on [GitHub](https://github.com/marsble/staticaly/issues).
+Staticaly is free, but we make it a bit more professional. If have any questions or maybe find a bugs, please create an issue on [GitHub](https://github.com/marsble/staticaly/issues).
 
 ### Abuse
 
@@ -93,5 +93,5 @@ If you think this is useful, we'd love to hear from you. Please tweet us anythin
 
 The following are some good sources for knowing more about Staticaly:
 
-*   [Building Staticaly](https://www.fransallen.com/building-staticaly)
+*   [Building Staticaly](https://www.fransallen.com/2018/08/22/building-staticaly/)
 *   [Introducting Staticaly Free CDN for Github, Gitlab, and Bitbucket](https://www.marsble.com/topic/23/introducting-staticaly-free-cdn-for-github-gitlab-and-bitbucket)
