@@ -1,4 +1,4 @@
-<p align="center"><a class="clear" href="https://www.staticaly.com/" target="_blank"><img width="92" src="https://www.staticaly.com/static/images/staticaly_icon.png?w=92" alt="Staticaly logo"></a></p>
+<p align="center"><a class="clear" href="https://www.staticaly.com/" target="_blank"><img width="92" src="https://cdn.staticaly.com/img/www.staticaly.com/static/images/staticaly.png?w=92" alt="Staticaly logo"></a></p>
 
 <p class="staticaly-badge" align="center">
     <a href="https://travis-ci.org/marsble/staticaly" target="_blank">
