@@ -10,7 +10,7 @@ description:          >-
     Staticaly is Free, Open Source CDN for GitHub, GitLab and Bitbucket with Advanced features so you can load your project more easier.
 
 # Also used for SEO Tag
-logo:                 "/_static/images/staticaly_icon.png"
+logo:                 "/static/images/staticaly_icon.png"
 lang:                 "en_US"
 
 # URL must be set to localhost
@@ -82,7 +82,7 @@ author:
 # Default image for socmed
 defaults:
   - scope:
-      path:           "/_static/images"
+      path:           "/static/images"
     values:
       image:          "/staticaly_icon_bg_dark_lg.png"
 
@@ -96,10 +96,10 @@ cdn:
     favicons_url:     "https://cdn.staticaly.com/favicons"
     badge_domain:     "cdn.staticaly.com/badges"
     badge_url:        "https://cdn.staticaly.com/badges"
-    static:           "/_static"
+    static:           "/static"
 
 sass:
-    sass_dir:         "./_static/css"
+    sass_dir:         "./static/css"
     style:            compressed
 
 # Include to public directory
@@ -108,7 +108,6 @@ include:
     - "_pages"
     - "_redirects"
     - "_redirections"
-    - "_static"
 
 # Exclude from public directory
 exclude:

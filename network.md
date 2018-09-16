@@ -1,6 +1,6 @@
 ## Staticaly is Running on Multiple CDN like CloudFlare, Fastly, StackPath, and CDN77 around The Globe
 
-![Network Map](https://cdn.staticaly.com/img/www.staticaly.com/_static/images/features/staticaly_net.png)
+![Network Map](https://www.staticaly.com/static/images/features/staticaly_net.png)
 
 ## About Staticaly
 

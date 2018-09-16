@@ -64,13 +64,13 @@
 
   // -- Functions --------------------------------------------------------------
   function formatRawGistUrl(url) {
-    inputProd.value = url.replace(REGEX_RAW_GIST_URL, 'https://' + cdn_domain + '/$1');
+    inputProd.value = url.replace(REGEX_RAW_GIST_URL, 'https://' + cdn_domain + '/gist/$1');
 
     setValid();
   }
 
   function formatRawRepoUrl(url) {
-    inputProd.value = url.replace(REGEX_RAW_REPO_URL, 'https://' + cdn_domain + '/$1/$2/$3/$4');
+    inputProd.value = url.replace(REGEX_RAW_REPO_URL, 'https://' + cdn_domain + '/gh/$1/$2/$3/$4');
 
     setValid();
   }
@@ -79,7 +79,7 @@
     let matches = url.match(REGEX_REPO_URL);
 
     if (matches[3] !== 'master') {
-      inputProd.value = url.replace(REGEX_REPO_URL, 'https://' + cdn_domain + '/$1/$2/$3/$4');
+      inputProd.value = url.replace(REGEX_REPO_URL, 'https://' + cdn_domain + '/gh/$1/$2/$3/$4');
       setValid();
       return;
     }
@@ -101,19 +101,19 @@
           ? data.sha.slice(0, 8)
           : matches[3];
 
-        inputProd.value = url.replace(REGEX_REPO_URL, `https://${cdn_domain}/$1/$2/${ref}/$4`);
+        inputProd.value = url.replace(REGEX_REPO_URL, `https://${cdn_domain}/gh/$1/$2/${ref}/$4`);
         setValid();
       });
   }
 
   function formatGitLabRepoUrl(url) {
-    inputProd.value = url.replace(REGEX_GITLAB_REPO_URL, 'https://' + cdn_domain + '/$1/raw/$2');
+    inputProd.value = url.replace(REGEX_GITLAB_REPO_URL, 'https://' + cdn_domain + '/gl/$1/raw/$2');
 
     setValid();
   }
 
   function formatBitbucketRepoUrl(url) {
-    inputProd.value = url.replace(REGEX_BITBUCKET_REPO_URL, 'https://' + cdn_domain + '/$1/raw/$2');
+    inputProd.value = url.replace(REGEX_BITBUCKET_REPO_URL, 'https://' + cdn_domain + '/bb/$1/raw/$2');
 
     setValid();
   }

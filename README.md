@@ -1,4 +1,4 @@
-<p align="center"><a class="clear" href="https://www.staticaly.com/" target="_blank"><img width="92" src="https://cdn.staticaly.com/img/www.staticaly.com/_static/images/staticaly_icon.png" alt="Staticaly logo"></a></p>
+<p align="center"><a class="clear" href="https://www.staticaly.com/" target="_blank"><img width="92" src="https://www.staticaly.com/static/images/staticaly_icon.png?w=92" alt="Staticaly logo"></a></p>
 
 <p class="staticaly-badge" align="center">
     <a href="https://travis-ci.org/marsble/staticaly" target="_blank">
@@ -45,27 +45,27 @@ Staticaly is [open source](https://github.com/marsble/staticaly) project built a
     <tr>
       <td align="center" valign="middle">
         <a class="clear" href="https://www.cloudflare.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://cdn.staticaly.com/img/www.staticaly.com/_static/images/sponsors/cloudflare.png">
+          <img width="150px" src="https://www.staticaly.com/static/images/sponsors/cloudflare.png">
         </a>
       </td>
       <td align="center" valign="middle">
         <a class="clear" href="http://www.stackpath.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://cdn.staticaly.com/img/www.staticaly.com/_static/images/sponsors/stackpath.png">
+          <img width="150px" src="https://www.staticaly.com/static/images/sponsors/stackpath.png">
         </a>
       </td>
       <td align="center" valign="middle">
         <a class="clear" href="https://www.cedexis.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://cdn.staticaly.com/img/www.staticaly.com/_static/images/sponsors/cedexis.png">
+          <img width="150px" src="https://www.staticaly.com/static/images/sponsors/cedexis.png">
         </a>
       </td>
       <td align="center" valign="middle">
         <a class="clear" href="https://www.fastly.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://cdn.staticaly.com/img/www.staticaly.com/_static/images/sponsors/fastly.png">
+          <img width="150px" src="https://www.staticaly.com/static/images/sponsors/fastly.png">
         </a>
       </td>
       <td align="center" valign="middle">
       <a class="clear" href="https://www.cdn77.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-        <img width="150px" src="https://cdn.staticaly.com/img/www.staticaly.com/_static/images/sponsors/cdn77.png">
+        <img width="150px" src="https://www.staticaly.com/static/images/sponsors/cdn77.png">
       </a>
       </td>
     </tr>
@@ -79,7 +79,7 @@ Staticaly won't be running perfectly without Our Sponsors. [Meet Our Sponsor](ht
 
 ### 🚀 Support
 
-Staticaly is a free, best-effort service and you can see the development progress of Staticaly by joining to the community [Marsble](https://www.marsble.com/user/staticaly).
+Staticaly is free, but we make it a bit more professional. If have a questions or find a bugs, please create an issue on [GitHub](https://github.com/marsble/staticaly/issues).
 
 ### Abuse
 
@@ -87,7 +87,7 @@ Staticaly maintains a list of files that are known to be malicious. If you find 
 
 ### Feedback
 
-If you think this is useful, we'd love to hear from you. Please reach out to [@staticaly](https://www.marsble.com/user/staticaly) with any questions or concerns.
+If you think this is useful, we'd love to hear from you. Please tweet us anything at [@staticalycom](https://twitter.com/staticalycom) with any questions, concerns or even just for say hello.
 
 ### Resources
 

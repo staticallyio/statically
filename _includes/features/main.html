@@ -2,14 +2,14 @@
     <div class="column">
         <h3>Usage</h3>
         <p>Simple usage of Staticaly.</p>
-        <code>{{site.cdn.url}}/:user/:repo/:tag/:file</code>
+        <code>{{site.cdn.url}}/gh/:user/:repo/:tag/:file</code>
     </div>
 
     <div class="column">
         <h3>Example</h3>
         <p>Load the production file of <strong>jQuery</strong> from GitHub</p>
         <div class="inp-container normal">
-            <input id="js-jquery" class="inp" value="{{site.cdn.url}}/jquery/jquery-dist/master/dist/jquery.min.js" readonly tabindex="2">
+            <input id="js-jquery" class="inp" value="{{site.cdn.url}}/gh/jquery/jquery-dist/master/dist/jquery.min.js" readonly tabindex="2">
             <button data-clipboard-target="#js-jquery" class="inp-copy-button" title="Copy URL">
                 <i class="fa fa-copy"></i>
             </button>
@@ -17,7 +17,7 @@
 
         <p>And <strong>Bootstrap CSS</strong></p>
         <div class="inp-container normal">
-            <input id="css-bs" class="inp" value="{{site.cdn.url}}/twbs/bootstrap/v4-dev/dist/css/bootstrap.min.css" readonly tabindex="2">
+            <input id="css-bs" class="inp" value="{{site.cdn.url}}/gh/twbs/bootstrap/v4-dev/dist/css/bootstrap.min.css" readonly tabindex="2">
             <button data-clipboard-target="#css-bs" class="inp-copy-button" title="Copy URL">
                 <i class="fa fa-copy"></i>
             </button>
@@ -25,7 +25,7 @@
 
         <p>Or <strong>Font Awesome CSS</strong></p>
         <div class="inp-container normal">
-            <input id="css-fa" class="inp" value="{{site.cdn.url}}/FortAwesome/Font-Awesome/master/web-fonts-with-css/css/fontawesome-all.min.css" readonly tabindex="2">
+            <input id="css-fa" class="inp" value="{{site.cdn.url}}/gh/FortAwesome/Font-Awesome/master/web-fonts-with-css/css/fontawesome-all.min.css" readonly tabindex="2">
             <button data-clipboard-target="#css-fa" class="inp-copy-button" title="Copy URL">
                 <i class="fa fa-copy"></i>
             </button>
