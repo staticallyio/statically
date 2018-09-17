@@ -28,6 +28,8 @@ future:               true
 jailed:               false
 gfm_quirks:           paragraph_end
 
+repo:                 "https://github.com/marsble/staticaly"
+
 # Staticaly
 staticaly:
     devs_url:         "https://developers.marsble.com"

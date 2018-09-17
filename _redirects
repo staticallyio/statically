@@ -3,3 +3,7 @@ https://staticaly.netlify.com/* https://www.staticaly.com/:splat 301!
 
 # Redirect domain badges.staticaly.com to Badges homepage
 https://badges.staticaly.com/* https://badge.staticaly.com/:splat 301!
+
+# Page redirections
+https://www.staticaly.com/img https://www.staticaly.com/imgpx 301!
+https://www.staticaly.com/favicon https://www.staticaly.com/favicons 301!

@@ -2,11 +2,11 @@
 show: true
 
 # Icon (Font Awesome)
-icon: bullhorn
+icon: heart pink
 
 # Attractive description
-description: CDN77 joins Staticaly.
+description: Are you using Staticaly?
 
 # Show link only when it exist
-link: https://www.marsble.com/topic/25/cdn77-joins-staticaly
-linktext: Learn more
+link: /love
+linktext: Tell us, and add your website here!

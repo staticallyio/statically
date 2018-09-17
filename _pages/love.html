@@ -1,0 +1,13 @@
+---
+layout: page
+title: Who's Love Staticaly?
+permalink: /love
+---
+
+<p>Are you using Staticaly? <a href="/contact?subject=ILoveStaticaly">Tell us</a>, and <a href="{{site.repo}}/blob/master/_data/love.yml">add your website here!</a></p>
+
+<ul>
+    {% for lover in site.data.love %}
+    <li><a href="{{lover.link}}" target="_blank" rel="noopener"><h3>{{lover.name}}</h3></a></li>
+    {% endfor %}
+</ul>
