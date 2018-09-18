@@ -49,8 +49,8 @@ Staticaly is [open source](https://github.com/marsble/staticaly) project built a
         </a>
       </td>
       <td align="center" valign="middle">
-        <a class="clear" href="http://www.stackpath.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://www.staticaly.com/static/images/sponsors/stackpath.png">
+        <a class="clear" href="http://www.dediserve.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
+          <img width="150px" src="https://www.staticaly.com/static/images/sponsors/dediserve-dark.svg">
         </a>
       </td>
       <td align="center" valign="middle">
@@ -59,14 +59,14 @@ Staticaly is [open source](https://github.com/marsble/staticaly) project built a
         </a>
       </td>
       <td align="center" valign="middle">
-        <a class="clear" href="https://www.fastly.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://www.staticaly.com/static/images/sponsors/fastly.png">
-        </a>
-      </td>
-      <td align="center" valign="middle">
       <a class="clear" href="https://www.cdn77.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
         <img width="150px" src="https://www.staticaly.com/static/images/sponsors/cdn77.png">
       </a>
+      </td>
+      <td align="center" valign="middle">
+        <a class="clear" href="https://www.fastly.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
+          <img width="150px" src="https://www.staticaly.com/static/images/sponsors/fastly.png">
+        </a>
       </td>
     </tr>
   </tbody>
