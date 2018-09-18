@@ -38,12 +38,12 @@ function getQuery(r) {
 }
 
 if (getQuery('url') ) {
-    document.getElementById('url').value = getQuery('url');
+    document.getElementById('url').value = decodeURIComponent(getQuery('url'));
 }
 
 {% if page.permalink == '/contact' %}
 if (getQuery('subject') ) {
-    document.getElementById('subject').value = getQuery('subject');
+    document.getElementById('subject').value = decodeURIComponent(getQuery('subject'));
 }
 {% endif %}
 

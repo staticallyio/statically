@@ -87,7 +87,7 @@ Staticaly maintains a list of files that are known to be malicious. If you find 
 
 ### Feedback
 
-If you think this is useful, we'd love to hear from you. Please tweet us anything at [@staticalycom](https://twitter.com/staticalycom) with any questions, concerns or even just for say hello.
+If you think this is useful, we'd love to hear from you. Please tweet us anything at [@staticalyhq](https://twitter.com/staticalyhq) with any questions, concerns or even just for say hello.
 
 ### Resources
 
