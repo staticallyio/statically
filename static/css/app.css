@@ -1170,3 +1170,9 @@ td {
 .staticaly-badge a:hover, .staticaly-badge a:focus {
     background: none;
 }
+
+.coupon {
+    background: #131313;
+    border-radius: 4px;
+    padding: 1px 10px;
+}
