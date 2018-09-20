@@ -112,17 +112,13 @@ We use third-party Service Providers to serve all of our traffic under the domai
 
     For more information on the privacy practices of CloudFlare, please visit the following web page: [https://www.cloudflare.com/security-policy/](https://www.cloudflare.com/security-policy/)
 
-*   **StackPath**
+*   **CDN77**
 
-    For more information on the privacy practices of StackPath, please visit the following web page: [https://www.stackpath.com/privacy](https://www.stackpath.com/privacy)
+    For more information on the privacy practices of CDN77, please visit the following web page: [https://www.cdn77.com/privacy](https://www.cdn77.com/privacy)
 
 *   **Fastly**
 
     For more information on the privacy practices of Fastly, please visit the following web page: [https://www.fastly.com/privacy](https://www.fastly.com/privacy)
-
-*   **CDN77**
-
-    For more information on the privacy practices of CDN77, please visit the following web page: [https://www.cdn77.com/privacy](https://www.cdn77.com/privacy)
 
 Links To Other Sites
 --------------------
