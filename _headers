@@ -1,6 +1,6 @@
 # Security for all pages
 /*
-    Cache-Control: public, max-age=600
+    Cache-Control: public, max-age=3600
     X-Frame-Options: DENY
     X-XSS-Protection: 1; mode=block
 
