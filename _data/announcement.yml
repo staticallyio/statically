@@ -5,8 +5,8 @@ show: true
 icon: bolt pink
 
 # Attractive description
-description: DediServe joins Staticaly!
+description: We Change Our Endpoint.
 
 # Show link only when it exist
-link: /sponsors
-linktext: See their logo on our Sponsors page.
+link: https://blog.marsble.com/we-change-staticalys-endpoint/
+linktext: Learn more
