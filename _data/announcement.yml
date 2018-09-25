@@ -5,7 +5,7 @@ show: true
 icon: bolt pink
 
 # Attractive description
-description: We Change Our Endpoint.
+description: We Change Our Endpoints.
 
 # Show link only when it exist
 link: https://blog.marsble.com/we-change-staticalys-endpoint/
