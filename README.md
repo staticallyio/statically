@@ -13,6 +13,9 @@
     <a href="https://github.com/marsble/staticaly/stargazers" target="_blank">
         <img src="https://cdn.staticaly.com/badges/github/stars/marsble/staticaly.svg?style=social" alt="Stars">
     </a>
+    <a href="https://www.marsble.com/user/staticaly" target="_blank">
+        <img src="https://cdn.staticaly.com/badges/badge/chat-Marsble-4285f4.svg" alt="Chat">
+    </a>
 </p>
 
 <h2 align="center">
@@ -54,18 +57,23 @@ Staticaly is [open source](https://github.com/marsble/staticaly) project built a
         </a>
       </td>
       <td align="center" valign="middle">
-        <a class="clear" href="https://www.cedexis.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://www.staticaly.com/static/images/sponsors/cedexis.png">
-        </a>
-      </td>
-      <td align="center" valign="middle">
       <a class="clear" href="https://www.cdn77.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
         <img width="150px" src="https://www.staticaly.com/static/images/sponsors/cdn77.png">
       </a>
       </td>
       <td align="center" valign="middle">
+        <a class="clear" href="https://www.cedexis.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
+          <img width="150px" src="https://www.staticaly.com/static/images/sponsors/cedexis.png">
+        </a>
+      </td>
+      <td align="center" valign="middle">
         <a class="clear" href="https://www.fastly.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
           <img width="150px" src="https://www.staticaly.com/static/images/sponsors/fastly.png">
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <a class="clear" href="https://www.cloudKilat.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
+          <img width="150px" src="https://www.staticaly.com/static/images/sponsors/cloudkilat.png">
         </a>
       </td>
     </tr>
