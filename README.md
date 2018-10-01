@@ -101,5 +101,5 @@ If you think this is useful, we'd love to hear from you. Please tweet us anythin
 
 The following are some good sources for knowing more about Staticaly:
 
-*   [Building Staticaly](https://www.fransallen.com/2018/08/22/building-staticaly/)
-*   [Introducting Staticaly Free CDN for Github, Gitlab, and Bitbucket](https://www.marsble.com/topic/23/introducting-staticaly-free-cdn-for-github-gitlab-and-bitbucket)
+*   [Building Staticaly](https://www.fransallen.com/building-staticaly)
+*   [Introducting Staticaly Free CDN for Github, Gitlab, and Bitbucket](https://www.marsble.com/t/23)
