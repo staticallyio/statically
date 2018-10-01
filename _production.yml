@@ -98,7 +98,7 @@ cdn:
     favicons_url:     "https://cdn.staticaly.com/favicons"
     badge_domain:     "cdn.staticaly.com/badges"
     badge_url:        "https://cdn.staticaly.com/badges"
-    static:           "/static"
+    static:           "https://www.staticaly.com/static"
 
 sass:
     sass_dir:         "./static/css"
