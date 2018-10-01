@@ -10,12 +10,12 @@ description:          >-
     Staticaly is Free, Open Source CDN for GitHub, GitLab and Bitbucket with Advanced features so you can load your project more easier.
 
 # Also used for SEO Tag
-logo:                 "https://cdn.staticaly.com/img/staticaly.com/static/images/staticaly.png?w=92"
+logo:                 "https://cdn.staticaly.com/img/www.staticaly.com/static/images/staticaly.png?w=92"
 lang:                 "en_US"
 
 # URL must be set to localhost
 # If on development config
-url:                  "https://staticaly.com"
+url:                  "https://www.staticaly.com"
 
 encoding:             "UTF-8"
 permalink:            /:title
@@ -52,7 +52,7 @@ google:
 social:
     name:             "Staticaly"
     links:
-      - https://www.marsble.com/user/staticaly
+      - https://www.marsble.com/u/staticaly
       - https://twitter.com/staticalyhq
       - https://www.instagram.com/staticalyhq
       - https://www.facebook.com/staticaly

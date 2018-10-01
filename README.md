@@ -1,4 +1,4 @@
-<p align="center"><a class="clear" href="https://staticaly.com/" target="_blank"><img width="92" src="https://cdn.staticaly.com/img/staticaly.com/static/images/staticaly.png?w=92" alt="Staticaly logo"></a></p>
+<p align="center"><a class="clear" href="https://www.staticaly.com/" target="_blank"><img width="92" src="https://cdn.staticaly.com/img/staticaly.com/static/images/staticaly.png?w=92" alt="Staticaly logo"></a></p>
 
 <p class="staticaly-badge" align="center">
     <a href="https://travis-ci.org/marsble/staticaly" target="_blank">
@@ -32,9 +32,9 @@ The simple words for answering **What is Staticaly**'s question is **Solutions f
 
 Staticaly is a **Free, Reliable and Open Source CDN** for your static files, it comes with advanced features so you can load your project and creating demos from **GitHub, GitLab, and Bitbucket** more easier or even load images from your origin server more faster.
 
-Staticaly serves raw files from these <a href="https://staticaly.com/network#supported-providers">Supported Providers</a> with proper **Content-Type** headers + Super Fast Global Content Delivery Network provided by **CloudFlare, Fastly, StackPath, CDN77 and waiting for you to [joining us](https://staticaly.com/become-a-sponsor)**.
+Staticaly serves raw files from these <a href="https://www.staticaly.com/network#supported-providers">Supported Providers</a> with proper **Content-Type** headers + Super Fast Global Content Delivery Network provided by **CloudFlare, Fastly, StackPath, CDN77 and waiting for you to [joining us](https://www.staticaly.com/become-a-sponsor)**.
 
-Staticaly comes with advanced features like [Imgpx](https://staticaly.com/imgpx) to load images more faster or [Favicons](https://staticaly.com/favicons) to load favicon from a domain. And for our main feature, proxying **raw files** with proper **Content-Type** headers from GitHub, GitLab and BitBucket is our best.
+Staticaly comes with advanced features like [Imgpx](https://www.staticaly.com/imgpx) to load images more faster or [Favicons](https://www.staticaly.com/favicons) to load favicon from a domain. And for our main feature, proxying **raw files** with proper **Content-Type** headers from GitHub, GitLab and BitBucket is our best.
 
 With Staticaly, you can load the project to the web very easily, where it will be very useful if you creating demos, instructional material or load static files for your project.
 
@@ -48,32 +48,32 @@ Staticaly is [open source](https://github.com/marsble/staticaly) project built a
     <tr>
       <td align="center" valign="middle">
         <a class="clear" href="https://www.cloudflare.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://staticaly.com/static/images/sponsors/cloudflare.png">
+          <img width="150px" src="https://www.staticaly.com/static/images/sponsors/cloudflare.png">
         </a>
       </td>
       <td align="center" valign="middle">
         <a class="clear" href="http://www.dediserve.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://staticaly.com/static/images/sponsors/dediserve-dark.svg">
+          <img width="150px" src="https://www.staticaly.com/static/images/sponsors/dediserve-dark.svg">
         </a>
       </td>
       <td align="center" valign="middle">
       <a class="clear" href="https://www.cdn77.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-        <img width="150px" src="https://staticaly.com/static/images/sponsors/cdn77.png">
+        <img width="150px" src="https://www.staticaly.com/static/images/sponsors/cdn77.png">
       </a>
       </td>
       <td align="center" valign="middle">
         <a class="clear" href="https://www.cedexis.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://staticaly.com/static/images/sponsors/cedexis.png">
+          <img width="150px" src="https://www.staticaly.com/static/images/sponsors/cedexis.png">
         </a>
       </td>
       <td align="center" valign="middle">
         <a class="clear" href="https://www.fastly.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://staticaly.com/static/images/sponsors/fastly.png">
+          <img width="150px" src="https://www.staticaly.com/static/images/sponsors/fastly.png">
         </a>
       </td>
       <td align="center" valign="middle">
         <a class="clear" href="https://www.cloudKilat.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://staticaly.com/static/images/sponsors/cloudkilat.png">
+          <img width="150px" src="https://www.staticaly.com/static/images/sponsors/cloudkilat.png">
         </a>
       </td>
     </tr>
@@ -83,7 +83,7 @@ Staticaly is [open source](https://github.com/marsble/staticaly) project built a
 
 ### Sponsorship
 
-Staticaly won't be running perfectly without Our Sponsors. [Meet Our Sponsor](https://staticaly.com/sponsors) or [Become A Sponsors](https://staticaly.com/become-a-sponsors).
+Staticaly won't be running perfectly without Our Sponsors. [Meet Our Sponsor](https://www.staticaly.com/sponsors) or [Become A Sponsors](https://www.staticaly.com/become-a-sponsors).
 
 ### 🚀 Support
 
@@ -91,7 +91,7 @@ Staticaly is free, but we make it a bit more professional. If have any questions
 
 ### Abuse
 
-Staticaly maintains a list of files that are known to be malicious. If you find such a file on [Supported Providers](https://staticaly.com/network#supported-providers), please [let us know](https://staticaly.com/contact?subject=Abuse)!
+Staticaly maintains a list of files that are known to be malicious. If you find such a file on [Supported Providers](https://www.staticaly.com/network#supported-providers), please [let us know](https://www.staticaly.com/contact?subject=Abuse)!
 
 ### Feedback
 

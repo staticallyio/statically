@@ -6,7 +6,7 @@
 
 This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
 
-We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from https://staticaly.com
+We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from https://www.staticaly.com
 
 Information Collection And Use
 ---------------------------------
@@ -92,11 +92,11 @@ These third parties have access to your Personal Data only to perform these task
 
 We may use third-party Service Providers to monitor and analyze the use of our Service.
 
-*   **Marsble Pixel** for **staticaly.com**
+*   **Marsble Pixel** for **www.staticaly.com**
 
     For more information on the privacy practices of Marsble, please visit the following web page: [https://www.marsble.com/privacy](https://www.cloudflare.com/privacy)
 
-*   **Google Analytics** for **staticaly.com**
+*   **Google Analytics** for **www.staticaly.com**
 
     Google Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network.
 
