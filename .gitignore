@@ -3,5 +3,5 @@ _site
 
 Gemfile.lock
 test/
-auto-update*
+autoupdate*
 serve*
