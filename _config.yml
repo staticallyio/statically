@@ -3,11 +3,11 @@ title:                "Staticaly"
 
 # A simple tagline: Make it Static!
 tagline:              >-
-    Free CDN for Everyone! Load Project from GitHub, GitLab and Bitbucket more easier
+    Free CDN for GitHub, GitLab, Bitbucket, Images and more
 
 # Define description for the site
 description:          >-
-    Staticaly is Free, Open Source CDN for GitHub, GitLab and Bitbucket with Advanced features so you can load your project more easier.
+    Staticaly is Free, Open Source CDN for GitHub, GitLab, Bitbucket, Images and other static files with advanced features so you can load your project more easier.
 
 # Also used for SEO Tag
 logo:                 "/static/images/staticaly_sm.png"
@@ -33,8 +33,8 @@ repo:                 "https://github.com/marsble/staticaly"
 # Staticaly
 staticaly:
     devs_url:         "https://developers.marsble.com"
-    datacenter_num:   152+
-    main_cdn:         "CloudFlare, Fastly, StackPath, and CDN77"
+    datacenter_num:   153+
+    main_cdn:         "CloudFlare, Fastly, and CDN77"
     newsletter_url:  >-
         https://marsble.us18.list-manage.com/subscribe/post?u=4dfd4ae04677bf4f6248182fc&amp;id=397ea962f2
 

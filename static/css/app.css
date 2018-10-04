@@ -1151,7 +1151,7 @@ td {
     overflow: hidden;
     position: absolute;
     width: 100%;
-    transform: translateY(-90%);
+    transform: translateY(-80%);
     color: #fff;
     z-index: 1;
 }

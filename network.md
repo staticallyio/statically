@@ -1,4 +1,4 @@
-## Staticaly is Running on Multiple CDN like CloudFlare, Fastly, StackPath, and CDN77 around The Globe
+## Staticaly is Running on Multiple CDN like CloudFlare, Fastly, and CDN77 around The Globe
 
 ![Network Map](https://www.staticaly.com/static/images/features/staticaly_net.png)
 
@@ -34,7 +34,7 @@ There are two versions of Staticaly: **Production and Development**. Below you w
 
     Example:
 
-    * [https://cdn.staticaly.com/jquery/jquery-dist/master/dist/jquery.min.js](https://cdn.staticaly.com/jquery/jquery-dist/master/dist/jquery.min.js)
+    * [https://cdn.staticaly.com/gh/jquery/jquery-dist/master/dist/jquery.min.js](https://cdn.staticaly.com/gh/jquery/jquery-dist/master/dist/jquery.min.js)
     * [https://cdn.staticaly.com/img/i.imgur.com/9usQKZg.jpg](https://cdn.staticaly.com/img/i.imgur.com/9usQKZg.jpg)
 
 *   **Development CDN** `?env=dev`
@@ -43,7 +43,7 @@ There are two versions of Staticaly: **Production and Development**. Below you w
 
     Example:
 
-    * [https://cdn.staticaly.com/jquery/jquery-dist/master/dist/jquery.min.js?env=dev](https://cdn.staticaly.com/jquery/jquery-dist/master/dist/jquery.min.js?env=dev)
+    * [https://cdn.staticaly.com/gh/jquery/jquery-dist/master/dist/jquery.min.js?env=dev](https://cdn.staticaly.com/gh/jquery/jquery-dist/master/dist/jquery.min.js?env=dev)
 
 ## Uptime
 
