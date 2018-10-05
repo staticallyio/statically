@@ -2,11 +2,11 @@
 show: true
 
 # Icon (Font Awesome)
-icon: bolt pink
+icon: heart pink
 
 # Attractive description
-description: We Change Our Endpoints.
+description: Dewaweb joins Staticaly!
 
 # Show link only when it exist
-link: https://blog.marsble.com/we-change-staticalys-endpoint/
-linktext: Learn more
+link: /sponsors
+linktext: See their logo on our Sponsors page.
