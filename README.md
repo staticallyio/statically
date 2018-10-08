@@ -1,4 +1,4 @@
-<p align="center"><a class="clear" href="https://www.staticaly.com/" target="_blank"><img width="92" src="https://cdn.staticaly.com/img/staticaly.com/static/images/staticaly.png?w=92" alt="Staticaly logo"></a></p>
+<p align="center"><a class="clear" href="https://www.staticaly.com/" target="_blank"><img width="92" src="https://cdn.staticaly.com/img/www.staticaly.com/static/images/staticaly.png?w=92" alt="Staticaly logo"></a></p>
 
 <p class="staticaly-badge" align="center">
     <a href="https://travis-ci.org/marsble/staticaly" target="_blank">
@@ -98,7 +98,7 @@ Staticaly is free, but we make it a bit more professional. If have any questions
 
 Staticaly maintains a list of files that are known to be malicious. If you find such a file on [Supported Providers](https://www.staticaly.com/network#supported-providers), please [let us know](https://www.staticaly.com/contact?subject=Abuse)!
 
-### Feedback
+### 💫 Feedback
 
 If you think this is useful, we'd love to hear from you. Please tweet us anything at [@staticalyhq](https://twitter.com/staticalyhq) with any questions, concerns or even just for say hello.
 

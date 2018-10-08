@@ -2,11 +2,11 @@
 show: true
 
 # Icon (Font Awesome)
-icon: heart pink
+icon: bolt pink
 
 # Attractive description
-description: Dewaweb joins Staticaly!
+description: Migrating from RawGit?
 
 # Show link only when it exist
-link: /sponsors
-linktext: See their logo on our Sponsors page.
+link: /rawgit
+linktext: Use this tool.
