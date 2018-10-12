@@ -47,4 +47,4 @@ There are two versions of Staticaly: **Production and Development**. Below you w
 
 ## Uptime
 
-We keep users away from all downtime, for that we use Cedexis as our smart load balancing, when Cedexis works, he will check the healthiest CDN and provide it for you.
+We keep users away from all downtime, we apply failover to each of our systems, for more information, you can check it in our [Status Page](https://status.marsble.com).
