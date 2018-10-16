@@ -52,19 +52,9 @@ Staticaly is [open source](https://github.com/marsble/staticaly) project built a
         </a>
       </td>
       <td align="center" valign="middle">
-        <a class="clear" href="https://www.dediserve.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://www.staticaly.com/static/images/sponsors/dediserve-dark.svg">
-        </a>
-      </td>
-      <td align="center" valign="middle">
       <a class="clear" href="https://www.cdn77.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
         <img width="150px" src="https://www.staticaly.com/static/images/sponsors/cdn77.png">
       </a>
-      </td>
-      <td align="center" valign="middle">
-        <a class="clear" href="https://www.cedexis.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://www.staticaly.com/static/images/sponsors/cedexis.png">
-        </a>
       </td>
       <td align="center" valign="middle">
         <a class="clear" href="https://www.fastly.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
@@ -72,13 +62,18 @@ Staticaly is [open source](https://github.com/marsble/staticaly) project built a
         </a>
       </td>
       <td align="center" valign="middle">
-        <a class="clear" href="https://www.dewaweb.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://www.staticaly.com/static/images/sponsors/dewaweb.png">
+        <a class="clear" href="https://www.bunnycdn.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
+          <img width="150px" src="/static/images/sponsors/bunnycdn.png">
         </a>
       </td>
       <td align="center" valign="middle">
-        <a class="clear" href="https://www.cloudKilat.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://www.staticaly.com/static/images/sponsors/cloudkilat.png">
+        <a class="clear" href="https://www.cedexis.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
+          <img width="150px" src="https://www.staticaly.com/static/images/sponsors/cedexis.png">
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <a class="clear" href="https://www.dediserve.com/?utm_source=Staticaly.com&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
+          <img width="150px" src="https://www.staticaly.com/static/images/sponsors/dediserve-dark.svg">
         </a>
       </td>
     </tr>
