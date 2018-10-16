@@ -1,10 +1,10 @@
 mission: Our mission is to make static files easy to manage and fast to deliver.
 
 staticaly: >-
-    Staticaly is a <strong>Free, Reliable and Open Source CDN</strong> for your static files, it comes with advanced features so you can load your project and creating demos from <strong>GitHub, GitLab, Bitbucket</strong> more easier or even load images from your origin server more faster. Staticaly serves raw files from these <a href="/network#supported-providers">Supported Providers</a> with proper <strong>Content-Type</strong> headers + Super Fast Global Content Delivery Network provided by <strong><script>document.write(main_cdn);</script></strong>.
+    Staticaly is a <strong>Free, Reliable and Open Source CDN</strong> for your static files, it comes with advanced features so you can load your project and creating demos from <strong>GitHub, GitLab, Bitbucket</strong> easily or load images from your origin server even faster. Staticaly serves raw files from these <a href="/network#supported-providers">Supported Providers</a> with proper <strong>Content-Type</strong> headers + Super Fast Global Content Delivery Network provided by <strong><script>document.write(main_cdn);</script></strong>.
 
 imgpx: >-
-    Imgpx is an image proxy that can be used to get every images on the web by providing an URL. <strong>It's fast and advanced</strong>. So when you have one even more image only in one datacenter, <strong>Imgpx</strong> can serve the image around the globe with Global CDN and minifying them. Not finish yet, Imgpx also can be used for <strong>edit the images on the fly</strong>.
+    Imgpx is an image acceleration, get every images on the web by providing URL and convert it into a smaller file size for the best images performance. <strong>It's fast and advanced</strong>. So when you have one image only in one datacenter, <strong>Imgpx</strong> can serve around the globe with Super Fast Global CDN.
 
 favicons: >-
     Staticaly Favicons API by Marsble can be used for getting a favicon from external domain, easy usage and very good caching. It's open source software, fork it on <a href="https://github.com/marsble/favicons" target="_blank">GitHub</a>.
