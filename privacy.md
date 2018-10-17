@@ -160,5 +160,5 @@ Contact Us
 
 If you have any questions about this Privacy Policy, please contact us:
 
-*   By visiting our [contact page](/contact).
+*   By visiting our [contact page](https://www.staticaly.com/contact).
 *   Tweet us on [Twitter](https://twitter.com/staticalyhq).
