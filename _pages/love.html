@@ -2,12 +2,30 @@
 layout: page
 title: Who's Love Staticaly?
 permalink: /love
+promo: true
 ---
 
-<p>Does Staticaly help you and your project? We will be very happy if you <a href="https://www.marsble.com/">write about us on Marsble</a>, and <a href="{{site.repo}}/blob/master/_data/love.yml">add your website here!</a></p>
 
-<ul style="padding-left:0;">
+<div class="main" style="padding-left: 0; padding-right: 0;">
+    <div class="column" style="padding: 0;">
+        <p class="lead">Does Staticaly help you and your project? We will be very happy if you <a href="https://www.marsble.com/">write about us on Marsble</a>, and <a href="{{site.repo}}/blob/master/_data/love.yml">add your website here!</a></p>
+    </div>
+
+    <div class="column">
+        <blockquote style="padding: 20px 30px;">
+            <img src="{{site.cdn.static}}/images/sponsors/accuwebhosting.png" alt="AccuWebHosting" style="max-height:50px;">
+            <p>Need a hosting? Try AccuWebHosting, we recommend it because we use it.</p>
+            <a class="white" href="https://www.cloudflare.com/" target="_blank">Go to website</a>
+        </blockquote>
+    </div>
+</div>
+
+<h2 class="center">These sites say Staticaly makes their static files fast!</h2>
+
+<div class="lover">
     {% for lover in site.data.love %}
-    <li><a href="{{lover.link}}" target="_blank" rel="noopener"><h3>{{lover.name}}</h3></a></li>
+        <a class="btn" href="{{lover.link}}" target="_blank" rel="nofollow noopener">{{lover.name}}</a>
     {% endfor %}
-</ul>
+
+    <p class="lead center" style="padding-top: 3em;"><a href="{{site.repo}}/blob/master/_data/love.yml">Add your website</a></p>
+</div>

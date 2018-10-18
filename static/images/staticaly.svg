@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="16.6499mm" height="16.6499mm" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 132 132"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+    <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="32.3601" y1="123.437" x2="99.3362" y2="8.2593">
+     <stop offset="0" stop-opacity="1" stop-color="#D72430"/>
+     <stop offset="1" stop-opacity="1" stop-color="#FDA259"/>
+    </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_368943800">
+   <path fill="url(#id0)" d="M9 33c18,-32 59,-42 90,-24 31,18 42,59 24,90 -19,31 -59,42 -90,24 -32,-19 -42,-59 -24,-90z"/>
+   <circle fill="none" stroke="#FEFEFE" stroke-width="3.2145" cx="66" cy="66" r="58"/>
+   <g>
+    <g>
+     <polygon fill="#FEFEFE" points="97,23 42,65 61,71 35,109 87,66 71,60 "/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

@@ -26,7 +26,7 @@
 <link rel="stylesheet" href="{{site.cdn.url}}/gh/FortAwesome/Font-Awesome/dafc5f5d/web-fonts-with-css/css/fontawesome-all.min.css">
 <link rel="stylesheet" href="{{site.cdn.static}}/css/app.css?v={{site.version}}">
 
-<link rel="icon" href="{{site.logo}}">
+<link rel="icon" href="{{site.cdn.static}}/images/staticaly_sm.png">
 
 <script src="{{site.cdn.url}}/gh/jquery/jquery-dist/9e8ec3d1/dist/jquery.min.js"></script>
 
@@ -66,7 +66,7 @@ var main_cdn = '{{site.staticaly.main_cdn}}';
         <{% if page.permalink == '/' %}h1{% else %}h2{% endif %} class="title">
             <a href="{{site.url}}/">
 				<img class="logo" src="{{site.logo}}" alt="{{site.title}}" role="presentation">
-				{{site.title}}
+				<span class="hidden">{{site.title}}</span>
 			</a>
         </{% if page.permalink == '/' %}h1{% else %}h2{% endif %}>
 

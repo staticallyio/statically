@@ -1180,3 +1180,21 @@ td {
 .morecontent span {
     display: none;
 }
+
+.lover {
+    padding: 2em 0 5em 0;
+    text-align: center;
+}
+
+.lover a+a {
+    margin-left: 5px;
+}
+
+.lover .btn+.btn {
+    margin-top: 30px;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}

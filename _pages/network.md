@@ -4,6 +4,6 @@ title: Network
 description: Running on Multiple CDN like {{site.staticaly.main_cdn}} around The Globe.
 promo: true
 permalink: /network
-file: /NETWORK.md
+file: /network.md
 published: true
 ---
