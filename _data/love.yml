@@ -2,6 +2,9 @@
 # We'll be very happy if you add your website here
 # Please add to the top
 
+- name: ManKoin
+  link: "https://www.mankoin.blog"
+
 - name: Marsble
   link: "https://www.marsble.com"
 
