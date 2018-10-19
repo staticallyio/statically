@@ -531,6 +531,11 @@ hr {
     color: #68a1ff;
 }
 
+.bg-sponsors {
+    background: linear-gradient(to bottom left, #77c4e3, #773e2d);
+}
+
+
 .blue-light {
     color: #97beff;
 }
