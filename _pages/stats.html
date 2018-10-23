@@ -4,40 +4,6 @@ title: Statistics
 title_show: false
 description: Statistics for usage.
 permalink: /stats
+file: /test/stats.md
+#promo: true
 ---
-
-<script src="https://cdn.staticaly.com/gh/cdnjs/cdnjs/master/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
-
-<canvas id="line-chart" width="800" height="450"></canvas>
-
-<script type="text/javascript">
-new Chart(document.getElementById("line-chart"), {
-  type: 'line',
-  data: {
-    labels: [1500,1600,1700,1750,1800,1850,1900,1950,1999,2050],
-    datasets: [{
-        data: [86,114,106,106,107,111,133,221,783,2478],
-        label: "CloudFlare",
-        borderColor: "#f58220",
-        fill: false
-      }, {
-        data: [282,350,411,502,635,809,947,1402,3700,5267],
-        label: "Fastly",
-        borderColor: "#e82c2a",
-        fill: false
-      }, {
-        data: [282,350,411,502,635,809,947,1402,3700,5267],
-        label: "CDN77",
-        borderColor: "#04151f",
-        fill: false
-      }
-    ]
-  },
-  options: {
-    title: {
-      display: true,
-      text: 'CDNs Statistics'
-    }
-  }
-});
-</script>
