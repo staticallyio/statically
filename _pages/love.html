@@ -5,7 +5,6 @@ permalink: /love
 promo: true
 ---
 
-
 <div class="main" style="padding-left: 0; padding-right: 0;">
     <div class="column" style="padding: 0;">
         <p class="lead">Does Staticaly help you and your project? We will be very happy if you <a href="https://www.marsble.com/">write about us on Marsble</a>, and <a href="{{site.repo}}/blob/master/_data/love.yml">add your website here!</a></p>
@@ -23,9 +22,7 @@ promo: true
 <h2 class="center">These sites say Staticaly makes their static files fast!</h2>
 
 <div class="lover">
-    {% for lover in site.data.love %}
-        <a class="btn" href="{{lover.link}}" target="_blank" rel="nofollow noopener">{{lover.name}}</a>
-    {% endfor %}
+    <script>document.write('{% for lover in site.data.love %}<a class="btn" href="{{lover.link}}" target="_blank" rel="nofollow noopener">{{lover.name}}</a>{% endfor %}');</script>
 
     <p class="lead center" style="padding-top: 3em;"><a href="{{site.repo}}/blob/master/_data/love.yml">Add your website</a></p>
 </div>
