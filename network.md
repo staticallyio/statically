@@ -26,7 +26,7 @@ There are two versions of Staticaly: **Production and Development**. Below you w
 
 *   **Production CDN**
 
-    By default, Staticaly main CDN (**cdn.staticaly.com**), cache are set to **1 year** via `Cache-Control` header for every files except on the **master** branch, we set cache for **master** branch **for an hour** so new changes you push to GitHub will be reflected within minutes.
+    By default, Staticaly main CDN (**cdn.staticaly.com**), cache are set to **1 year** via `Cache-Control` header for every files except on the **master** branch, we set cache for **master** branch **for 24 hours** so new changes you push to GitHub will be reflected within minutes.
 
     But if you want to use Staticaly as a **Development CDN** you can add query string `?env=dev` for domain **cdn.staticaly.com** to tell CDN to not cache your files, you can learn more at Development CDN section below.
 
