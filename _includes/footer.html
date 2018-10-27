@@ -91,6 +91,7 @@ fetch('{{page.file}}').then(function(response) {
 
 {% if jekyll.environment == "production" %}
     {% include analytics.html %}
+    {% include radar.html %}
 {% endif %}
 
 <noscript>
