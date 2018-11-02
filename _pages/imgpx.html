@@ -32,7 +32,7 @@ published: true
                     <h2>Use this URL in <strong>production</strong></h2>
 
                     <div class="inp-container">
-                        <input id="url-prod" class="inp" placeholder="{{page.app_url}}/:website/:file" readonly tabindex="2">
+                        <input id="url-prod" class="inp" placeholder="{{page.app_url}}/:image_url" readonly tabindex="2">
                         <button id="url-prod-copy" class="inp-copy-button" data-clipboard-target="#url-prod" title="Copy URL" disabled>
                             <i class="fa fa-copy"></i>
                         </button>
@@ -80,12 +80,28 @@ published: true
             <p class="lead">{{site.data.about.imgpx}}</p>
         </div>
 
+        <h2 id="compare" class="hero"><i class="fa fa-check-circle"></i> Image Comparison</h2>
+        <div class="main">
+            <div class="column">
+                <h3>Without Imgpx <i class="fa fa-times"></i></h3>
+                <img src="https://{{page.imgdemo}}" alt="{{page.title}}">
+                <code>https://{{page.imgdemo}}</code><br>
+                <small>Size: <strong>46.34 KB</strong></small>
+            </div>
+            <div class="column">
+                <h3>With Imgpx <i class="fa fa-check"></i></h3>
+                <img src="{{page.app_url}}/{{page.imgdemo}}" alt="{{page.title}}">
+                <code>{{page.app_url}}/{{page.imgdemo}}</code><br>
+                <small>Size: <strong>24.55 KB (%50 compression)</strong></small>
+            </div>
+        </div>
+
         <h2 id="docs" class="hero"><i class="fa fa-book-open"></i> Docs</h2>
         <div class="main">
             <div class="column">
                 <h3>Usage</h3>
                 <p>Simple usage of Imgpx.</p>
-                <code>{{page.app_url}}/:website/:file</code>
+                <code>{{page.app_url}}/:image_url</code>
 
                 <h3>Example</h3>
                 <code><a href="{{page.app_url}}/{{page.imgdemo}}" target="_blank">{{page.app_url}}/{{page.imgdemo}}</a></code>
