@@ -33,7 +33,7 @@ repo:                 "https://github.com/marsble/staticaly"
 # Staticaly
 staticaly:
     devs_url:         "https://developers.marsble.com"
-    datacenter_num:   153+
+    datacenter_num:   165+
     main_cdn:         "CloudFlare, Fastly, and CDN77"
     newsletter_url:  >-
         https://marsble.us18.list-manage.com/subscribe/post?u=4dfd4ae04677bf4f6248182fc&amp;id=397ea962f2
