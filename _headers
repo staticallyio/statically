@@ -1,3 +1,7 @@
+# Set HSTS
+/
+    Strict-Transport-Security: max-age=31536000
+
 # Security for all pages
 /*
     Cache-Control: public, max-age=3600
