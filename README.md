@@ -113,6 +113,17 @@ Support
 
 Staticaly is free, but we make it a bit more professional. If have any questions or maybe find a bugs, please contact us on [Marsble](https://www.marsble.com/u/staticaly) or create an issue in our [issue trackeer](https://github.com/marsble/staticaly/issues).
 
+Project leaders
+---------------
+
+Maintainers:
+
+- [fransallen](https://github.com/fransallen) (core team)
+- [tovic](https://github.com/tovic) (core team)
+- [ardyfeb](https://github.com/ardyfeb) (core team)
+
+Wanna join? [Contact us!](https://www.staticaly.com/contact)
+
 Abuse
 -----
 
