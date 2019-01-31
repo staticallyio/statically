@@ -2,11 +2,11 @@
 show: true
 
 # Icon (Font Awesome)
-icon: bolt pink
+icon: love pink
 
 # Attractive description
-description: Migrating from RawGit?
+description: What’s new on Staticaly?
 
 # Show link only when it exist
-link: /rawgit
-linktext: Use this tool.
+link: https://www.marsble.com/t/104
+linktext: Learm more.

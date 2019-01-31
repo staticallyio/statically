@@ -34,6 +34,7 @@ Features
 
 - [Static files CDN](https://www.staticaly.com): CDN for raw files from GitHub, GitLab, and Bitbucket with proper *Content-Type* header.
 - [Imgpx](https://www.staticaly.com/imgpx): FREE Image Acceleration
+- [WordPress static files](https://www.staticaly.com): FREE WordPress static files CDN
 - [Favicons](https://www.staticaly.com/favicons): FREE Favicons API
 
 You can always request features, please contact us at [@staticaly](https://www.marsble.com/u/staticaly)
@@ -139,5 +140,5 @@ Resources
 
 The following are some good sources for knowing more about Staticaly:
 
-*   [Building Staticaly](https://www.fransallen.com/building-staticaly)
 *   [Introducting Staticaly Free CDN for Github, Gitlab, and Bitbucket](https://www.marsble.com/t/23)
+*   [What’s new on Staticaly?](https://www.marsble.com/t/104)
