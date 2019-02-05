@@ -107,7 +107,7 @@ The technologies that we currently use
 Sponsorship
 -----------
 
-Staticaly won't be running perfectly without Our Sponsors. [Meet Our Sponsor](https://www.staticaly.com/sponsors) or [Become A Sponsors](https://www.staticaly.com/become-a-sponsors).
+Staticaly won't be running perfectly without Our Sponsors. [Meet Our Sponsor](https://www.staticaly.com/sponsors), [Become A Sponsors](https://www.staticaly.com/become-a-sponsors) or [Donate $5](https://www.staticaly.com/donate).
 
 Support
 -------

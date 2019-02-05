@@ -44,7 +44,6 @@ if (getQuery('subject') ) {
     document.getElementById('subject').value = decodeURIComponent(getQuery('subject'));
 }
 {% endif %}
-
 </script>
 
 <script>
@@ -56,6 +55,9 @@ console.log(
 
 <!-- Bundle.js (global) -->
 <script src="{{site.cdn.static}}/js/bundle.js?v={{site.version}}"></script>
+
+<!-- Notifications -->
+<script src="https://apis.marsble.com/staticaly/v1/notifications"></script>
 
 <!-- App.js (homepage) -->
 {% if page.permalink == '/' %}
