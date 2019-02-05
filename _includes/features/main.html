@@ -1,6 +1,6 @@
 <div class="main">
     <div class="column">
-        <h3>How to Use?</h3>
+        <h3>How to use?</h3>
         <h4>GitHub</h4>
         <code>{{site.cdn.url}}/gh/:user/:repo/:tag/:file</code>
 
@@ -11,8 +11,8 @@
         <code>https://cdn.staticaly.com/bb/:user/:repo/:tag/:file</code>
 
         <h4>WordPress</h4>
-        <code>https://cdn.staticaly.com/wp/c/5.0.3/wp-includes/css/dashicons.min.css</code>
-        <code>https://cdn.staticaly.com/wp/p/jetpack/6.9/css/jetpack.css</code>
+        <code>https://cdn.staticaly.com/wp/c/:version/wp-includes/:file</code>
+        <code>https://cdn.staticaly.com/wp/p/:plugin_name/:version/:file</code>
         
         <h4>Imgpx</h4>
         <code>https://cdn.staticaly.com/img/:image_url</code>
@@ -39,10 +39,10 @@
             </button>
         </div>
 
-        <p>Or <strong>Font Awesome CSS</strong></p>
+        <p>Or <strong>WordPress core file</strong> from WordPress.org SVN</p>
         <div class="inp-container normal">
-            <input id="css-fa" class="inp" value="{{site.cdn.url}}/gh/FortAwesome/Font-Awesome/master/css/all.min.css" readonly tabindex="2">
-            <button data-clipboard-target="#css-fa" class="inp-copy-button" title="Copy URL">
+            <input id="wp-core" class="inp" value="{{site.cdn.url}}/wp/c/5.0.3/wp-includes/css/dashicons.min.css" readonly tabindex="2">
+            <button data-clipboard-target="#wp-core" class="inp-copy-button" title="Copy URL">
                 <i class="fa fa-copy"></i>
             </button>
         </div>
