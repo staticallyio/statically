@@ -3,11 +3,11 @@ title:                "Staticaly"
 
 # A simple tagline: Make it Static!
 tagline:              >-
-    Free CDN for GitHub, GitLab, Bitbucket, WordPress, Images and more
+    Free CDN for GitHub, GitLab, Bitbucket, WordPress, images and more
 
 # Define description for the site
 description:          >-
-    Staticaly is Free, Open Source CDN for GitHub, GitLab, Bitbucket, Images and other static files with advanced features so you can load your project more easier.
+    Staticaly is a Free, Open Source CDN for GitHub, GitLab, Bitbucket, images and other static files with advanced features so you can load your project more easier.
 
 # Also used for SEO Tag
 logo:                 "/static/images/staticaly_wide.svg"
