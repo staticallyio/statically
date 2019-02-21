@@ -57,7 +57,9 @@ Bitbucket CDN
 WordPress CDN
 
 `https://cdn.staticaly.com/wp/c/:version/wp-includes/:file`
+
 `https://cdn.staticaly.com/wp/p/:plugin_name/:version/:file`
+
 `https://cdn.staticaly.com/wp/t/:theme_name/:version/:file`
 
 Imgpx CDN

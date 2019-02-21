@@ -13,9 +13,8 @@ description:          >-
 logo:                 "/static/images/staticaly_wide.svg"
 lang:                 "en_US"
 
-# URL must be set to localhost
-# If on development config
-url:                  "http://localhost:4000"
+# Set URL
+url:                  "https://www.staticaly.com"
 
 encoding:             "UTF-8"
 permalink:            /:title
@@ -59,6 +58,10 @@ social:
 
 # Twitter
 twitter:
+    username:         staticalyhq
+
+# Instagram
+instagram:
     username:         staticalyhq
 
 # GitHub
@@ -114,3 +117,9 @@ plugins:
     - jekyll-redirect-from
     - jekyll-sitemap
     - jekyll-feed
+    - jekyll-minifier
+
+jekyll-minifier:
+    remove_https_protocol: true
+    exclude:
+        - "static/js/app.js"
