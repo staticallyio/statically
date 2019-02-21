@@ -117,10 +117,10 @@ plugins:
     - jekyll-redirect-from
     - jekyll-sitemap
     - jekyll-feed
-    - jekyll-minifier
+    #- jekyll-minifier
 
-jekyll-minifier:
-    remove_https_protocol: true
-    exclude:
-        - "static/js/app.js"
-        - "src/lambda/hello.js"
+#jekyll-minifier:
+    #remove_https_protocol: true
+    #exclude:
+        #- "static/js/app.js"
+        #- "src/lambda/hello.js"
