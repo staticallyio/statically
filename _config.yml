@@ -123,3 +123,4 @@ jekyll-minifier:
     remove_https_protocol: true
     exclude:
         - "static/js/app.js"
+        - "src/lambda/hello.js"
