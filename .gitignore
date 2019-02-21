@@ -1,6 +1,8 @@
 _layouts/test*
 _site
 
+node_modules
+
 Gemfile.lock
 test/
 autoupdate*

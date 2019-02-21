@@ -42,23 +42,29 @@ You can always request features, please contact us at [@staticaly](https://www.m
 Usage
 -----
 
-GitHub
+GitHub CDN
 
 `https://cdn.staticaly.com/gh/:user/:repo/:tag/:file`
 
-GitLab
+GitLab CDN
 
 `https://cdn.staticaly.com/gl/:user/:repo/:tag/:file`
 
-Bitbucket
+Bitbucket CDN
 
 `https://cdn.staticaly.com/bb/:user/:repo/:tag/:file`
 
-Imgpx
+WordPress CDN
+
+`https://cdn.staticaly.com/wp/c/:version/wp-includes/:file`
+`https://cdn.staticaly.com/wp/p/:plugin_name/:version/:file`
+`https://cdn.staticaly.com/wp/t/:theme_name/:version/:file`
+
+Imgpx CDN
 
 `https://cdn.staticaly.com/img/:image_url`
 
-Favicons
+Favicons CDN
 
 `https://cdn.staticaly.com/favicons/:favicon_url`
 
@@ -128,7 +134,7 @@ Wanna join? [Contact us!](https://www.staticaly.com/contact)
 Abuse
 -----
 
-Staticaly maintains a list of files that are known to be malicious. If you find such a file on [Supported Providers](https://www.staticaly.com/network#supported-providers), please [let us know](https://www.staticaly.com/contact?subject=Abuse)!
+Staticaly maintains a list of files that are known to be malicious. If you find such a file on [supported providers](https://www.staticaly.com/network#supported-providers), please [let us know](https://www.staticaly.com/contact?subject=Abuse)!
 
 Feedback
 --------

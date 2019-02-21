@@ -515,12 +515,21 @@ hr {
     border: 2px solid #444
 }
 
+.bg code {
+    background: #444;
+}
+
 .bg-prime {
     background: linear-gradient(to bottom left, #fd6147, #5139c1);
 }
 
 .prime {
     color: #fd583c;
+}
+
+.bg-jet {
+    background-image: url("../images/bg/jet.jpg");
+    background-size: cover;
 }
 
 .bg-optimus {
@@ -1203,3 +1212,4 @@ td {
     display: none;
     visibility: hidden;
 }
+

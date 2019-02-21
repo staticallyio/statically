@@ -1,10 +1,10 @@
 mission: Our mission is to make static files easy to manage and fast to deliver.
 
 staticaly: >-
-    Staticaly is a <strong>Free, Reliable and Open Source CDN</strong> for your static files, it comes with advanced features so you can load your project and creating demos from <strong>GitHub, GitLab, Bitbucket</strong> easily or load images from your origin server even faster. Staticaly serves raw files from these <a href="/network#supported-providers">Supported Providers</a> with proper <strong>Content-Type</strong> headers + Super Fast Global Content Delivery Network provided by <strong><script>document.write(main_cdn);</script></strong>.
+    Staticaly is a free CDN for Git repositories, WordPress, images and other assets with high-performance of caching and optimization.
 
 imgpx: >-
-    Imgpx is an image acceleration, get every images on the web by providing URL and convert it into a smaller file size for the best images performance. <strong>It's fast and advanced</strong>. So when you have one image only in one datacenter, <strong>Imgpx</strong> can serve around the globe with Super Fast Global CDN.
+    Imgpx is an image acceleration and modification service via custom endpoints.
 
 favicons: >-
-    Staticaly Favicons API by Marsble can be used for getting a favicon from external domain, easy usage and very good caching. It's open source software, fork it on <a href="https://github.com/marsble/favicons" target="_blank">GitHub</a>.
+    Favicon API is useful for getting a favicon from a domain without touching the domain itself. It's open source software, fork it on <a href="https://github.com/marsble/favicons" target="_blank">GitHub</a>.

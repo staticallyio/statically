@@ -1,6 +1,6 @@
 # Show promo on footer
-title: Make the project more better!
+title: Make the project even better!
 link: /become-a-sponsor
-linktext: Become A Sponsor <i class="fa fa-bolt"></i>
+linktext: Become A Sponsor <i class="fa fa-life-ring "></i>
 description: >-
-    Staticaly is a Free, Open Source CDN for GitHub, GitLab, Bitbucket, images and other static files.
+    Staticaly is a free CDN for Git repositories, WordPress, images and other assets with high-performance of caching and optimization.

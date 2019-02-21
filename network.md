@@ -21,14 +21,14 @@ We have **We have 10 strategically located data centers + 4 CDN providers** that
 Statistics Usage
 ----------------
 
-Wondering about Staticaly stats? Visit [Our Statistics page](https://www.staticaly.com/stats)
+Wondering about Staticaly stats? Visit [our statistics page](https://www.staticaly.com/stats)
 
 Supported Providers
 -------------------
 
 Staticaly can serves **raw files** with proper Content-Type headers and make it more fast for you from these providers:
 
-**GitHub \| GitLab \| BitBucket**
+**GitHub \| GitLab \| Bitbucket \| WordPress SVN**
 
 You may interested in our other features, please [learn more here](https://www.staticaly.com/about).
 
@@ -59,4 +59,4 @@ There are two versions of Staticaly: **Production and Development**. Below you w
 
 ## Uptime
 
-We keep users away from all downtime, we apply failover to each of our systems, for more information about Network Status, please check it in our [Status Page](https://status.marsble.com).
+We keep users away from all downtime, we apply failover to each of our systems, for more information about Network Status, please check it in our [status page](https://status.marsble.com).

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "netlify-lambda": "^1.4.2"
+  }
+}
