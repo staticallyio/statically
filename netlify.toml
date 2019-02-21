@@ -1,3 +1,2 @@
 [build]
-  command = "JEKYLL_ENV=production jekyll build --config _production.yml"
   functions = "lambda"
