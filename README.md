@@ -1,8 +1,8 @@
 <p align="center"><a class="clear" href="https://www.staticaly.com/" target="_blank"><img width="92" src="https://cdn.staticaly.com/img/www.staticaly.com/static/images/staticaly.png?w=92" alt="Staticaly logo"></a></p>
 
 <p class="staticaly-badge" align="center">
-    <a href="https://travis-ci.org/marsble/staticaly" target="_blank">
-        <img src="https://cdn.staticaly.com/badges/travis/marsble/staticaly.svg" alt="Travis CI Build Status">
+    <a href="https://app.netlify.com/sites/staticaly/deploys" target="_blank">
+        <img src="https://api.netlify.com/api/v1/badges/1f75be83-f290-4705-858d-61e6608f7a66/deploy-status" alt="Netlify Status">
     </a>
     <a href="https://github.com/marsble/staticaly/network" target="_blank">
         <img src="https://cdn.staticaly.com/badges/github/forks/marsble/staticaly.svg?style=social" alt="Forks">
