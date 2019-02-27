@@ -51,7 +51,7 @@ There are two versions of Staticaly: **Production and Development**. Below you w
 
 *   **Development CDN** `?env=dev`
 
-    You can use Staticaly as a Development CDN, it means Staticaly CDN will not cache files, new changes you push to GitHub will be reflected within seconds. Development CDN will works when you set up `?env=dev` query string on the URL.
+    You can use Staticaly as a Development CDN, it means Staticaly CDN will not cache files, new changes you push to GitHub will be reflected within minutes. Development CDN will works when you set up `?env=dev` query string on the URL.
 
     Example:
 
