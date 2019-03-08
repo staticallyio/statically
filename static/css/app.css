@@ -528,7 +528,7 @@ hr {
 }
 
 .bg-jet {
-    background-image: url("https://cdn.staticaly.com/img/staticaly.com/static/images/bg/jet.jpg");
+    background-image: url("../images/bg/jet.jpg");
     background-size: cover;
 }
 
