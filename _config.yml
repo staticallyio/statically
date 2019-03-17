@@ -116,7 +116,7 @@ plugins:
     - jekyll-seo-tag
     - jekyll-redirect-from
     - jekyll-sitemap
-    - jekyll-feed
+    #- jekyll-feed
     #- jekyll-minifier
 
 #jekyll-minifier:
