@@ -69,8 +69,8 @@ console.log(
 {% endif %}
 
 {% if page.layout == "markdown" %}
-<script src="{{site.cdn.url}}/gh/markedjs/marked/7f2a917b/marked.min.js"></script>
-<script src="{{site.cdn.url}}/gh/github/fetch/c17d373d/fetch.js"></script>
+<script src="{{site.cdn.url}}/libs/marked/0.6.1/marked.min.js"></script>
+<script src="{{site.cdn.url}}/libs/fetch/3.0.0/fetch.min.js"></script>
 <script>
 fetch('{{page.file}}').then(function(response) {
     return response.text()
