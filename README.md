@@ -129,7 +129,6 @@ Maintainers:
 
 - [fransallen](https://github.com/fransallen) (core team)
 - [tovic](https://github.com/tovic) (core team)
-- [ardyfeb](https://github.com/ardyfeb) (core team)
 
 Wanna join? [Contact us!](https://www.staticaly.com/contact)
 
