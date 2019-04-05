@@ -73,7 +73,7 @@ Favicons CDN
 The technologies that we currently use
 --------------------------------------
 
-<!--optimus start-->
+<!--platinum start-->
 <table class="about-optimus" align="center">
   <tbody>
     <tr>
@@ -110,7 +110,7 @@ The technologies that we currently use
     </tr>
   </tbody>
 </table>
-<!--optimus end-->
+<!--platinum end-->
 
 Sponsorship
 -----------
@@ -120,7 +120,7 @@ Staticaly won't be running perfectly without Our Sponsors. [Meet Our Sponsor](ht
 Support
 -------
 
-Staticaly is free, but we make it a bit more professional. If have any questions or maybe find a bugs, please contact us on [Marsble](https://www.marsble.com/u/staticaly) or create an issue in our [issue trackeer](https://github.com/marsble/staticaly/issues).
+Staticaly is free, but we make it a bit more professional. If have any questions or maybe find a bugs, please contact us on [Marsble](https://www.marsble.com/u/staticaly) or create an issue in our [issue tracker](https://github.com/marsble/staticaly/issues).
 
 Project leaders
 ---------------
