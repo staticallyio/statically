@@ -1,12 +1,12 @@
 # Show (true|false)
-show: false
+show: true
 
 # Icon (Font Awesome)
-icon: love pink
+icon: bullhorn pink
 
 # Attractive description
-description: What’s new on Staticaly?
+description: New features of Staticaly (Libs and Flag Icons CDN)
 
 # Show link only when it exist
-link: https://www.marsble.com/t/104
+link: https://www.marsble.com/t/125
 linktext: Learn more.

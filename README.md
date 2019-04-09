@@ -151,3 +151,4 @@ The following are some good sources for knowing more about Staticaly:
 
 *   [Introducting Staticaly Free CDN for Github, Gitlab, and Bitbucket](https://www.marsble.com/t/23)
 *   [What’s new on Staticaly?](https://www.marsble.com/t/104)
+*   [New features of Staticaly: Libs and Flag Icons CDN](https://www.marsble.com/t/125)
