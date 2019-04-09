@@ -27,7 +27,7 @@
 What is Staticaly?
 ------------------
 
-Free multi-CDN for Git Repositories, WordPress, images and all of static files. Staticaly is [open source](https://github.com/marsble/staticaly) project maintained by [Marsble](https://www.marsble.com/). At Staticaly, we believe that static files shouldn't be slow.
+Staticaly is A free multi-CDN for Git Repositories, WordPress, images and all of static files. Staticaly is [open source](https://github.com/marsble/staticaly) project maintained by [Marsble](https://www.marsble.com/). At Staticaly, we believe that static files shouldn't be slow.
 
 Features
 --------
