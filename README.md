@@ -13,7 +13,7 @@
     <a href="https://github.com/marsble/staticaly/stargazers" target="_blank">
         <img src="https://cdn.staticaly.com/badges/github/stars/marsble/staticaly.svg?style=social" alt="Stars">
     </a>
-    <a href="https://www.marsble.com/user/staticaly" target="_blank">
+    <a href="https://www.marsble.com/u/staticaly" target="_blank">
         <img src="https://cdn.staticaly.com/badges/badge/chat-Marsble-4285f4.svg" alt="Chat">
     </a>
 </p>
@@ -27,15 +27,17 @@
 What is Staticaly?
 ------------------
 
-Staticaly is a **solutions for your static files**. Staticaly is [open source](https://github.com/marsble/staticaly) project built and maintained by [Marsble](https://www.marsble.com/). Now you don't have to worry about it anymore, just upload it to GitHub, Gitlab or Bitbucket, then let us help you serves it with Super Fast Global Content Delivery Network.
+Free multi-CDN for Git Repositories, WordPress, images and all of static files. Staticaly is [open source](https://github.com/marsble/staticaly) project maintained by [Marsble](https://www.marsble.com/). At Staticaly, we believe that static files shouldn't be slow.
 
 Features
 --------
 
 - [Static files CDN](https://www.staticaly.com): CDN for raw files from GitHub, GitLab, and Bitbucket with proper *Content-Type* header.
-- [Imgpx](https://www.staticaly.com/imgpx): FREE Image Acceleration
+- [Imgpx](https://www.staticaly.com/imgpx): Image acceleration and modification.
 - [WordPress static files CDN](https://www.staticaly.com): CDN for WordPress static files.
-- [Favicons](https://www.staticaly.com/favicons): FREE Favicons API
+- [Favicons](https://www.staticaly.com/favicons): Favicons API
+- [Libs](https://www.marsble.com/t/125): Serve all popular libraries
+- [Flag icons](https://www.marsble.com/t/125)
 
 You can always request features, please contact us at [@staticaly](https://www.marsble.com/u/staticaly)
 

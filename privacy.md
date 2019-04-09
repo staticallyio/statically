@@ -94,7 +94,7 @@ We may use third-party Service Providers to monitor and analyze the use of our S
 
 *   **Marsble Pixel** for **www.staticaly.com**
 
-    For more information on the privacy practices of Marsble, please visit the following web page: [https://www.marsble.com/privacy](https://www.cloudflare.com/privacy)
+    For more information on the privacy practices of Marsble, please visit the following web page: [https://www.marsble.com/privacy](https://www.marsble.com/privacy)
 
 *   **Google Analytics** for **www.staticaly.com**
 
