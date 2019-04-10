@@ -20,7 +20,7 @@ encoding:             "UTF-8"
 permalink:            /:title
 highlighter:          rouge
 version:              0.1
-year:                 2018
+year:                 2019
 
 # Utilities
 future:               true
