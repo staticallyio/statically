@@ -1,10 +1,10 @@
 <p align="center"><a class="clear" href="https://www.staticaly.com/" target="_blank"><img width="92" src="https://cdn.staticaly.com/img/www.staticaly.com/static/images/staticaly.png?w=92" alt="Staticaly logo"></a></p>
 
 <p class="staticaly-badge" align="center">
-    <a href="https://www.staticaly.com/stats" target="_blank">
+    <a href="https://www.staticaly.com/stats">
         <img src="https://apis.marsble.com/staticaly/v1/badges?req" alt="Total Requests">
     </a>
-    <a href="https://www.staticaly.com/stats" target="_blank">
+    <a href="https://www.staticaly.com/stats">
         <img src="https://apis.marsble.com/staticaly/v1/badges?bandwidth" alt="Total Bandwidth">
     </a>
     <a href="https://github.com/marsble/staticaly/network" target="_blank">
