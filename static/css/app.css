@@ -1214,10 +1214,10 @@ td {
 }
 
 .nav .gh {
-    background: #555;
-    color: #fff;
+    background: #555!important;
+    color: #fff!important;
 }
 
 .nav .gh:hover {
-    background: #000;
+    background: #000!important;
 }
