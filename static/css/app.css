@@ -1213,3 +1213,11 @@ td {
     visibility: hidden;
 }
 
+.nav .gh {
+    background: #555;
+    color: #fff;
+}
+
+.nav .gh:hover {
+    background: #000;
+}

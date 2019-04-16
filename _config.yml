@@ -112,15 +112,6 @@ kramdown:
 
 # Plugins
 plugins:
-    - jekyll-coffeescript
     - jekyll-seo-tag
     - jekyll-redirect-from
     - jekyll-sitemap
-    #- jekyll-feed
-    #- jekyll-minifier
-
-#jekyll-minifier:
-    #remove_https_protocol: true
-    #exclude:
-        #- "static/js/app.js"
-        #- "src/lambda/hello.js"
