@@ -2,10 +2,10 @@
 
 <p class="staticaly-badge" align="center">
     <a href="https://www.staticaly.com/stats">
-        <img src="https://apis.marsble.com/bagdes/v1/staticaly?req" alt="Total Requests">
+        <img src="https://apis.marsble.com/badges/v1/staticaly?req" alt="Requests/month">
     </a>
     <a href="https://www.staticaly.com/stats">
-        <img src="https://apis.marsble.com/badges/v1/staticaly?bandwidth" alt="Total Bandwidth">
+        <img src="https://apis.marsble.com/badges/v1/staticaly?bandwidth" alt="Bandwidth/month">
     </a>
     <a href="https://github.com/marsble/staticaly/network" target="_blank">
         <img src="https://cdn.staticaly.com/badges/github/forks/marsble/staticaly.svg?style=social" alt="Forks">
