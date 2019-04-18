@@ -35,27 +35,27 @@ Staticaly is A free multi-CDN for Git Repositories, WordPress, images and all of
 How to use?
 -----
 
-GitHub CDN
+**GitHub CDN**
 
 `https://cdn.staticaly.com/gh/:user/:repo/:tag/:file`
 
-GitLab CDN
+**GitLab CDN**
 
 `https://cdn.staticaly.com/gl/:user/:repo/:tag/:file`
 
-Bitbucket CDN
+**Bitbucket CDN**
 
 `https://cdn.staticaly.com/bb/:user/:repo/:tag/:file`
 
-Imgpx CDN
+**Imgpx CDN**
 
 `https://cdn.staticaly.com/img/:image_url`
 
-Libs CDN
+**Libs CDN**
 
 `https://cdn.staticaly.com/libs/:name/:version/:file`
 
-WordPress CDN
+**WordPress CDN**
 
 `https://cdn.staticaly.com/wp/c/:version/wp-includes/:file`
 
@@ -63,11 +63,11 @@ WordPress CDN
 
 `https://cdn.staticaly.com/wp/t/:theme_name/:version/:file`
 
-Favicons CDN
+**Favicons CDN**
 
 `https://cdn.staticaly.com/favicons/:domain`
 
-Screenshot as a service CDN
+**Screenshot as a service CDN**
 
 `https://cdn.staticaly.com/screenshot/:url`
 
@@ -79,7 +79,7 @@ Features
 - [Libs](https://www.marsble.com/t/125): Serve all popular libraries.
 - [WordPress static files CDN](https://www.staticaly.com): CDN for WordPress static files.
 - [Favicons](https://www.staticaly.com/favicons): Favicons API.
-- [Screenshot as a service](https://cdn.staticaly.com/screenshot/staticaly.com): capture website screenshot on-the-fly.
+- [Screenshot as a service](https://www.staticaly.com/screenshot): capture website screenshot on-the-fly.
 - [Flag icons](https://www.marsble.com/t/125): CDN for flag icons.
 
 You can always request features, please contact us at [@staticaly](https://www.marsble.com/u/staticaly)
