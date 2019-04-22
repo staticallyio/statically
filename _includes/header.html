@@ -22,8 +22,8 @@
 
 {% if page.image == null %}
 	{% if page.permalink == '/' %}
-	<meta property="og:image" content="{{site.cdn.url}}/og-image/**{{site.title}}**%3Cbr%3EA{{site.tagline | url_encode}}.png?theme=dark&md=1">
-	<meta property="twitter:image" content="{{site.cdn.url}}/og-image/**{{site.title}}**%3Cbr%3EA{{site.tagline | url_encode}}.png?theme=dark&md=1">
+	<meta property="og:image" content="{{site.cdn.url}}/og-image/**Staticaly**%3Cbr%3EA%20free%20CDN%20for%20Git%20repositories%2C%20WordPress%2C%20images%20and%20more.png?theme=dark&md=1&fontSize=75px">
+	<meta property="twitter:image" content="{{site.cdn.url}}/og-image/**Staticaly**%3Cbr%3EA%20free%20CDN%20for%20Git%20repositories%2C%20WordPress%2C%20images%20and%20more.png?theme=dark&md=1&fontSize=75px">
 	{% else %}
 	<meta property="og:image" content="{{site.cdn.url}}/og-image/{{page.title | url_encode}}.png?theme=dark&md=1">
 	<meta property="twitter:image" content="{{site.cdn.url}}/og-image/{{page.title | url_encode}}.png?theme=dark&md=1">
