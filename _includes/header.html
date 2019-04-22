@@ -27,6 +27,7 @@
 	{% else %}
 	<meta property="og:image" content="{{site.cdn.url}}/og-image/{{page.title | url_encode}}.png?theme=dark&md=1">
 	<meta property="twitter:image" content="{{site.cdn.url}}/og-image/{{page.title | url_encode}}.png?theme=dark&md=1">
+	{% endif %}
 {% endif %}
 
 <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="{{site.title}}">
