@@ -107,13 +107,13 @@
   }
 
   function formatGitLabRepoUrl(url) {
-    inputProd.value = url.replace(REGEX_GITLAB_REPO_URL, 'https://' + cdn_domain + '/gl/$1/raw/$2');
+    inputProd.value = url.replace(REGEX_GITLAB_REPO_URL, 'https://' + cdn_domain + '/gl/$1/$2');
 
     setValid();
   }
 
   function formatBitbucketRepoUrl(url) {
-    inputProd.value = url.replace(REGEX_BITBUCKET_REPO_URL, 'https://' + cdn_domain + '/bb/$1/raw/$2');
+    inputProd.value = url.replace(REGEX_BITBUCKET_REPO_URL, 'https://' + cdn_domain + '/bb/$1/$2');
 
     setValid();
   }
