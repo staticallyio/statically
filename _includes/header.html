@@ -20,9 +20,14 @@
 
 {% seo title=false %}
 
+{% if page.image == null %}
+<meta property="og:image" content="{{site.cdn.url}}/og-image/{{page.title}}.png?theme=dark&md=1">
+<meta property="twitter:image" content="{{site.cdn.url}}/og-image/{{page.title}}.png?theme=dark&md=1">
+{% endif %}
+
 <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="{{site.title}}">
 
-<link rel="stylesheet" href="https://cdn.staticaly.com/fonts/google/css?family=Open+Sans:400,700|Source+Code+Pro:400,700">
+<link rel="stylesheet" href="{{site.cdn.url}}/fonts/google/css?family=Open+Sans:400,700|Source+Code+Pro:400,700">
 <link rel="stylesheet" href="{{site.cdn.url}}/libs/font-awesome/5.7.2/css/all.min.css">
 <link rel="stylesheet" href="{{site.cdn.static}}/css/app.css?v={{site.version}}">
 
