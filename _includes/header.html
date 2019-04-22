@@ -21,8 +21,12 @@
 {% seo title=false %}
 
 {% if page.image == null %}
-<meta property="og:image" content="{{site.cdn.url}}/og-image/{{page.title}}.png?theme=dark&md=1">
-<meta property="twitter:image" content="{{site.cdn.url}}/og-image/{{page.title}}.png?theme=dark&md=1">
+	{% if page.permalink == '/' %}
+	<meta property="og:image" content="{{site.cdn.url}}/og-image/**{{site.title}}**%3Cbr%3EA{{site.tagline | url_encode}}.png?theme=dark&md=1">
+	<meta property="twitter:image" content="{{site.cdn.url}}/og-image/**{{site.title}}**%3Cbr%3EA{{site.tagline | url_encode}}.png?theme=dark&md=1">
+	{% else %}
+	<meta property="og:image" content="{{site.cdn.url}}/og-image/{{page.title | url_encode}}.png?theme=dark&md=1">
+	<meta property="twitter:image" content="{{site.cdn.url}}/og-image/{{page.title | url_encode}}.png?theme=dark&md=1">
 {% endif %}
 
 <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="{{site.title}}">
