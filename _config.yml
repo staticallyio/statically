@@ -7,7 +7,7 @@ tagline:              >-
 
 # Define description for the site
 description:          >-
-    Staticaly is a free CDN for Git repositories, WordPress, images and other assets with high-performance of caching and optimization.
+    Staticaly is a free multi-CDN for Git repositories, WordPress, images and other assets with high-performance of caching and optimization.
 
 # Also used for SEO Tag
 logo:                 "/static/images/staticaly_wide.svg"
