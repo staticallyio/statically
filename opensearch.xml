@@ -3,7 +3,7 @@
     <ShortName>Staticaly</ShortName>
     <Description>Project URL</Description>
     <InputEncoding>UTF-8</InputEncoding>
-    <Image width="16" height="16" type="image/x-icon">https://www.staticaly.com/favicon.ico</Image>
-    <Url type="text/html" method="get" template="https://www.staticaly.com/?url={searchTerms}"/>
-    <moz:SearchForm>https://www.staticaly.com</moz:SearchForm>
+    <Image width="16" height="16" type="image/x-icon">https://staticaly.com/favicon.ico</Image>
+    <Url type="text/html" method="get" template="https://staticaly.com/?url={searchTerms}"/>
+    <moz:SearchForm>https://staticaly.com</moz:SearchForm>
 </OpenSearchDescription>
