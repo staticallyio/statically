@@ -14,7 +14,7 @@ logo:                 "/static/images/staticaly_wide.svg"
 lang:                 "en_US"
 
 # Set URL
-url:                  "https://www.staticaly.com"
+url:                  "https://staticaly.com"
 
 encoding:             "UTF-8"
 permalink:            /:title
@@ -51,7 +51,7 @@ google:
 social:
     name:             "Staticaly"
     links:
-      - https://www.marsble.com/u/staticaly
+      - https://marsble.com/u/staticaly
       - https://twitter.com/staticalyhq
       - https://www.instagram.com/staticalyhq
       - https://github.com/staticaly
