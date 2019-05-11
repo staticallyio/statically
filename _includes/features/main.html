@@ -1,49 +1,93 @@
 <div class="main">
     <div class="column">
         <h3>How to use?</h3>
-        <h4>GitHub CDN</h4>
+        <h4>CDN for GitHub files</h4>
         <code>{{site.cdn.url}}/gh/:user/:repo/:tag/:file</code>
 
-        <h4>GitLab CDN</h4>
-        <code>https://cdn.staticaly.com/gl/:user/:repo/:tag/:file</code>
+        <h4>CDN for GitLab files</h4>
+        <code>{{site.cdn.url}}/gl/:user/:repo/:tag/:file</code>
 
-        <h4>Bitbucket CDN</h4>
-        <code>https://cdn.staticaly.com/bb/:user/:repo/:tag/:file</code>
+        <h4>CDN for Bitbucket files</h4>
+        <code>{{site.cdn.url}}/bb/:user/:repo/:tag/:file</code>
 
-        <h4>WordPress CDN</h4>
-        <code>https://cdn.staticaly.com/wp/c/:version/wp-includes/:file</code>
-        <code>https://cdn.staticaly.com/wp/p/:plugin_name/:version/:file</code>
-        <code>https://cdn.staticaly.com/wp/t/:theme_name/:version/:file</code>
-        
-        <h4>Imgpx CDN</h4>
-        <code>https://cdn.staticaly.com/img/:image_url</code>
+        <h4>CDN for custom endpoint images</h4>
+        <code>{{site.cdn.url}}/img/:image_url</code>
 
-        <h4>Favicons CDN</h4>
-        <code>https://cdn.staticaly.com/favicons/:favicon_url</code>
+        <h4>CDN for any popular web library</h4>
+        <code>{{site.cdn.url}}/libs/:name/:version/:file</code>
+
+        <h4>CDN for WordPress static files</h4>
+        <code>{{site.cdn.url}}/wp/c/:version/wp-includes/:file</code>
+        <code>{{site.cdn.url}}/wp/p/:plugin_name/:version/:file</code>
+        <code>{{site.cdn.url}}/wp/t/:theme_name/:version/:file</code>
+
+        <h4>Get a favicon from a domain</h4>
+        <code>{{site.cdn.url}}/favicons/:domain</code>
+
+        <h4>Take a screenshot of a webpage</h4>
+        <code>{{site.cdn.url}}/screenshot/:url</code>
     </div>
 
     <div class="column">
         <h3>Example</h3>
-        <p>Load the production file of <strong>jQuery</strong> from GitHub</p>
+        <p><strong>Serve css/js/image</strong> files from GitHub</p>
         <div class="inp-container normal">
-            <input id="js-jquery" class="inp" value="{{site.cdn.url}}/gh/jquery/jquery-dist/master/dist/jquery.min.js" readonly tabindex="2">
-            <button data-clipboard-target="#js-jquery" class="inp-copy-button" title="Copy URL">
+            <input id="css-gh" class="inp" value="{{site.cdn.url}}/gh/twbs/bootstrap/master/dist/css/bootstrap.min.css" readonly tabindex="2">
+            <button data-clipboard-target="#css-gh" class="inp-copy-button" title="Copy URL">
                 <i class="fa fa-copy"></i>
             </button>
         </div>
 
-        <p>And <strong>Bootstrap CSS</strong></p>
-        <div class="inp-container normal">
-            <input id="css-bs" class="inp" value="{{site.cdn.url}}/gh/twbs/bootstrap/v4-dev/dist/css/bootstrap.min.css" readonly tabindex="2">
-            <button data-clipboard-target="#css-bs" class="inp-copy-button" title="Copy URL">
+        <div class="inp-container normal" style="margin-top: 5px">
+            <input id="js-gh" class="inp" value="{{site.cdn.url}}/gh/jquery/jquery-dist/master/dist/jquery.min.js" readonly tabindex="2">
+            <button data-clipboard-target="#js-gh" class="inp-copy-button" title="Copy URL">
                 <i class="fa fa-copy"></i>
             </button>
         </div>
 
-        <p>Or <strong>WordPress core file</strong> from WordPress.org SVN</p>
+        <div class="inp-container normal" style="margin-top: 5px">
+            <input id="img-gh" class="inp" value="{{site.cdn.url}}/gh/marsble/statically/master/static/images/statically.png" readonly tabindex="2">
+            <button data-clipboard-target="#img-gh" class="inp-copy-button" title="Copy URL">
+                <i class="fa fa-copy"></i>
+            </button>
+        </div>
+
+        <p><strong>Serve images</strong> from custom endpoints</p>
+        <div class="inp-container normal">
+            <input id="imgpx" class="inp" value="{{site.cdn.url}}/img/statically.io/static/images/misc/clouds.jpg" readonly tabindex="2">
+            <button data-clipboard-target="#imgpx" class="inp-copy-button" title="Copy URL">
+                <i class="fa fa-copy"></i>
+            </button>
+        </div>
+
+        <p><strong>Get Twemoji's image</strong> with <a href="https://marsble.com/t/125" target="_blank">Libs</a></p>
+        <div class="inp-container normal">
+            <input id="twemoji-bs" class="inp" value="{{site.cdn.url}}/libs/twemoji/12.0.1/2/72x72/1f31d.png" readonly tabindex="2">
+            <button data-clipboard-target="#css-twemoji" class="inp-copy-button" title="Copy URL">
+                <i class="fa fa-copy"></i>
+            </button>
+        </div>
+
+        <p><strong>Get WordPress's static files</strong> from WordPress.org SVN</p>
         <div class="inp-container normal">
             <input id="wp-core" class="inp" value="{{site.cdn.url}}/wp/c/latest/wp-includes/css/dashicons.min.css" readonly tabindex="2">
             <button data-clipboard-target="#wp-core" class="inp-copy-button" title="Copy URL">
+                <i class="fa fa-copy"></i>
+            </button>
+        </div>
+
+        <p><strong>Get a favicon</strong> of google.com</p>
+        <div class="inp-container normal">
+            <input id="img-favicon" class="inp" value="{{site.cdn.url}}/favicons/google.com" readonly tabindex="2">
+            <button data-clipboard-target="#img-favicon" class="inp-copy-button" title="Copy URL">
+                <i class="fa fa-copy"></i>
+            </button>
+        </div>
+
+        <p><strong>Take a screenshot</strong> of http://google.com</p>
+        <div class="inp-container normal">
+            <input id="img-scr" class="inp" value="{{site.cdn.url}}/screenshot/google.com" readonly tabindex="2">
+            <button data-clipboard-target="#img-scr" class="inp-copy-button" title="Copy URL">
                 <i class="fa fa-copy"></i>
             </button>
         </div>

@@ -1,5 +1,5 @@
 # Set HSTS
-https://staticaly.com/
+https://statically.io/
     Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 
 # Security for all pages

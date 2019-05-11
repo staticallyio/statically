@@ -2,27 +2,34 @@
     {% include promo-v2.html %}
 {% endif %}
 
-<footer class="ft">
-    <p class="link">
-        &copy; {{site.year}}
-        <a href="https://marsble.com/">Marsble</a> &bull;
-        <a href="/about">About</a> &bull;
-        <a href="/stats">Stats</a> &bull;
-        <a href="/privacy">Privacy</a> &bull;
-        <a href="/about#abuse">Abuse</a> &bull;
-        <a href="https://status.marsble.com/">Status</a> &bull;
-        <a href="/contact">Contact</a>
-    </p>
+<nav class="ft">
+    <ul class="link">
+        <li><a href="https://marsble.com/">Marsble</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/stats">Stats</a></li>
+        <li><a href="/privacy">Privacy</a></li>
+        <li><a href="/about#abuse">Abuse</a></li>
+        <li><a href="https://status.marsble.com/">Status</a></li>
+        <li><a href="https://twitter.com/{{site.twitter.username}}">Twitter</a></li>
+        <li><a href="{{site.repo}}">GitHub</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+</nav>
 
-    <p class="link right social">
-        <a href="https://twitter.com/{{site.twitter.username}}" target="_blank
-        "><i class="fab fa-twitter"></i></a>
-        <a href="https://github.com/{{site.github_username}}" target="_blank
-        "><i class="fab fa-github"></i></a>
-        <a href="https://marsble.com/u/{{site.marsble.username}}" target="_blank
-        "><i class="fa fa-rss"></i></a>
-    </p>
-</footer>
+<div class="line">
+    <div class="left">
+        <div class="l0"></div>
+        <div class="l1"></div>
+        <div class="l2"></div>  
+    </div>
+
+    <div class="right">
+        <div class="l1"></div>
+        <div class="l3"></div>
+        <div class="l0"></div>
+        <div class="l2"></div>
+    </div>
+</div>
 
 </div><!-- /.app -->
 
@@ -42,6 +49,7 @@ if (getQuery('url') ) {
 {% if page.permalink == '/contact' %}
 if (getQuery('subject') ) {
     document.getElementById('subject').value = decodeURIComponent(getQuery('subject'));
+    document.getElementById('message').value = decodeURIComponent(getQuery('message'));
 }
 {% endif %}
 </script>

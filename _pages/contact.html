@@ -3,30 +3,41 @@ layout: page
 title: Contact
 title_show: false
 description: We'd love to hear about you, contact us now!
-bgcolor: prime
 permalink: /contact
 ---
 
-<h2 class="hero"><i class="fa fa-heart"></i> We'd love to hear about you, contact us now!</h2>
+<style>
+.inp {
+    border-color: #ccc;
+}
 
-<div class="main">
-    <div class="column">
-        <img src="{{site.cdn.static}}/images/features/contact.svg" alt="Contact">
-    </div>
+.inp:focus {
+    border-color: #444;
+}
 
-    <div class="column">
-        <p>These are some ways to contact us:</p>
+.contact-content {
+    margin: 5em 3em 7em 3em;
+}
+
+::placeholder {
+    color: #444;
+}
+</style>
+
+<h2 class="hero">We <i class="fa fa-heart pink"></i><span class="none">love</span> to hear about you!</h2>
+
+<div class="contact-content">
+    <p>These are some ways to contact us:</p>
 
         <ul>
-            <li><a class="white" href="https://www.marsble.com/u/{{site.marsble.username}}">Join us on Marsble</a></li>
-            <li><a class="white" href="https://github.com/{{site.github_username}}/issues">Create a New Issue</a></li>
-            <li><a class="white" href="mailto:sponsorship@marsble.com">Sponsorship Inquiries</a></li>
+            <li><a href="https://marsble.com/u/{{site.marsble.username}}">Join us on Marsble</a></li>
+            <li><a href="{{site.repo}}/issues">Create a new issue</a></li>
+            <li><a href="mailto:sponsorship@marsble.com">Sponsorship inquiries</a></li>
         </ul>
 
         <p>Or you can fill in the contact form below..</p>	
 
          {% include contact-form.html %}
-    </div>
 </div>
 
 <hr>
@@ -34,5 +45,5 @@ permalink: /contact
 <div id="become-a-sponsors" class="main center">
     <h2><i class="fa fa-thumbs-up"></i> Make the project more better!</h2>
     <p>{{site.data.promo.description}}</p>
-    <a class="btn btn-white" href="/become-a-sponsor">Become A Sponsor <i class="fa fa-bolt"></i></a>
+    <a class="btn" href="/become-a-sponsor">Become A Sponsor <i class="fa fa-bolt"></i></a>
 </div>

@@ -1,5 +1,5 @@
 # General
-title:                "Staticaly"
+title:                "Statically"
 
 # A simple tagline: Make it Static!
 tagline:              >-
@@ -7,14 +7,14 @@ tagline:              >-
 
 # Define description for the site
 description:          >-
-    Staticaly is a free multi-CDN for Git repositories, WordPress, images and other assets with high-performance of caching and optimization.
+    Statically is a free multi-CDN for Git repositories, WordPress, images and other assets with high-performance of caching and optimization.
 
 # Also used for SEO Tag
-logo:                 "/static/images/staticaly_wide.svg"
+logo:                 "/static/images/statically_wide.svg"
 lang:                 "en_US"
 
 # Set URL
-url:                  "https://staticaly.com"
+url:                  "https://statically.io"
 
 encoding:             "UTF-8"
 permalink:            /:title
@@ -27,10 +27,10 @@ future:               true
 jailed:               false
 gfm_quirks:           paragraph_end
 
-repo:                 "https://github.com/marsble/staticaly"
+repo:                 "https://github.com/marsble/statically"
 
-# Staticaly
-staticaly:
+# Statically
+statically:
     devs_url:         "https://developers.marsble.com"
     datacenter_num:   165+
     main_cdn:         "CloudFlare, Fastly, CDN77, and BunnyCDN"
@@ -39,33 +39,29 @@ staticaly:
 
 # Analytics
 marsble:
-    username:         staticaly
-    analytics_url:    "https://pixel.marsble.com"
-    analytics_id:     "921b301945cfd2a048e13a9d1a1b67a86be4b8c8"
-
-# Google
-google:
-    analytics_id:     "UA-74801412-7"
+    username:         statically
+    analyticsDomain:  "pixel.marsble.com"
+    analyticsId:      "2"
 
 # Social
 social:
-    name:             "Staticaly"
+    name:             "Statically"
     links:
-      - https://marsble.com/u/staticaly
-      - https://twitter.com/staticalyhq
-      - https://www.instagram.com/staticalyhq
-      - https://github.com/staticaly
+      - https://marsble.com/u/statically
+      - https://twitter.com/staticallyio
+      - https://www.instagram.com/statically
+      - https://github.com/statically
 
 # Twitter
 twitter:
-    username:         staticalyhq
+    username:         staticallyio
 
 # Instagram
 instagram:
-    username:         staticalyhq
+    username:         statically
 
 # GitHub
-github_username:      marsble/staticaly
+github_username:      marsble/statically
 
 # The author
 author:
@@ -76,18 +72,18 @@ defaults:
   - scope:
       path:           "/static/images"
     values:
-      image:          "/staticaly_icon_bg_dark_lg.png"
+      image:          "/statically_icon_bg_dark_lg.png"
 
 # Static files
 cdn:
-    domain:           "cdn.staticaly.com"
-    url:              "https://cdn.staticaly.com"
-    imgpx_domain:     "cdn.staticaly.com/img"
-    imgpx_url:        "https://cdn.staticaly.com/img"
-    favicons_domain:  "cdn.staticaly.com/favicons"
-    favicons_url:     "https://cdn.staticaly.com/favicons"
-    badge_domain:     "cdn.staticaly.com/badges"
-    badge_url:        "https://cdn.staticaly.com/badges"
+    domain:           "cdn.statically.io"
+    url:              "https://cdn.statically.io"
+    imgpx_domain:     "cdn.statically.io/img"
+    imgpx_url:        "https://cdn.statically.io/img"
+    favicons_domain:  "cdn.statically.io/favicons"
+    favicons_url:     "https://cdn.statically.io/favicons"
+    badge_domain:     "cdn.statically.io/badges"
+    badge_url:        "https://cdn.statically.io/badges"
     static:           "/static"
 
 sass:

@@ -22,8 +22,8 @@
 
 {% if page.image == null %}
 	{% if page.permalink == '/' %}
-	<meta property="og:image" content="{{site.cdn.url}}/og-image/**Staticaly**%3Cbr%3EA%20free%20CDN%20for%20Git%20repositories%2C%20WordPress%2C%20images%20and%20more.png?theme=dark&md=1&fontSize=75px">
-	<meta property="twitter:image" content="{{site.cdn.url}}/og-image/**Staticaly**%3Cbr%3EA%20free%20CDN%20for%20Git%20repositories%2C%20WordPress%2C%20images%20and%20more.png?theme=dark&md=1&fontSize=75px">
+	<meta property="og:image" content="{{site.cdn.url}}/og-image/**Statically**%3Cbr%3EA%20free%20CDN%20for%20Git%20repositories%2C%20WordPress%2C%20images%20and%20more.png?theme=dark&md=1&fontSize=75px">
+	<meta property="twitter:image" content="{{site.cdn.url}}/og-image/**Statically**%3Cbr%3EA%20free%20CDN%20for%20Git%20repositories%2C%20WordPress%2C%20images%20and%20more.png?theme=dark&md=1&fontSize=75px">
 	{% else %}
 	<meta property="og:image" content="{{site.cdn.url}}/og-image/**{{page.title}}**.png?theme=dark&md=1&fontSize=75px">
 	<meta property="twitter:image" content="{{site.cdn.url}}/og-image/**{{page.title}}**.png?theme=dark&md=1&fontSize=75px">
@@ -36,7 +36,7 @@
 <link rel="stylesheet" href="{{site.cdn.url}}/libs/font-awesome/5.7.2/css/all.min.css">
 <link rel="stylesheet" href="{{site.cdn.static}}/css/app.css?v={{site.version}}">
 
-<link rel="icon" href="{{site.cdn.static}}/images/staticaly_sm.png">
+<link rel="icon" href="{{site.cdn.static}}/images/statically_sm.png">
 
 <script src="{{site.cdn.url}}/libs/jquery/3.4.0/jquery.min.js"></script>
 
@@ -47,8 +47,8 @@ var cdn_domain = '{{site.cdn.domain}}';
 var app_domain = '{{page.app_domain}}';
 {% endif %}
 
-var datacenter_num = '{{site.staticaly.datacenter_num}}';
-var main_cdn = '{{site.staticaly.main_cdn}}';
+var datacenter_num = '{{site.statically.datacenter_num}}';
+var main_cdn = '{{site.statically.main_cdn}}';
 </script>
 
 </head>

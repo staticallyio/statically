@@ -2,11 +2,11 @@
 
 > This Privacy Policy is meant to help you understand what information we collect, and why we collect it.
 
-**Staticaly** ("us", "we", or "our") operates the **\*staticaly.com** website (hereinafter referred to as the "Service").
+**Statically** ("us", "we", or "our") operates the **\*staticaly.com**, **\*statically.io** website (hereinafter referred to as the "Service").
 
 This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
 
-We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from https://staticaly.com
+We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from https://statically.io
 
 Information Collection And Use
 ---------------------------------
@@ -42,7 +42,7 @@ Examples of Cookies we use:
 Use of Data
 -----------
 
-Staticaly uses the collected data for various purposes:
+Statically uses the collected data for various purposes:
 
 *   To provide and maintain the Service
 *   To notify you about changes to our Service
@@ -61,17 +61,17 @@ If you are located outside Indonesia and choose to provide information to us, pl
 
 Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
 
-Staticaly will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
+Statically will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
 
 Disclosure Of Data
 ------------------
 
 ### Legal Requirements
 
-Staticaly may disclose your Personal Data in the good faith belief that such action is necessary to:
+Statically may disclose your Personal Data in the good faith belief that such action is necessary to:
 
 *   To comply with a legal obligation
-*   To protect and defend the rights or property of Staticaly
+*   To protect and defend the rights or property of Statically
 *   To prevent or investigate possible wrongdoing in connection with the Service
 *   To protect the personal safety of users of the Service or the public
 *   To protect against legal liability
@@ -92,21 +92,13 @@ These third parties have access to your Personal Data only to perform these task
 
 We may use third-party Service Providers to monitor and analyze the use of our Service.
 
-*   **Marsble Pixel** for **staticaly.com**
+*   **Marsble Pixel** for **statically.io**
 
     For more information on the privacy practices of Marsble, please visit the following web page: [https://marsble.com/privacy](https://marsble.com/privacy)
 
-*   **Google Analytics** for **staticaly.com**
-
-    Google Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network.
-
-    You can opt-out of having made your activity on the Service available to Google Analytics by installing the Google Analytics opt-out browser add-on. The add-on prevents the Google Analytics JavaScript (ga.js, analytics.js, and dc.js) from sharing information with Google Analytics about visits activity.
-
-    For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page: [https://policies.google.com/privacy?hl=en](https://policies.google.com/privacy?hl=en)
-
 ### CDN for main site (Content Delivery Network)
 
-We use third-party Service Providers to serve all of our traffic under the domain **staticaly.com**. This means all of these providers have access to your IP address and other information sent by your web browser. This information is used for analytics and security purposes. Neither we nor our providers track any individual user.
+We use third-party Service Providers to serve all of our traffic under the domain **statically.io**. This means all of these providers have access to your IP address and other information sent by your web browser. This information is used for analytics and security purposes. Neither we nor our providers track any individual user.
 
 *   **Netlify**
 
@@ -114,7 +106,7 @@ We use third-party Service Providers to serve all of our traffic under the domai
 
 ### CDN (Content Delivery Network)
 
-We use third-party Service Providers to serve all of our traffic under the domain **cdn.staticaly.com**. This means all of these providers have access to your IP address and other information sent by your web browser. This information is used for analytics and security purposes. Neither we nor our providers track any individual user.
+We use third-party Service Providers to serve all of our traffic under the domain **cdn.statically.io**. This means all of these providers have access to your IP address and other information sent by your web browser. This information is used for analytics and security purposes. Neither we nor our providers track any individual user.
 
 *   **CloudFlare**
 
@@ -160,5 +152,5 @@ Contact Us
 
 If you have any questions about this Privacy Policy, please contact us:
 
-*   By visiting our [contact page](https://staticaly.com/contact).
-*   Tweet us on [Twitter](https://twitter.com/staticalyhq).
+*   By visiting our [contact page](https://statically.io/contact).
+*   Tweet us on [Twitter](https://twitter.com/staticallyio).

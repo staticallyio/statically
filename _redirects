@@ -1,7 +1,8 @@
 # Redirect default Netlify subdomain to primary domain
-https://staticaly.netlify.com/* https://staticaly.com/:splat 301!
+https://statically.netlify.com/* https://statically.io/:splat 301!
+https://staticaly.com/* https://statically.io/:splat 301!
 
 # Page redirections
 /img /imgpx 301!
 /favicon /favicons 301!
-/badge https://badges 301!
+/badge /badges 301!

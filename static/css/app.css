@@ -846,14 +846,6 @@ hr {
         margin-left: 0 !important;
         margin-top: 10px;
     }
-    #sponsors-optimus {
-        text-align: center;
-        padding-bottom: 3em !important;
-        padding-top: 1em !important;
-    }
-    #sponsors-optimus .column {
-        padding: 1em;
-    }
     .sponsor-title {
         margin-top: 2em;
     }
@@ -947,7 +939,8 @@ hr {
 
 .ft {
     border-top: 1px solid #efefef;
-    font-size: 0.8em;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .ft a {
@@ -1026,11 +1019,19 @@ h2 .fa {
     background: #f9f9f9;
     border-bottom: 1px solid #eee;
     padding: 2em;
-    padding-bottom: 1em;
+    text-align: center;
 }
 
 #sponsors-optimus h2 {
     font-style: italic;
+}
+
+#sponsors-optimus a {
+    margin-left: 1em;
+}
+
+#sponsors-optimus a:hover, #sponsors-optimus a:focus {
+    background: none;
 }
 
 .circle {
@@ -1046,13 +1047,13 @@ h2 .fa {
 }
 
 .ft .link {
-    width: 50%;
-    display: inline-block;
-}
-
-.ft .link.right {
-    float: right;
-    text-align: right;
+    -moz-column-count: 2;
+    column-count: 2;
+    margin: 6rem auto 4rem;
+    max-width: 415px;
+    width: 100%;
+    list-style: none;
+    list-style-image: none;
 }
 
 .link.social a {
@@ -1177,11 +1178,11 @@ td {
     height: auto;
 }
 
-.staticaly-badge a {
+.statically-badge a {
     border-bottom: 0;
 }
 
-.staticaly-badge a:hover, .staticaly-badge a:focus {
+.statically-badge a:hover, .statically-badge a:focus {
     background: none;
 }
 
@@ -1220,4 +1221,49 @@ td {
 
 .nav .gh:hover {
     background: #000!important;
+}
+
+.line .right {
+    direction: rtl;
+}
+
+.line .l0 {
+    border: 8px solid #fa8072;
+    width: 15%;
+}
+
+.line .l1 {
+    border: 5px solid #83ffe3;
+    width: 25%;
+}
+
+.line .l2 {
+    border: 10px solid #6e89f1;
+    width: 20%;
+}
+
+.line .l3 {
+    border: 6px solid #faeb71;
+    width: 22%;
+}
+
+.line .right .l0 {
+    width: 23%;
+}
+
+.line .right .l1 {
+    width: 20%;
+}
+
+.line .right .l2 {
+    width: 25%;
+}
+
+@media (min-width: 768px) {
+    .ft .link {
+        -moz-column-count: 3;
+        column-count: 3;
+        margin: 4rem auto 6rem;
+        max-width: 700px;
+    }
 }

@@ -1,77 +1,39 @@
 ---
+layout: special
+title: Screenshot as a service by Statically
+description: Easily take a screenshot of a webpage just by URL.
+bgcolor: blue
+app_url: 'https://cdn.statically.io/screenshot'
+promo: true
 permalink: /screenshot
 ---
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Screenshot as a service by Staticaly</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <style>
+<style>
+ul {
+  list-style: none;
+  list-style-image: none;
+}
+</style>
 
-      body {
-        font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-        margin: 20px;
-      }
-
-      .container {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-      }
-
-      a {
-        cursor: pointer;
-        color: #0076FF;
-        text-decoration: none;
-        transition: all 0.2s ease;
-        border-bottom: 1px solid white;
-      }
-
-      a:hover {
-        border-bottom: 1px solid #0076FF;
-      }
-
-      ul {
-        padding: 0;
-        list-style-type: none;
-        margin-left: 15px;
-      }
-
-      li {
-        margin-bottom: 10px;
-      }
-
-      li:before {
-        content: '–';
-        display: inline-block;
-        color: #999;
-        position: absolute;
-        margin-left: -15px;
-        transition: color 0.2s ease;
-      }
-    </style>
-    <body>
-        <div class="container">
-          <div class="wrapper">
-            <h1>Screenshot as a service by Staticaly</h1>
-            <p>Please provide a path to a website or choose one of the following:</p>
-            <ul>
-                <li><a href="https://cdn.staticaly.com/screenshot/marsble.com">https://cdn.staticaly.com/screenshot/marsble.com</a></li>
-                <li><a href="https://cdn.staticaly.com/screenshot/staticaly.com/sponsors?type=png">https://cdn.staticaly.com/screenshot/staticaly.com/sponsors?type=png</a></li>
-                <li><a href="https://cdn.staticaly.com/screenshot/staticaly.com?fullPage=true">https://cdn.staticaly.com/screenshot/staticaly.com?fullPage=true</a></li>
-                <li><a href="https://cdn.staticaly.com/screenshot/marsble.com?quality=75">https://cdn.staticaly.com/screenshot/marsble.com?quality=75</a></li>
-                <li><a href="https://cdn.staticaly.com/screenshot/example.com?type=jpeg&quality=75&fullPage=true">https://cdn.staticaly.com/screenshot/example.com?type=jpeg&quality=75&fullPage=true</a></li>
-            </ul>
-            <p>On-the-fly resizing support:</p>
-            <ul>
-              <li><a href="https://cdn.staticaly.com/screenshot/marsble.com?w=500">https://cdn.staticaly.com/screenshot/marsble.com?w=500</a></li>
-              <li><a href="https://cdn.staticaly.com/screenshot/marsble.com?h=400">https://cdn.staticaly.com/screenshot/marsble.com?h=400</a></li>
-          </ul>
-          </div>
-        </div>
-    </body>
-</html>
+<div class="bd">
+  <div class="content">
+    <div class="main center">
+      <h1>{{page.title}}</h1>
+      <p>Usage:</p>
+      <p><code>https://cdn.statically.io/screenshot/:url</code></p>
+      <p>Please provide a path to a website or choose one of the following:</p>
+      <ul>
+          <li><a href="{{site.cdn.url}}/screenshot/marsble.com">{{site.cdn.url}}/screenshot/marsble.com</a></li>
+          <li><a href="{{site.cdn.url}}/screenshot/statically.io/sponsors?type=png">{{site.cdn.url}}/screenshot/statically.io/sponsors?type=png</a></li>
+          <li><a href="{{site.cdn.url}}/screenshot/statically.io?fullPage=true">{{site.cdn.url}}/screenshot/statically.io?fullPage=true</a></li>
+          <li><a href="{{site.cdn.url}}/screenshot/marsble.com?quality=75">{{site.cdn.url}}/screenshot/marsble.com?quality=75</a></li>
+          <li><a href="{{site.cdn.url}}/screenshot/example.com?type=jpeg&quality=75&fullPage=true">{{site.cdn.url}}/screenshot/example.com?type=jpeg&quality=75&fullPage=true</a></li>
+      </ul>
+      <p>On-the-fly resizing support:</p>
+      <ul>
+        <li><a href="{{site.cdn.url}}/screenshot/marsble.com?w=500">{{site.cdn.url}}/screenshot/marsble.com?w=500</a></li>
+        <li><a href="{{site.cdn.url}}/screenshot/marsble.com?h=400">{{site.cdn.url}}/screenshot/marsble.com?h=400</a></li>
+    </ul>
+    </div>
+  </div>
+</div>

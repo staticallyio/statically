@@ -3,38 +3,61 @@
   'use strict';
 
   // -- Constants --------------------------------------------------------------
+  const MARSBLE_API_URL = 'https://apis.marsble.com';
+  const MARSBLE_API_KEY = '1fdba1ef633460c72972aaa993d61b';
   const GITHUB_API_URL = 'https://api.github.com';
 
+  /**
+   * Matches a Statically CDN URL
+   */
+  const REGEX_STATICALLY_URL = /^https?:\/\/cdn\.statical(?:y|ly)\.(?:com|io)\/(.+)/i;
+
+  /**
+   * Matches a Gist and Raw URL (GitHub)
+   */
   const REGEX_GIST_URL     = /^https?:\/\/gist\.github\.com\/.+?\/([0-9a-f]+)(?:\/([0-9a-f]+))?/i;
   const REGEX_RAW_GIST_URL = /^https?:\/\/gist\.githubusercontent\.com\/(.+?\/[0-9a-f]+\/raw\/(?:[0-9a-f]+\/)?.+\..+)$/i;
 
   /**
-  Matches a GitHub raw URL.
-
-  Captures:
-
-  1.  Username
-  2.  Repo
-  3.  Ref
-  4.  File path
-  **/
+   * Matches a GitHub raw URL.
+   * Captures:
+   * 1.  Username
+   * 2.  Repo
+   * 3.  Ref
+   * 4.  File path
+   */
   const REGEX_RAW_REPO_URL = /^https?:\/\/raw\.github(?:usercontent)?\.com\/(.+?)\/(.+?)\/(.+?)\/(.+)/i;
 
   /**
-  Matches a GitHub repo URL.
-
-  Captures:
-
-  1.  Username
-  2.  Repo
-  3.  Ref
-  4.  File path
-  **/
+   * Matches a GitHub repo URL.
+   * 
+   * Captures:
+   * 1.  Username
+   * 2.  Repo
+   * 3.  Ref
+   * 4.  File path
+   */
   const REGEX_REPO_URL = /^https?:\/\/github\.com\/(.+?)\/(.+?)\/(?!releases\/)(?:(?:blob|raw)\/)?(.+?)\/(.+)/i;
 
+  /**
+   * Matches a GitLab URL
+   */
   const REGEX_GITLAB_REPO_URL = /^https?:\/\/gitlab\.com\/([^\/]+\/[^\/]+)\/(?:raw|blob)\/(.+\..+?)(?:\?.*)?$/i;
 
+  /**
+   * Matches a Bitbucket URL
+   */
   const REGEX_BITBUCKET_REPO_URL = /^https?:\/\/bitbucket\.org\/([^\/]+\/[^\/]+)\/(?:raw|src)\/(.+\..+?)(?:\?.*)?$/i;
+
+  /**
+   * Matches a RawGit URL
+   */
+  const REGEX_RAWGIT_URL = /^https?:\/\/(?:cdn.)?rawgit(?:hub)?\.com\/(.+)/i;
+
+  /**
+   * Matches a Instagram URL
+   */
+  const REGEX_INSTAGRAM_URL = /^https?:\/\/(?:www.)?instagram\.com\/(.+)/i;
 
   // -- Init -------------------------------------------------------------------
   let copyButtonProd = doc.getElementById('url-prod-copy');
@@ -64,13 +87,13 @@
 
   // -- Functions --------------------------------------------------------------
   function formatRawGistUrl(url) {
-    inputProd.value = url.replace(REGEX_RAW_GIST_URL, 'https://' + cdn_domain + '/gist/$1');
+    inputProd.value = url.replace(REGEX_RAW_GIST_URL, `https://${cdn_domain}/gist/$1`);
 
     setValid();
   }
 
   function formatRawRepoUrl(url) {
-    inputProd.value = url.replace(REGEX_RAW_REPO_URL, 'https://' + cdn_domain + '/gh/$1/$2/$3/$4');
+    inputProd.value = url.replace(REGEX_RAW_REPO_URL, `https://${cdn_domain}/gh/$1/$2/$3/$4`);
 
     setValid();
   }
@@ -79,7 +102,7 @@
     let matches = url.match(REGEX_REPO_URL);
 
     if (matches[3] !== 'master') {
-      inputProd.value = url.replace(REGEX_REPO_URL, 'https://' + cdn_domain + '/gh/$1/$2/$3/$4');
+      inputProd.value = url.replace(REGEX_REPO_URL, `https://${cdn_domain}/gh/$1/$2/$3/$4`);
       setValid();
       return;
     }
@@ -107,15 +130,88 @@
   }
 
   function formatGitLabRepoUrl(url) {
-    inputProd.value = url.replace(REGEX_GITLAB_REPO_URL, 'https://' + cdn_domain + '/gl/$1/$2');
+    inputProd.value = url.replace(REGEX_GITLAB_REPO_URL, `https://${cdn_domain}/gl/$1/$2`);
 
     setValid();
   }
 
   function formatBitbucketRepoUrl(url) {
-    inputProd.value = url.replace(REGEX_BITBUCKET_REPO_URL, 'https://' + cdn_domain + '/bb/$1/$2');
+    inputProd.value = url.replace(REGEX_BITBUCKET_REPO_URL, `https://${cdn_domain}/bb/$1/$2`);
 
     setValid();
+  }
+
+  function formatRawGitUrl(url) {
+    inputProd.value = url.replace(REGEX_RAWGIT_URL, `https://${cdn_domain}/gh/$1`);
+
+    setValid();
+  }
+
+  function debugStaticallyCDNUrl(url) {
+    let matches = url.match(REGEX_STATICALLY_URL);
+
+    let apiUrl = `${MARSBLE_API_URL}/http2/v1/check?api_key=${MARSBLE_API_KEY}&url=https://${cdn_domain}/${matches[1]}`;
+
+    fetch(apiUrl)
+      .then(res => {
+        if (!res.ok) {
+          console.error('Failed to fetch data from Marsble API');
+          return;
+        }
+
+        return res.json();
+      })
+
+      .then(data => {
+        let http2 = data.http2;
+        let result = data.raw;
+        let headers = '';
+
+        for (var key in result) {
+          headers += `<strong>${key}</strong>. ${result[key]}<br>`;
+        }
+
+        document.getElementById('secretblock').innerHTML = `<div style="background:#080808; border-radius:4px; margin-top:5em; padding:1em">
+        <strong>HTTP2</strong>: ${http2}<br>
+        ${headers}</div>
+        <p style="float:right"><small><em><a style="color:#fff" href="/contact?subject=Report%20URL&amp;message=URL%3A%20https://${cdn_domain}/${matches[1]}%0AMessage%3A%20">Report this URL</a></em></small></p>`;
+
+        setValid();
+      });
+  }
+
+  function getInstagramMediaUrl(url) {
+    let matches = url.match(REGEX_INSTAGRAM_URL);
+
+    let apiUrl = `${MARSBLE_API_URL}/3rdparty/instagram/v1/downloader?api_key=${MARSBLE_API_KEY}&url=https://www.instagram.com/${matches[1]}`;
+
+    fetch(apiUrl)
+      .then(res => {
+        if (!res.ok) {
+          console.error('Failed to fetch instagram media from Marsble API');
+          return;
+        }
+
+        return res.json();
+      })
+
+      .then(data => {
+        let type = data.type;
+        let media = data.downloadUrl;
+
+        inputProd.value = `${media}`;
+
+        if (type == 'image') {
+          var html = `<img style="margin-top:5em;max-width:300px" src="${media}" alt="Instagram ${type}">`;
+        } else {
+          var html = `<video controls style="margin-top:5em;max-width:300px">
+          <source src="${media}" type="video/mp4"></video>`;
+        }
+
+        document.getElementById('secretblock').innerHTML = `${html}`;
+
+        setValid();
+      });
   }
 
   function formatUrl() {
@@ -131,8 +227,14 @@
       requestGistUrl(url);
     } else if (REGEX_GITLAB_REPO_URL.test(url)) {
       formatGitLabRepoUrl(url);
-  } else if (REGEX_BITBUCKET_REPO_URL.test(url)) {
+    } else if (REGEX_BITBUCKET_REPO_URL.test(url)) {
       formatBitbucketRepoUrl(url);
+    } else if (REGEX_RAWGIT_URL.test(url)) {
+      formatRawGitUrl(url);
+    } else if (REGEX_INSTAGRAM_URL.test(url)) {
+      getInstagramMediaUrl(url);
+    } else if (REGEX_STATICALLY_URL.test(url)) {
+      debugStaticallyCDNUrl(url);
     } else {
       setInvalid();
     }

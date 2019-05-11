@@ -1,0 +1,27 @@
+- name: Git repo CDN
+  icon: hashtag bumble
+  link: /#
+  linktext: Use this CDN
+  description: >-
+      <strong>Serve your files from GitHub, GitLab, or Bitbucket</strong> with proper `Content-Type` header.
+
+- name: Imgpx
+  icon: bolt optimus
+  link: /imgpx
+  linktext: Use this CDN
+  description: >-
+      Serve your website images <strong>fast, auto-webp, and compressed</strong> for the best experience of static files.
+
+- name: Screenshot
+  icon: heart pink
+  link: /screenshot
+  linktext: Use this CDN
+  description: >-
+      <strong>Easily get a screenshot from a webpage</strong> and serve it with super fast global CDN.
+
+- name: Our network
+  icon: globe sentinel
+  link: /network
+  linktext: Learn More
+  description: >-
+      Statically is greatly running on multiple CDN like <strong><script>document.write(main_cdn);</script></strong>.
