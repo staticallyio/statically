@@ -19,7 +19,7 @@ url:                  "https://statically.io"
 encoding:             "UTF-8"
 permalink:            /:title
 highlighter:          rouge
-version:              0.1
+version:              1.0
 year:                 2019
 
 # Utilities
@@ -49,8 +49,8 @@ social:
     links:
       - https://marsble.com/u/statically
       - https://twitter.com/staticallyio
-      - https://www.instagram.com/statically
-      - https://github.com/statically
+      - https://www.instagram.com/staticallyio
+      - https://github.com/marsble
 
 # Twitter
 twitter:
@@ -61,18 +61,11 @@ instagram:
     username:         statically
 
 # GitHub
-github_username:      marsble/statically
+github_username:      marsble
 
 # The author
 author:
     twitter:          fransallen
-
-# Default image for socmed
-defaults:
-  - scope:
-      path:           "/static/images"
-    values:
-      image:          "/statically_icon_bg_dark_lg.png"
 
 # Static files
 cdn:
@@ -97,17 +90,17 @@ include:
     - "_redirects"
     - "_redirections"
 
-# Exclude from public directory
-exclude:
-    - "scripts"
-    - "vendor"
-
 kramdown:
     input:            GFM
     hard_wrap:        false
+
+# Jekyll minifier config
+jekyll-minifier:
+  exclude: 'static/js/app.js'
 
 # Plugins
 plugins:
     - jekyll-seo-tag
     - jekyll-redirect-from
     - jekyll-sitemap
+    - jekyll-minifier
