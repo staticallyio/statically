@@ -162,7 +162,7 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
       </td>
       <td align="center" valign="middle">
         <a class="clear" href="https://runcloud.io/?utm_source=statically.io&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://statically.io/static/images/sponsors/runcloud.io.png">
+          <img width="150px" src="https://statically.io/static/images/sponsors/runcloud.png">
         </a>
       </td>
     </tr>
