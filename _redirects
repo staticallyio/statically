@@ -1,6 +1,8 @@
 # Redirect default Netlify subdomain to primary domain
 https://statically.netlify.com/* https://statically.io/:splat 301!
-https://staticaly.com/* https://statically.io/:splat 301!
+
+# Redirect .com stats page to .io stats page
+https://staticaly.com/stats https://statically.io/stats 301!
 
 # Page redirections
 /img /imgpx 301!
