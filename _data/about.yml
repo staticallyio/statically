@@ -1,7 +1,7 @@
 mission: Our mission is to make static files easy to manage and fast to deliver.
 
 statically: >-
-    Statically is a free CDN for Git repositories, WordPress, images and other assets with high-performance of caching and optimization.
+    Statically is a free CDN for open source project, WordPress, images and other assets with high-performance of caching and optimization.
 
 imgpx: >-
     Imgpx is an image acceleration and modification service via custom endpoints.

@@ -30,7 +30,7 @@
 What is Statically?
 ------------------
 
-Statically is A free multi-CDN for Git Repositories, WordPress, images and all of static files. Statically is [open source](https://github.com/marsble/statically) project maintained by [Marsble](https://marsble.com/). At Statically, we believe that static files shouldn't be slow.
+Statically is A free multi-CDN for open source project, WordPress, images and all of static files. Statically is [open source](https://github.com/marsble/statically) project maintained by [Marsble](https://marsble.com/). At Statically, we believe that static files shouldn't be slow.
 
 How to use?
 -----
