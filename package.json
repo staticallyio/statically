@@ -1,8 +1,14 @@
 {
   "dependencies": {
-    "netlify-lambda": "^1.4.2"
+    "netlify-lambda": "^1.4.2",
+    "snyk": "^1.190.0"
   },
   "devDependencies": {
     "lighthousebot": "https://github.com/GoogleChromeLabs/lighthousebot"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
