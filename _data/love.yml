@@ -2,6 +2,18 @@
 # We'll be very happy if you add your website here
 # Please add to the top
 
+- name: Marsble
+  link: "https://marsble.com"
+
+- name: WPKilat
+  link: "https://wpkilat.com"
+
+- name: WPInter
+  link: "https://wpinter.com"
+  
+- name: Waze
+  link: "https://www.waze.com"
+
 - name: Aeternia Network
   link: "https://aeternia.xyz"
 
@@ -14,12 +26,6 @@
 - name: ManKoin
   link: "https://www.mankoin.blog"
 
-- name: Marsble
-  link: "https://www.marsble.com"
-
-- name: WPInter
-  link: "https://wpinter.com"
-
 - name: Ani Movi
   link: "https://www.animovi.com"
 
@@ -31,9 +37,6 @@
 
 - name: RajawaliTV
   link: "https://www.rajawalitv.com"
-
-- name: Frans Allen
-  link: "https://www.fransallen.com"
 
 - name: Kolabstack
   link: "https://kolabstack.com"
