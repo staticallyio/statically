@@ -1,4 +1,4 @@
-Statically is dedicated to running on multi-CDN like Cloudflare, Fastly, and CDN77 and BunnyCDN
+Statically is dedicatedly running on multi-CDN like Fastly, BunnyCDN, Cloudflare, and CDN77
 ------------------
 
 ![Network Map](https://statically.io/static/images/features/statically_net.png)
