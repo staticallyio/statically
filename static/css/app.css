@@ -1266,7 +1266,6 @@ td {
 
 #bronze a {
     border-bottom: 0;
-    margin-right: 15px;
 }
 
 #bronze a:hover, #bronze a:focus {
@@ -1275,6 +1274,13 @@ td {
 
 #bronze img {
     max-width: 200px;
+}
+
+.sponsor-highlight {
+    background: #eee;
+    border-radius: 4px;
+    margin-top: 2em;
+    padding: 2em;
 }
 
 @media (min-width: 768px) {
