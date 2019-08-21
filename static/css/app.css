@@ -1260,6 +1260,14 @@ td {
     width: 25%;
 }
 
+#bronze a {
+    border-bottom: 0;
+}
+
+#bronze a:hover, #bronze a:focus {
+    background: none;
+}
+
 @media (min-width: 768px) {
     .ft .link {
         -moz-column-count: 3;
