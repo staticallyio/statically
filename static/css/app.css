@@ -1260,12 +1260,21 @@ td {
     width: 25%;
 }
 
+#bronze {
+    text-align: center;
+}
+
 #bronze a {
     border-bottom: 0;
+    margin-right: 15px;
 }
 
 #bronze a:hover, #bronze a:focus {
     background: none;
+}
+
+#bronze img {
+    max-width: 200px;
 }
 
 @media (min-width: 768px) {
