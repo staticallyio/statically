@@ -1280,7 +1280,7 @@ td {
     background: #eee;
     border-radius: 4px;
     margin-top: 2em;
-    padding: 2em;
+    padding: 2em!important;
 }
 
 @media (min-width: 768px) {
