@@ -1015,22 +1015,22 @@ h2 .fa {
     padding-bottom: 0.5em;
 }
 
-#sponsors-optimus {
+#sponsors-platinum {
     background: #f9f9f9;
     border-bottom: 1px solid #eee;
     padding: 2em;
     text-align: center;
 }
 
-#sponsors-optimus h2 {
+#sponsors-platinum h2 {
     font-style: italic;
 }
 
-#sponsors-optimus a {
+#sponsors-platinum a {
     margin-left: 1em;
 }
 
-#sponsors-optimus a:hover, #sponsors-optimus a:focus {
+#sponsors-platinum a:hover, #sponsors-platinum a:focus {
     background: none;
 }
 
