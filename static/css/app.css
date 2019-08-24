@@ -1034,6 +1034,10 @@ h2 .fa {
     background: none;
 }
 
+#sponsors-platinum img {
+    max-height: 50px;
+}
+
 .circle {
     border-radius: 50%
 }
