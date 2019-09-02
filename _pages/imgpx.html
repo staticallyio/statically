@@ -116,6 +116,21 @@ published: true
 
         <div class="main">
             <div class="column">
+                <h3>Image Transformations</h3>
+                <p>Resize images while retaining the original aspect ratio.</p>
+                <code>{{page.app_url}}/:image_url?w=<value>&h=<value></code>
+
+                <h3>Example</h3>
+                <code><a href="{{page.app_url}}/{{page.imgdemo}}?w=500&h=400" target="_blank">{{page.app_url}}/{{page.imgdemo}}?w=500&h=400</a></code>
+            </div>
+            <div class="column">
+                <h3>Output</h3>
+                <img src="{{page.app_url}}/{{page.imgdemo}}?w=500&h=400" alt="{{page.title}}">
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="column">
                 <h3>Random</h3>
                 <p>Get random images with Imgpx.</p>
                 <h3>Example</h3>
@@ -127,15 +142,38 @@ published: true
             </div>
         </div>
 
+        <div class="main">
+            <div class="column">
+                <h3>Quality</h3>
+                <p>Set the image quality (JPEG only). Use lower value to get smaller file size. Defaults to 50.</p>
+                <code>{{page.app_url}}/:image_url?quality=<10-100></code>
+
+                <h3>Example</h3>
+                <code><a href="{{page.app_url}}/{{page.imgdemo}}?quality=10" target="_blank">{{page.app_url}}/{{page.imgdemo}}?quality=10</a></code>
+            </div>
+            <div class="column">
+                <h3>Output</h3>
+                <img src="{{page.app_url}}/{{page.imgdemo}}?quality=10" alt="{{page.title}}">
+            </div>
+        </div>
+
+        <div class="main center">
+            <p class="lead">Imgpx supports various image transformations and manipulations.</p>
+            <a class="btn" href="{{site.statically.devs_url}}/docs/imgpx">Take me to the Docs <i class="fa fa-arrow-right"></i></a>
+        </div>
+
         <hr>
 
         {% include features/imgpx.html %}
 
         <hr>
+<<<<<<< HEAD
 
         <div class="main center">
             <p class="lead">See more documentation on Developers page</p>
             <a class="btn" href="{{site.statically.devs_url}}/docs/{{page.docs_url}}">Take me to Developers page <i class="fa fa-arrow-right"></i></a>
         </div>
+=======
+>>>>>>> 8e618b2516101b50b61b4357366e1621f652e97b
     </div>
 </div>
