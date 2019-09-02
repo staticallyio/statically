@@ -7,4 +7,4 @@ imgpx: >-
     Imgpx is an image acceleration and modification service via custom endpoints.
 
 favicons: >-
-    Favicon API is useful for getting a favicon from a domain without touching the domain itself. It's open source software, fork it on <a href="https://github.com/marsble/favicons" target="_blank">GitHub</a>.
+    Favicons as a Service, easy to get favicon from a domain without touching the domain itself. It's open source software, fork it on <a href="https://github.com/marsble/favicons" target="_blank">GitHub</a>.

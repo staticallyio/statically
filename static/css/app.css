@@ -1015,23 +1015,27 @@ h2 .fa {
     padding-bottom: 0.5em;
 }
 
-#sponsors-optimus {
+#sponsors-platinum {
     background: #f9f9f9;
     border-bottom: 1px solid #eee;
     padding: 2em;
     text-align: center;
 }
 
-#sponsors-optimus h2 {
+#sponsors-platinum h2 {
     font-style: italic;
 }
 
-#sponsors-optimus a {
+#sponsors-platinum a {
     margin-left: 1em;
 }
 
-#sponsors-optimus a:hover, #sponsors-optimus a:focus {
+#sponsors-platinum a:hover, #sponsors-platinum a:focus {
     background: none;
+}
+
+#sponsors-platinum img {
+    max-height: 60px;
 }
 
 .circle {
@@ -1258,6 +1262,29 @@ td {
 
 .line .right .l2 {
     width: 25%;
+}
+
+#bronze {
+    text-align: center;
+}
+
+#bronze a {
+    border-bottom: 0;
+}
+
+#bronze a:hover, #bronze a:focus {
+    background: none;
+}
+
+#bronze img {
+    max-width: 200px;
+}
+
+.sponsor-highlight {
+    background: #eee;
+    border-radius: 4px;
+    margin-top: 2em;
+    padding: 2em!important;
 }
 
 @media (min-width: 768px) {

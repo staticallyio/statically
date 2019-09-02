@@ -2,7 +2,7 @@ version: '3'
 services:
 
   jekyll:
-    container_name: jekyll
+    container_name: statically-web
     command: jekyll serve
     image: jekyll/jekyll:latest
     volumes:

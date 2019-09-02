@@ -3,11 +3,11 @@ title:                "Statically"
 
 # A simple tagline: Make it Static!
 tagline:              >-
-    A free multi-CDN for open source project, WordPress, images and more
+    A free, fast, & modern CDN for open source projects, WordPress, images and more
 
 # Define description for the site
 description:          >-
-    Statically is a free multi-CDN for open source project, WordPress, images and other assets with high-performance of caching and optimization.
+    Statically is free, fast, & modern CDN for open source project, WordPress, images and any static assets with high-performance of caching and optimization.
 
 # Also used for SEO Tag
 logo:                 "/static/images/statically_wide.svg"
@@ -19,7 +19,7 @@ url:                  "https://statically.io"
 encoding:             "UTF-8"
 permalink:            /:title
 highlighter:          rouge
-version:              1.0
+version:              1.1
 year:                 2019
 
 # Utilities
@@ -32,8 +32,8 @@ repo:                 "https://github.com/marsble/statically"
 # Statically
 statically:
     devs_url:         "https://developers.marsble.com"
-    datacenter_num:   165+
-    main_cdn:         "CloudFlare, Fastly, CDN77, and BunnyCDN"
+    datacenter_num:   330+
+    main_cdn:         "Cloudflare, Fastly, CDN77, and BunnyCDN"
     newsletter_url:  >-
         https://marsble.us18.list-manage.com/subscribe/post?u=4dfd4ae04677bf4f6248182fc&amp;id=397ea962f2
 
