@@ -4,6 +4,7 @@ _site
 node_modules
 
 .swp
+.jekyll-cache
 Gemfile.lock
 test/
 autoupdate*
