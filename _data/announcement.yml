@@ -5,8 +5,8 @@ show: true
 icon: bullhorn pink
 
 # Attractive description
-description: 8 Awesome Features Of Statically Free CDN
+description: Hey, we are developing a new website.
 
 # Show link only when it exist
-link: https://blog.runcloud.io/2019/04/14/staticaly.html
-linktext: Learn more.
+link: https://v2.statically.xyz
+linktext: Check it out!
