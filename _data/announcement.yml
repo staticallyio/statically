@@ -5,8 +5,8 @@ show: true
 icon: bullhorn pink
 
 # Attractive description
-description: Hey, we are developing a new website.
+description: Say hi to standalone Imgpx with custom domain support.
 
 # Show link only when it exist
-link: https://v2.statically.xyz
-linktext: Check it out!
+link: https://imgpx.marsbleapp.com
+linktext: Try free now!
