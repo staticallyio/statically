@@ -1,12 +1,6 @@
 <p align="center"><a class="clear" href="https://statically.io/" target="_blank"><img width="92" src="https://cdn.statically.io/img/statically.io/static/images/statically.png?w=92" alt="Statically logo"></a></p>
 
 <p class="statically-badge" align="center">
-    <a href="https://statically.io/stats">
-        <img src="https://apis.marsble.com/badges/v1/statically?req" alt="Requests/month">
-    </a>
-    <a href="https://statically.io/stats">
-        <img src="https://apis.marsble.com/badges/v1/statically?bandwidth" alt="Bandwidth/month">
-    </a>
     <a href="https://github.com/marsble/statically/network" target="_blank">
         <img src="https://cdn.statically.io/badges/github/forks/marsble/statically.svg?style=social" alt="Forks">
     </a>
