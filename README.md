@@ -115,7 +115,7 @@ Resources
 
 The following are some good sources for knowing more about Statically:
 
-*   [8 Awesome Features Of Statically Free CDN](https://on.marsble.com/2DWpDN6)
+*   [8 Awesome Features Of Statically Free CDN](https://blog.runcloud.io/staticaly/)
 *   [New features of Statically: Libs and Flag Icons CDN](https://marsble.com/t/125)
 *   [What’s new on Statically?](https://marsble.com/t/104)
 *   [Introducting Statically Free CDN for Github, Gitlab, and Bitbucket](https://marsble.com/t/23)
