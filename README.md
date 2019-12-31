@@ -1,4 +1,4 @@
-<p align="center"><a class="clear" href="https://statically.io/" target="_blank"><img width="92" src="https://cdn.statically.io/img/statically.io/static/images/statically.png?w=92" alt="Statically logo"></a></p>
+<p align="center"><a class="clear" href="https://statically.io/" target="_blank"><img width="92" src="https://cdn.statically.io/img/statically.io/images/statically.png?w=92" alt="Statically logo"></a></p>
 
 <p class="statically-badge" align="center">
     <a href="https://github.com/marsble/statically/network" target="_blank">
@@ -24,7 +24,7 @@
 What is Statically?
 ------------------
 
-Statically is A free multi-CDN for open source project, WordPress, images and all of static files. Statically is [open source](https://github.com/marsble/statically) project maintained by [Marsble](https://marsble.com/). At Statically, we believe that static files shouldn't be slow.
+Statically is free, fast & modern CDN for open source projects, WordPress, images, and any static assets.
 
 How to use?
 -----
@@ -59,7 +59,7 @@ How to use?
 
 **Favicons CDN**
 
-`https://cdn.statically.io/favicons/:domain`
+`https://cdn.statically.io/favicon/:domain`
 
 **Screenshot CDN**
 
@@ -68,98 +68,36 @@ How to use?
 Features
 --------
 
-- [Static files CDN](https://statically.io): CDN for raw files from GitHub, GitLab, and Bitbucket with proper *Content-Type* header.
-- [Imgpx](https://statically.io/imgpx): Image acceleration and modification.
-- [Libs](https://marsble.com/t/125): Serve all popular libraries.
-- [WordPress static files CDN](https://statically.io): CDN for WordPress static files.
-- [Favicons](https://statically.io/favicons): Favicons API.
-- [Screenshot as a service](https://statically.io/screenshot): capture website screenshot on-the-fly.
-- [Flag icons](https://marsble.com/t/125): CDN for flag icons.
+- [Static files CDN](https://statically.io): CDN for raw files from GitHub, GitLab, Bitbucket, and WordPress SVN with proper *Content-Type* header.
+- [Images](https://statically.io/images): free & fast image optimization and transformation.
+- [Favicons](https://statically.io/favicons): simple & powerful API to serve favicon from any domain.
+- [Screenshot as a service](https://statically.io/screenshot): fast website screenshot and transformation.
 
-You can always request features, please contact us at [@statically](https://marsble.com/u/statically)
+See all the features of Statically on our [features page](https://statically.io/features).
 
-Sponsorship
------------
-
-Statically won't be running perfectly without Our Sponsors. [Meet Our Sponsor](https://statically.io/sponsors), [Become A Sponsors](https://statically.io/become-a-sponsors) or [Donate $5](https://statically.io/donate).
-
-Project leaders
----------------
-
-Show all project leaders here, wanna join? [contact us!](https://statically.io/contact?subject=Join%20The%20Team)
-
-Maintainers:
-
-- [fransallen](https://github.com/fransallen) (core team)
-- [tovic](https://github.com/tovic) (core team)
+We love ideas! Have feature requests, input, or just want to know what's the technology behind Statically? Please check our [roadmap](https://github.com/marsble/statically/issues/30).
 
 Support
 -------
 
-Statically is free, but we make it a bit more professional. If have any questions or maybe find a bugs, please contact us on [Marsble](https://marsble.com/u/statically) or create an issue in our [issue tracker](https://github.com/marsble/statically/issues).
+Statically is free, but that does not mean there is no professional support. If have any questions or maybe find a bugs, please contact us on [Twitter](https://twitter.com/staticallyio) or create an issue [here](https://github.com/marsble/statically/issues).
+
+Purge Cache
+-----------
 
 For now, you cannot manually purge files. Please use [this form](https://docs.google.com/forms/d/e/1FAIpQLSeaBwAE4D3lee-h0LzfO4t2KUvgwTSOT3GomLo1DPNmWp8X1Q/viewform) to submit a purge file request.
 
 Abuse
 -----
 
-Statically maintains a list of files that are known to be malicious. If you find such a file on [supported providers](https://statically.io/network#supported-providers), please [let us know](https://statically.io/contact?subject=Abuse)!
+We maintains a list of files that are known to be malicious. If you find such a file on Statically, please [let us know](https://statically.io/contact)!
 
 Feedback
 --------
 
 If you think this is useful, we'd love to hear from you. Please tweet us anything at [@staticallyio](https://twitter.com/staticallyio) with any questions, concerns or even just for say hello.
 
-Resources
----------
-
-The following are some good sources for knowing more about Statically:
-
-*   [8 Awesome Features Of Statically Free CDN](https://on.marsble.com/2DWpDN6)
-*   [New features of Statically: Libs and Flag Icons CDN](https://marsble.com/t/125)
-*   [What’s new on Statically?](https://marsble.com/t/104)
-*   [Introducting Statically Free CDN for Github, Gitlab, and Bitbucket](https://marsble.com/t/23)
-
 Sponsors
 --------------------------------------
 
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://statically.io/become-a-sponsor)]
-
-<!--platinum start-->
-<table class="about-optimus" align="center">
-  <tbody>
-    <tr>
-      <td align="center" valign="middle">
-        <a class="clear" href="https://www.cloudflare.com/?utm_source=statically.io&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://statically.io/static/images/sponsors/cloudflare.png">
-        </a>
-      </td>
-      <td align="center" valign="middle">
-      <a class="clear" href="https://www.cdn77.com/?utm_source=statically.io&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-        <img width="150px" src="https://statically.io/static/images/sponsors/cdn77.png">
-      </a>
-      </td>
-      <td align="center" valign="middle">
-        <a class="clear" href="https://www.fastly.com/?utm_source=statically.io&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://statically.io/static/images/sponsors/fastly.png">
-        </a>
-      </td>
-      <td align="center" valign="middle">
-        <a class="clear" href="https://www.bunnycdn.com/?utm_source=statically.io&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://statically.io/static/images/sponsors/bunnycdn.png">
-        </a>
-      </td>
-      <td align="center" valign="middle">
-        <a class="clear" href="https://www.dediserve.com/?utm_source=statically.io&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://statically.io/static/images/sponsors/dediserve-dark.svg">
-        </a>
-      </td>
-      <td align="center" valign="middle">
-        <a class="clear" href="https://runcloud.io/?utm_source=statically.io&utm_medium=Logo&utm_campaign=Sponsor%20link" target="_blank">
-          <img width="150px" src="https://statically.io/static/images/sponsors/runcloud.png">
-        </a>
-      </td>
-    </tr>
-  </tbody>
-</table>
-<!--platinum end-->
+Support this project by becoming a sponsor. [Become a sponsor](https://statically.io/support-statically)
