@@ -51,9 +51,15 @@ How to use?
 
 **CDN for WordPress static files**
 
+`https://cdn.statically.io/wp/c/latest/wp-includes/:file`
+
 `https://cdn.statically.io/wp/c/:version/wp-includes/:file`
 
+`https://cdn.statically.io/wp/p/latest/:plugin_name/:file`
+
 `https://cdn.statically.io/wp/p/:plugin_name/:version/:file`
+
+`https://cdn.statically.io/wp/t/latest/:theme_name/:file`
 
 `https://cdn.statically.io/wp/t/:theme_name/:version/:file`
 
