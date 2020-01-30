@@ -1,14 +1,14 @@
 <p align="center"><a class="clear" href="https://statically.io/" target="_blank"><img width="92" src="https://cdn.statically.io/img/statically.io/images/statically.png?w=92" alt="Statically logo"></a></p>
 
 <p class="statically-badge" align="center">
-    <a href="https://github.com/marsble/statically/network" target="_blank">
-        <img src="https://cdn.statically.io/badges/github/forks/marsble/statically.svg?style=social" alt="Forks">
+    <a href="https://github.com/staticallyio/statically/network" target="_blank">
+        <img src="https://cdn.statically.io/badges/github/forks/staticallyio/statically.svg?style=social" alt="Forks">
     </a>
-    <a href="https://github.com/marsble/statically/issues" target="_blank">
-        <img src="https://cdn.statically.io/badges/github/issues/marsble/statically.svg?style=social" alt="Issues">
+    <a href="https://github.com/staticallyio/statically/issues" target="_blank">
+        <img src="https://cdn.statically.io/badges/github/issues/staticallyio/statically.svg?style=social" alt="Issues">
     </a>
-    <a href="https://github.com/marsble/statically/stargazers" target="_blank">
-        <img src="https://cdn.statically.io/badges/github/stars/marsble/statically.svg?style=social" alt="Stars">
+    <a href="https://github.com/staticallyio/statically/stargazers" target="_blank">
+        <img src="https://cdn.statically.io/badges/github/stars/staticallyio/statically.svg?style=social" alt="Stars">
     </a>
     <a href="https://twitter.com/staticallyio" target="_blank">
         <img src="https://cdn.statically.io/badges/twitter/follow/staticallyio.svg?label=Follow&style=social" alt="Twitter">
@@ -81,22 +81,22 @@ Features
 
 See all the features of Statically on our [features page](https://statically.io/features).
 
-We love ideas! Have feature requests, input, or just want to know what's the technology behind Statically? Please check our [roadmap](https://github.com/marsble/statically/issues/30).
+We love ideas! Have a feature request, input, or just want to know what's the technology behind Statically? Please check our [roadmap](https://github.com/staticallyio/statically/issues/30).
 
 Support
 -------
 
-Statically is free, but that does not mean there is no professional support. If have any questions or maybe find a bugs, please contact us on [Twitter](https://twitter.com/staticallyio) or create an issue [here](https://github.com/marsble/statically/issues).
+Statically is free, but that does not mean there is no professional support. If have any questions or maybe find a bugs, please contact us on [Twitter](https://twitter.com/staticallyio) or create an issue [here](https://github.com/staticallyio/statically/issues).
 
 Purge Cache
 -----------
 
-For now, you cannot manually purge files. Please use [this form](https://docs.google.com/forms/d/e/1FAIpQLSeaBwAE4D3lee-h0LzfO4t2KUvgwTSOT3GomLo1DPNmWp8X1Q/viewform) to submit a purge file request.
+For now, you cannot manually purge files. Please use [this form](https://statically.io/purge) to submit a purge file request.
 
 Abuse
 -----
 
-We maintains a list of files that are known to be malicious. If you find such a file on Statically, please [let us know](https://statically.io/contact)!
+We maintains a list of files that are known to be malicious. If you find such a file on Statically, please [let us know](https://github.com/staticallyio/statically/issues)!
 
 Feedback
 --------
