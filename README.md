@@ -11,7 +11,7 @@
         <img src="https://cdn.statically.io/badges/github/stars/staticallyio/statically.svg?style=social" alt="Stars">
     </a>
     <a href="https://twitter.com/staticallyio" target="_blank">
-        <img src="https://cdn.statically.io/badges/twitter/follow/staticallyio.svg?label=Follow&style=social" alt="Twitter">
+        <img src="https://cdn.statically.io/badges/twitter/follow/staticallyio.svg?style=social" alt="Twitter">
     </a>
 </p>
 
