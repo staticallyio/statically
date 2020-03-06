@@ -1,4 +1,4 @@
-<p align="center"><a class="clear" href="https://statically.io/" target="_blank"><img width="92" src="https://cdn.statically.io/img/statically.io/w=92/images/branding/statically-logo-dark.png" alt="Statically logo"></a></p>
+<p align="center"><a class="clear" href="https://statically.io/" target="_blank"><img width="92" src="https://cdn.statically.io/img/statically.io/w=92/images/branding/statically-mark.png" alt="Statically logo"></a></p>
 
 <p class="statically-badges" align="center">
     <a href="https://github.com/staticallyio/statically/network" target="_blank">
