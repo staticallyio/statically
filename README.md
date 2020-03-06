@@ -1,6 +1,6 @@
-<p align="center"><a class="clear" href="https://statically.io/" target="_blank"><img width="92" src="https://cdn.statically.io/img/statically.io/w=92/images/statically-logo.png" alt="Statically logo"></a></p>
+<p align="center"><a class="clear" href="https://statically.io/" target="_blank"><img width="92" src="https://cdn.statically.io/img/statically.io/w=92/images/branding/statically-logo-dark.png" alt="Statically logo"></a></p>
 
-<p class="statically-badge" align="center">
+<p class="statically-badges" align="center">
     <a href="https://github.com/staticallyio/statically/network" target="_blank">
         <img src="https://cdn.statically.io/badges/github/style=social/forks/staticallyio/statically.svg" alt="Forks">
     </a>
@@ -11,7 +11,7 @@
         <img src="https://cdn.statically.io/badges/github/style=social/stars/staticallyio/statically.svg" alt="Stars">
     </a>
     <a href="https://twitter.com/staticallyio" target="_blank">
-        <img src="https://cdn.statically.io/badges/twitter/label=Follow/follow/staticallyio.svg" alt="Twitter">
+        <img src="https://cdn.statically.io/badges/twitter/label=Follow/follow/staticallyio.svg" alt="Follow @staticallyio on Twitter">
     </a>
 </p>
 
