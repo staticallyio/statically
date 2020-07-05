@@ -86,7 +86,7 @@ We love ideas! Have a feature request, input, or just want to know what's the te
 Support
 -------
 
-Statically is free, but that does not mean there is no professional support. If have any questions or maybe find a bugs, please contact us on [Twitter](https://twitter.com/staticallyio) or create an issue [here](https://github.com/staticallyio/statically/issues).
+Statically is free, but that does not mean there is no professional support. If you have any questions or maybe find a bug, please contact us on [Twitter](https://twitter.com/staticallyio) or create an issue [here](https://github.com/staticallyio/statically/issues).
 
 Purge Cache
 -----------
