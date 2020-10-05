@@ -5882,11 +5882,6 @@ gatsby-plugin-manifest@2.4.23:
     semver "^7.3.2"
     sharp "^0.25.1"
 
-gatsby-plugin-matomo@^0.8.3:
-  version "0.8.3"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-matomo/-/gatsby-plugin-matomo-0.8.3.tgz#e0e9cc9e60f7e4b157c9964dfc9d444d73bc46ee"
-  integrity sha512-fv6TgD+WsxziZrtmz6sNF4m9FgSyV+8y3R1sobA5hB5OxJyhs/Y4HVo9jCPRHu5VLKQsg4i7LJhWL0ocJiqEWQ==
-
 gatsby-plugin-netlify-cache@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify-cache/-/gatsby-plugin-netlify-cache-1.2.0.tgz#e68db9c5bd4ae103b4589f9be2a3cb9958750788"
@@ -5973,6 +5968,13 @@ gatsby-plugin-typescript@^2.4.18:
     "@babel/preset-typescript" "^7.10.4"
     "@babel/runtime" "^7.11.2"
     babel-plugin-remove-graphql-queries "^2.9.20"
+
+gatsby-plugin-umami@0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-umami/-/gatsby-plugin-umami-0.1.2.tgz#985999e55710062a649967f8ab58142c1c6d3fc4"
+  integrity sha512-xqRo3cZH251zw/jlTxiYsgI1BGhoer+5Pq5yHNQWvfHWyvHXJTVeFYpalrHTYTrfXptWc/2xGXwhqqSbgJhvbg==
+  dependencies:
+    babel-runtime "^6.26.0"
 
 gatsby-react-router-scroll@^3.0.12:
   version "3.0.14"
