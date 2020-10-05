@@ -1,6 +1,6 @@
 # Build
 [build]
-  command = "gatsby build"
+  command = "yarn build"
   publish = "public"
 
 # Page redirects
