@@ -11,25 +11,25 @@
   force = true
 
 [[redirects]]
-  from = "/github*"
+  from = "/github"
   to = "https://statically.io/docs/using-staticzap/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/gitlab*"
+  from = "/gitlab"
   to = "https://statically.io/docs/using-staticzap/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/bitbucket*"
+  from = "/bitbucket"
   to = "https://statically.io/docs/using-staticzap/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/custom*"
+  from = "/custom"
   to = "https://statically.io/docs/using-staticzap/"
   status = 301
   force = true
@@ -47,19 +47,25 @@
   force = true
 
 [[redirects]]
-  from = "/screenshot*"
+  from = "/screenshot"
   to = "https://statically.io/docs/using-screenshot/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/favicon*"
+  from = "/favicon"
   to = "https://statically.io/docs/using-avatar/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/purge*"
+  from = "/favicons"
+  to = "https://statically.io/docs/using-avatar/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/purge"
   to = "https://statically.io/docs/purging-cache/"
   status = 301
   force = true
@@ -90,7 +96,7 @@
 
 [[redirects]]
   from = "/newsletter"
-  to = "https://statically.io/about/#newsletter"
+  to = "https://statically.io/blog/"
   status = 301
   force = true
 
@@ -113,19 +119,19 @@
   force = true
 
 [[redirects]]
-  from = "/policies*"
+  from = "/policies"
   to = "https://statically.io/policies/privary/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/privacy*"
+  from = "/privacy"
   to = "https://statically.io/policies/privary/"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/terms*"
+  from = "/terms"
   to = "https://statically.io/policies/terms/"
   status = 301
   force = true
