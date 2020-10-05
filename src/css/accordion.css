@@ -1,0 +1,5 @@
+.accordion header + div {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.25s ease-in-out 0.125s;
+}

@@ -1,0 +1,205 @@
+# Build
+[build]
+  command = "gatsby build"
+  publish = "public"
+
+# Page redirects
+[[redirects]]
+  from = "https://statically.netlify.app/*"
+  to = "https://statically.io/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/github*"
+  to = "https://statically.io/docs/using-staticzap/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/gitlab*"
+  to = "https://statically.io/docs/using-staticzap/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/bitbucket*"
+  to = "https://statically.io/docs/using-staticzap/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/custom*"
+  to = "https://statically.io/docs/using-staticzap/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/images"
+  to = "https://statically.io/docs/using-images/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/img"
+  to = "https://statically.io/docs/using-images/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/screenshot*"
+  to = "https://statically.io/docs/using-screenshot/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/favicon*"
+  to = "https://statically.io/docs/using-avatar/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/purge*"
+  to = "https://statically.io/docs/purging-cache/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/become-a-sponsor"
+  to = "https://statically.io/support-statically/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/donate"
+  to = "https://statically.io/support-statically/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/sponsors"
+  to = "https://statically.io/support-statically/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/network"
+  to = "https://statically.io/docs/our-network/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/newsletter"
+  to = "https://statically.io/about/#newsletter"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/stats"
+  to = "https://statically.io"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/rawgit"
+  to = "https://statically.io"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/love"
+  to = "https://statically.io"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/policies*"
+  to = "https://statically.io/policies/privary/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/privacy*"
+  to = "https://statically.io/policies/privary/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/terms*"
+  to = "https://statically.io/policies/terms/"
+  status = 301
+  force = true
+
+# Static file redirects
+[[redirects]]
+  from = "/static/images/*"
+  to = "https://statically.io/images/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/images/statically.png"
+  to = "https://statically.io/images/branding/statically-mark.png"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/images/statically_wide.svg"
+  to = "https://statically.io/images/branding/statically-logo-dark.svg"
+  status = 301
+  force = true
+
+# External redirects
+[[redirects]]
+  from = "/go/f3h"
+  to = "https://taufik-nurrohman.js.org/f3h/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/go/wp2static"
+  to = "https://wp2static.com"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/become-a-sponsor-submission"
+  to = "https://docs.google.com/forms/d/e/1FAIpQLSeo1ybwsGK-w4cqU_CrjSwIRJuogjH7WM9xyA5uQMfRG1Vozw/viewform"
+  status = 301
+  force = true
+
+# Rules for all pages
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+
+# Static files
+[[headers]]
+  for = "*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

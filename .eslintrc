@@ -1,0 +1,21 @@
+{
+  // https://eslint.org/docs/user-guide/configuring#specifying-environments
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  // https://github.com/babel/babel-eslint
+  "parser": "babel-eslint",
+  "rules": {
+    // https://eslint.org/docs/2.0.0/rules/strict
+    "strict": 0
+  },
+  "extends": [
+    // https://eslint.org/docs/rules/
+    "eslint:recommended",
+    // https://github.com/yannickcr/eslint-plugin-react#recommended
+    "plugin:react/recommended",
+    // https://github.com/benmosher/eslint-plugin-import
+    "plugin:import/recommended"
+  ]
+}

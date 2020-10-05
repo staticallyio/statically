@@ -1,0 +1,19 @@
+# Project dependencies
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+.cache
+node_modules
+yarn-error.log
+
+# Workers site
+workers-site
+
+# Build directory
+/public
+
+# macOS
+.DS_Store
+
+# deployment-specific configs
+.netlify
+now.json
+wrangler.toml
