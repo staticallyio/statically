@@ -15,4 +15,4 @@ Statically work best with its official plugin and we do not recommend implementi
 
 #### How to use Page Booster settings?
 
-Page Booster feature on our plugin is powered by F3H.js, a lightweight page enhancer. To learn how to configure, you can check [full documentation](https://taufik-nurrohman.js.org/f3h/).
+Page Booster feature on our plugin is powered by F3H.js, a fast and light-weight page enhancer. To learn how to configure, you can check [full documentation](https://taufik-nurrohman.js.org/f3h/).
