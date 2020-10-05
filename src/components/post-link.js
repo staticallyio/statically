@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 const PostLink = ({ post }) => (
   <article>
     <Link
-      className="block border hover:shadow-lg border-gray-200 p-8 pt-10 mb-4"
+      className="block border hover:shadow-lg border-gray-400 p-8 pt-10 mb-4 rounded"
       to={post.frontmatter.path}
     >
       <h2 className="text-xl font-bold">{post.frontmatter.title}</h2>
