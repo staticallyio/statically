@@ -163,7 +163,7 @@ function WordpressPage() {
                   className="form-input w-full"
                   id="email"
                   name="email"
-                  type="text"
+                  type="email"
                   placeholder="frans@example.com"
                   required
                 />
@@ -238,24 +238,26 @@ function WordpressPage() {
                 </div>
               </div>
 
-              <button className="btn btn-primary w-full" type="submit">
+              <div className="mb-4">
+                <label className="inline-flex items-center">
+                  <input type="radio" className="form-radio border-gray-400" name="policies" value="personal" required />
+                  <span className="ml-2 text-sm">
+                    Please read our
+                    <Link to="/policies/privacy/">
+                      <strong className="font-bold"> Privacy Policy</strong>
+                    </Link>{' '}
+                    and
+                    <Link to="/policies/terms/">
+                      <strong className="font-bold"> Terms of Service </strong>
+                    </Link>
+                    before using this service
+                  </span>
+                </label>
+              </div>
+
+              <button className="btn btn-primary w-full umami--click--generate-api-key" type="submit">
                 Generate API Key
               </button>
-
-              <small className="block tracking-wide text-gray-700 text-xs mt-2">
-                By clicking Generate API Key button you are agree with our
-                <Link to="/policies/privacy/">
-                  <strong className="font-bold"> Privacy Policy</strong>
-                </Link>{' '}
-                and
-                <Link to="/policies/terms/">
-                  <strong className="font-bold"> Term of Service</strong>
-                </Link>
-                . This form works by sending data to our API, then our API
-                processing the data, whitelisting your domain on our network,
-                and subscribes you to our mailing list to share updates and web
-                perf goodies.
-              </small>
             </form>
           </section>
         </section>
