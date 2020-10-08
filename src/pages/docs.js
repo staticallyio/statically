@@ -43,7 +43,8 @@ function DocsPage() {
             <h1 className="text-4xl font-bold">Statically Documentation</h1>
             <div className="markdown">
               <p>
-                This page is an overview of the Statically documentation and related resources.
+                This page is an overview of the Statically documentation and
+                related resources.
               </p>
 
               <h2>Usage</h2>
@@ -53,7 +54,8 @@ function DocsPage() {
               </p>
               <p>
                 If you are still using the old URL{' '}
-                <code>https://cdn.staticaly.com</code>, please use the above instead.
+                <code>https://cdn.staticaly.com</code>, please use the above
+                instead.
               </p>
 
               <h2>Allowed HTTP methods</h2>
@@ -64,7 +66,8 @@ function DocsPage() {
 
               <h2>Getting Started</h2>
               <p>
-                Statically has a wide variety of tools to help you optimize web projects, let's get started!
+                Statically has a wide variety of tools to help you optimize web
+                projects, let's get started!
               </p>
 
               <p className="mt-8">

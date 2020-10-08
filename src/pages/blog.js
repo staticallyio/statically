@@ -21,7 +21,8 @@ const BlogPage = ({
         <div className="text-center">
           <h1 className="page-title">We are preparing.</h1>
           <h2 className="page-desc max-w-3xl">
-            Join our mailing list so that you will be the first to know about our blog posts.
+            Join our mailing list so that you will be the first to know about
+            our blog posts.
           </h2>
         </div>
 
@@ -47,7 +48,7 @@ const BlogPage = ({
             Subscribe
           </button>
         </form>
-        
+
         {Posts}
       </section>
     </Layout>

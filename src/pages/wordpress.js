@@ -240,7 +240,13 @@ function WordpressPage() {
 
               <div className="mb-4">
                 <label className="inline-flex items-center">
-                  <input type="radio" className="form-radio border-gray-400" name="policies" value="personal" required />
+                  <input
+                    type="radio"
+                    className="form-radio border-gray-400"
+                    name="policies"
+                    value="personal"
+                    required
+                  />
                   <span className="ml-2 text-sm">
                     Please read our
                     <Link to="/policies/privacy/">
@@ -255,7 +261,10 @@ function WordpressPage() {
                 </label>
               </div>
 
-              <button className="btn btn-primary w-full umami--click--btn-generate-api-key" type="submit">
+              <button
+                className="btn btn-primary w-full umami--click--btn-generate-api-key"
+                type="submit"
+              >
                 Generate API Key
               </button>
             </form>
