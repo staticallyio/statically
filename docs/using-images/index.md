@@ -7,7 +7,7 @@ Images let you optimize and resize images effortlessly.
 
 ## Usage
 
-`https://cdn.statically.io/img/:domain/:params/:file`
+`/img/:domain/:params/:file`
 
 ## Definitions
 
@@ -42,7 +42,7 @@ Set new image height in pixel.
 
 Example:
 
-`https://cdn.statically.io/img/static.web.id/h=100/dog.jpg`
+`/img/static.web.id/h=100/dog.jpg`
 
 ![h=100](https://cdn.statically.io/img/static.web.id/h=100/dog.jpg)
 
@@ -52,7 +52,7 @@ Set new image width in pixel.
 
 Example:
 
-`https://cdn.statically.io/img/static.web.id/w=200/dog.jpg`
+`/img/static.web.id/w=200/dog.jpg`
 
 ![w=200](https://cdn.statically.io/img/static.web.id/h=200/dog.jpg)
 
@@ -62,7 +62,7 @@ Automatically converts image into WebP format when browser supports it.
 
 Example:
 
-`https://cdn.statically.io/img/static.web.id/f=auto/dog.jpg`
+`/img/static.web.id/f=auto/dog.jpg`
 
 ![f=auto](https://cdn.statically.io/img/static.web.id/f=auto,w=350/dog.jpg)
 
@@ -74,6 +74,6 @@ Value: `10 - 100`.
 
 Example:
 
-`https://cdn.statically.io/img/static.web.id/q=50/dog.jpg`
+`/img/static.web.id/q=50/dog.jpg`
 
 ![q=85](https://cdn.statically.io/img/static.web.id/q=50,w=350/dog.jpg)

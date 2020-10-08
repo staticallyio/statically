@@ -7,7 +7,7 @@ OG Image promise you beautiful Open Graph images with ease.
 
 ## Usage
 
-`https://cdn.statically.io/og/:params/:text.jpg`
+`/og/:params/:text.jpg`
 
 ## Definitions
 
@@ -25,26 +25,26 @@ Image files will be cached on the CDN for 1 year.
 
 Set font size.
 
-`https://cdn.statically.io/og/fontsize=:numeric/:text.jpg`
+`/og/fontsize=:numeric/:text.jpg`
 
 ### theme=dark
 
 Use dark theme.
 
-`https://cdn.statically.io/og/theme=dark/:text.jpg`
+`/og/theme=dark/:text.jpg`
 
 ### .png
 
 Change file type to PNG.
 
-`https://cdn.statically.io/og/:text.png`
+`/og/:text.png`
 
 ### Combine params using commas
 
-`https://cdn.statically.io/og/theme=dark,fontsize=:pixel/:text.jpg`
+`/og/theme=dark,fontsize=:pixel/:text.jpg`
 
 ## Live demo
 
-`https://cdn.statically.io/og/Hello World.jpg`
+`/og/Hello World.jpg`
 
 ![Hello World](https://cdn.statically.io/og/theme=dark/Hello World.jpg)

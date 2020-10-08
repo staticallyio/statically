@@ -9,7 +9,7 @@ Check the source code on GitHub https://github.com/staticallyio/screenshot.
 
 ## Usage
 
-`https://cdn.statically.io/screenshot/:params/:url`
+`/screenshot/:params/:url`
 
 ## Definitions
 
@@ -27,32 +27,32 @@ Every website screenshot image files will be cached on the CDN for 1 month.
 
 Get a mobile version.
 
-`https://cdn.statically.io/screenshot/device=mobile/:url`
+`/screenshot/device=mobile/:url`
 
 ### full=true
 
 Get a full page version.
 
-`https://cdn.statically.io/screenshot/full=true/:url`
+`/screenshot/full=true/:url`
 
 ### pdf (path)
 
 Getting PDF version.
 
-`https://cdn.statically.io/screenshot/pdf/:url`
+`/screenshot/pdf/:url`
 
 ### Combine params
 
 Params can be combined using commas and after /screenshot/ path.
 
-`https://cdn.statically.io/screenshot/device=mobile,full=true/:url`
+`/screenshot/device=mobile,full=true/:url`
 
 ## Live Demo
 
-`https://cdn.statically.io/screenshot/dev.to`
+`/screenshot/dev.to`
 
 ![Screenshot](https://cdn.statically.io/screenshot/dev.to)
 
-`https://cdn.statically.io/screenshot/device=mobile/dev.to`
+`/screenshot/device=mobile/dev.to`
 
 ![Screenshot (mobile)](https://cdn.statically.io/screenshot/device=mobile/dev.to)

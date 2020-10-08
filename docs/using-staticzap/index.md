@@ -9,15 +9,15 @@ The main goal of this service is to serve open source files quickly.
 
 ### GitHub
 
-`https://cdn.statically.io/gh/:user/:repo/:tag/:file`
+`/gh/:user/:repo/:tag/:file`
 
 ### GitLab
 
-`https://cdn.statically.io/gl/:user/:repo/:tag/:file`
+`/gl/:user/:repo/:tag/:file`
 
 ### Bitbucket
 
-`https://cdn.statically.io/bb/:user/:repo/:tag/:file`
+`/bb/:user/:repo/:tag/:file`
 
 ## Definitions
 
@@ -31,9 +31,9 @@ The main goal of this service is to serve open source files quickly.
 
 ## Example
 
-`https://cdn.statically.io/gh/mrdoob/three.js/dev/build/three.min.js`
+`/gh/mrdoob/three.js/dev/build/three.min.js`
 
-So, in the example above we know that `https://cdn.statically.io/gh/` is the CDN, `mrdoop` is `:user`, `three.js` is `:repo`, `dev` is `:tag`, and `build/three.min.js` is `:file`.
+So, in the example above we know that `/gh/` is the CDN, `mrdoop` is `:user`, `three.js` is `:repo`, `dev` is `:tag`, and `build/three.min.js` is `:file`.
 
 ## Cache Control
 

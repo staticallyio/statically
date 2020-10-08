@@ -9,7 +9,7 @@ Check the source code on GitHub https://github.com/staticallyio/avatar.
 
 ## Usage
 
-`https://cdn.statically.io/avatar/:params/:text`
+`/avatar/:params/:text`
 
 ## Definitions
 
@@ -27,30 +27,30 @@ Image files will be cached on the CDN for 1 year.
 
 Change image size. Default to `60`.
 
-`https://cdn.statically.io/avatar/s=:pixel/:text`
+`/avatar/s=:pixel/:text`
 
 ### shape=circle
 
 Use circle shape.
 
-`https://cdn.statically.io/avatar/shape=circle/:text`
+`/avatar/shape=circle/:text`
 
 ### shape=rounded
 
 Use rounded shape.
 
-`https://cdn.statically.io/avatar/shape=rounded/:text`
+`/avatar/shape=rounded/:text`
 
 ## Live demo
 
-`https://cdn.statically.io/avatar/foo`
+`/avatar/foo`
 
 ![avatar](https://cdn.statically.io/avatar/foo)
 
-`https://cdn.statically.io/avatar/shape=circle/bar`
+`/avatar/shape=circle/bar`
 
 ![avatar (circle)](https://cdn.statically.io/avatar/shape=circle/bar)
 
-`https://cdn.statically.io/avatar/shape=rounded/you`
+`/avatar/shape=rounded/you`
 
 ![avatar (rounded)](https://cdn.statically.io/avatar/shape=rounded/you)

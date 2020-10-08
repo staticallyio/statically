@@ -49,11 +49,11 @@ function DocsPage() {
               <h2>Usage</h2>
               <p>All Statically's services starts with this URL: </p>
               <p>
-                <code>https://cdn.statically.io/</code>
+                <code>https://cdn.statically.io</code>
               </p>
               <p>
                 If you are still using the old URL{' '}
-                <code>https://cdn.staticaly.com/</code>, please use the above instead.
+                <code>https://cdn.staticaly.com</code>, please use the above instead.
               </p>
 
               <h2>Allowed HTTP methods</h2>
