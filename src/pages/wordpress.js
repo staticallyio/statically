@@ -255,7 +255,7 @@ function WordpressPage() {
                 </label>
               </div>
 
-              <button className="btn btn-primary w-full umami--click--generate-api-key" type="submit">
+              <button className="btn btn-primary w-full umami--click--btn-generate-api-key" type="submit">
                 Generate API Key
               </button>
             </form>

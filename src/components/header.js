@@ -89,7 +89,7 @@ function Header({ siteTitle }) {
         <div className="flex mt-3 lg:mt-0">
           <a
             href="https://www.patreon.com/fransallen"
-            className="btn btn-primary btn-sm"
+            className="btn btn-primary btn-sm umami--click--btn-become-a-sponsor"
             title="Become A Backer"
             rel="noopener noreferrer"
             target="_blank"
