@@ -65,10 +65,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:staticallyio/statically-web.git"
+    "url": "git@github.com:staticallyio/statically.git"
   },
   "bugs": {
-    "url": "https://github.com/staticallyio/statically-web/issues"
+    "url": "https://github.com/staticallyio/statically/issues"
   },
   "publishConfig": {
     "access": "public"
