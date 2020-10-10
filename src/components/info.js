@@ -16,9 +16,9 @@ function Info({ text, href, target }) {
 }
 
 Info.defaultProps = {
-  href: '/policies/privacy/',
+  href: '/docs/using-staticzap/',
   target: '_self',
-  text: `We've updated our Privacy Policy, GDPR compliance and TOS, please review it here.`,
+  text: `Statically Sites has been deprecated, read the documentation to replace it with Staticzap`,
 };
 
 Info.propTypes = {
