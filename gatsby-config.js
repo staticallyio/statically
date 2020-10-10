@@ -34,7 +34,6 @@ module.exports = {
         short_name: `statically`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#e53e3e`,
         display: `minimal-ui`,
         icon: `static/images/branding/statically-mark.png`,
       },
