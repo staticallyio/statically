@@ -136,6 +136,12 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/integration*"
+  to = "https://statically.io/docs/"
+  status = 301
+  force = true
+
 # Static file redirects
 [[redirects]]
   from = "/static/images/*"
