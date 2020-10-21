@@ -89,11 +89,19 @@ function Header({ siteTitle }) {
         <div className="flex mt-3 lg:mt-0">
           <a
             href="https://www.patreon.com/fransallen"
-            className="btn btn-primary btn-sm umami--click--btn-donate-1-dollar"
+            className="btn btn-primary btn-sm umami--click--btn-donate-1-dollar-patreon"
             rel="noopener noreferrer"
             target="_blank"
           >
             Donate $1 via Patreon
+          </a>
+          <a
+            href="https://www.paypal.me/fransallen"
+            className="btn btn-sm ml-2 umami--click--btn-donate-1-dollar-paypal"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Donate $1 via PayPal
           </a>
         </div>
       </div>
