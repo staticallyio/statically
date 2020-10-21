@@ -120,13 +120,13 @@
 
 [[redirects]]
   from = "/policies"
-  to = "https://statically.io/policies/privary/"
+  to = "https://statically.io/policies/privacy/"
   status = 301
   force = true
 
 [[redirects]]
   from = "/privacy"
-  to = "https://statically.io/policies/privary/"
+  to = "https://statically.io/policies/privacy/"
   status = 301
   force = true
 
