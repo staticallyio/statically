@@ -35,6 +35,15 @@ function SupportStaticallyPage() {
               >
                 Become A Sponsor
               </a>
+
+              <a
+                className="btn m-2"
+                href="https://www.paypal.me/fransallen"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                One-time $1 via PayPal
+              </a>
             </div>
 
             <div className="sponsor-platinum mt-20">
