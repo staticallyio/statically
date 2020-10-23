@@ -103,6 +103,16 @@ function Features() {
             </a>
           </p>
 
+          <div className="mt-4 flex items-center">
+            or use
+
+            <Link className="btn btn-secondary btn-sm ml-2 mr-2 umami--click--btn-convert" to="/convert/">
+              Convert
+            </Link>
+
+            to easily convert links.
+          </div>
+
           <div className="text-sm text-gray-700 mt-8">
             <FontAwesomeIcon icon={Icons.faLightbulb} />
             <strong> ProTip:</strong> Add{' '}
@@ -240,16 +250,13 @@ function Features() {
             Accelerate WordPress static assets instantly
           </h3>
 
-          <p className="md:text-lg font-semibold mt-4 mb-1">
-            Our WordPress Plugin
-          </p>
           <p className="mt-2">
             Thanks to our official WordPress plugin, it allows you to easily
             optimize static files like images, JavaScript &amp; CSS, on-the-fly,
             and serve them from our global CDNs.
           </p>
           <Link className="btn btn-secondary btn-sm mt-4" to="/wordpress/">
-            Integrate Now!
+            Integrate now!
           </Link>
 
           <p className="text-gray-900 mt-4 md:hidden">

@@ -11,11 +11,15 @@ function Footer() {
         <div className="w-full sm:w-1/3 md:w-1/3 lg:w-1/3 pb-6 sm:pr-12">
           <ul>
             <li>
-              <Link to="/docs/">Docs</Link>
+              <Link to="/convert/">Convert</Link>
+            </li>
+            
+            <li>
+              <Link to="/wordpress/">WordPress</Link>
             </li>
 
             <li>
-              <Link to="/blog/">Blog</Link>
+              <Link to="/docs/">Docs</Link>
             </li>
           </ul>
         </div>
@@ -24,6 +28,10 @@ function Footer() {
           <ul>
             <li>
               <Link to="/about/">About</Link>
+            </li>
+
+            <li>
+              <Link to="/blog/">Blog</Link>
             </li>
 
             <li>
@@ -36,6 +44,10 @@ function Footer() {
           <ul>
             <li>
               <a href="https://statically.discourse.group">Community</a>
+            </li>
+
+            <li>
+              <Link to="/docs/our-network/">Our Network</Link>
             </li>
 
             <li>
