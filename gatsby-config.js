@@ -30,7 +30,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `statically-web`,
+        name: `statically`,
         short_name: `statically`,
         start_url: `/`,
         background_color: `#ffffff`,
