@@ -84,7 +84,10 @@ const STATICALLY_PASTE_DATA = {
   'https?:\\/\\/themes\\.svn\\.wordpress\\.org\\/(\\S+)': 'https://cdn.statically.io/wp/t/$1',
   'https?:\\/\\/(?:cdn.)?rawgit(?:hub)?\\.com\\/(\\S+)': 'https://cdn.statically.io/gh/$1',
   'https?:\\/\\/cdnjs\\.cloudflare\\.com\\/ajax\\/libs/(\\S+)': 'https://cdn.statically.io/libs/$1',
-  'https?:\\/\\/cdn\\.jsdelivr\\.net\\/(\\S+)': 'https://cdn.statically.io/$1',
+  'https?:\\/\\/cdn\\.jsdelivr\\.net\\/gh/(\\S+)': 'https://cdn.statically.io/gh/$1',
+  'https?:\\/\\/cdn\\.jsdelivr\\.net\\/npm/(\\S+)': 'https://cdn.statically.io/npm/$1',
+  'https?:\\/\\/cdn\\.jsdelivr\\.net\\/wp/themes/(\\S+)': 'https://cdn.statically.io/wp/t/$1',
+  'https?:\\/\\/cdn\\.jsdelivr\\.net\\/wp/plugins/(\\S+)': 'https://cdn.statically.io/wp/p/$1',
   'https?:\\/\\/unpkg\\.com\\/(\\S+)': 'https://cdn.statically.io/npm/$1',
 };
 
