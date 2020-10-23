@@ -12,7 +12,7 @@ function Social() {
         <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 p-4 md:border-r">
           <Link to="/support-statically/" className="hover:text-red-400">
             <FontAwesomeIcon icon={Regular.faLifeRing} className="mr-2" />
-            Support us!
+            Support Us!
           </Link>
         </div>
 
