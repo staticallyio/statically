@@ -83,6 +83,9 @@ const STATICALLY_PASTE_DATA = {
   'https?:\\/\\/plugins\\.svn\\.wordpress\\.org\\/([^\\/]+)\\/tags\\/(.+\\..+?)(?:\\?.*)?': 'https://cdn.statically.io/wp/p/$1/$2',
   'https?:\\/\\/themes\\.svn\\.wordpress\\.org\\/(\\S+)': 'https://cdn.statically.io/wp/t/$1',
   'https?:\\/\\/(?:cdn.)?rawgit(?:hub)?\\.com\\/(\\S+)': 'https://cdn.statically.io/gh/$1',
+  'https?:\\/\\/cdnjs\\.cloudflare\\.com\\/ajax\\/libs/(\\S+)': 'https://cdn.statically.io/libs/$1',
+  'https?:\\/\\/cdn\\.jsdelivr\\.net\\/(\\S+)': 'https://cdn.statically.io/$1',
+  'https?:\\/\\/unpkg\\.com\\/(\\S+)': 'https://cdn.statically.io/npm/$1',
 };
 
 class ConvertPage extends React.Component {
@@ -132,6 +135,7 @@ class ConvertPage extends React.Component {
             `gitlab`,
             `bitbucket`,
             `wordpress`,
+            `cdnjs`,
             `jsdelivr`,
             `unpkg`,
             `npm`,
@@ -145,7 +149,7 @@ class ConvertPage extends React.Component {
             </h1>
             
             <h2 className="text-gray-900 mb-8">
-              You can also convert URL of GitLab, Bitbucket, jsDelivr, cdnjs, and RawGit here.
+              You can also convert links of Gist, GitLab, Bitbucket, WordPress SVN, cdnjs, jsDelivr, and RawGit here.
             </h2>
 
             <form className="container mx-auto mb-5 md:w-2/3" onSubmit={this.handleSubmit} ref={this.setSourceRef}>
