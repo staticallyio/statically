@@ -58,6 +58,13 @@ function Header({ siteTitle }) {
             Features
           </Link>
           <Link
+            to="/docs/using-images/"
+            className="block py-2 lg:py-6 lg:inline-block lg:mt-0 mr-4 text-gray-700 hover:text-red-600 border-b-2 border-transparent font-semibold"
+            activeClassName="text-red-600 lg:border-red-600"
+          >
+            Images
+          </Link>
+          <Link
             to="/docs/"
             className="block py-2 lg:py-6 lg:inline-block lg:mt-0 mr-4 text-gray-700 hover:text-red-600 border-b-2 border-transparent font-semibold"
             activeClassName="text-red-600 lg:border-red-600"
