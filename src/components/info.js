@@ -16,9 +16,9 @@ function Info({ text, href, target }) {
 }
 
 Info.defaultProps = {
-  href: '/docs/using-staticzap/',
+  href: '/convert/',
   target: '_self',
-  text: `Statically Sites has been deprecated, read the documentation to replace it with Staticzap`,
+  text: `Convert GitHub, GitLab, and Bitbucket links to Statically CDN links here`,
 };
 
 Info.propTypes = {
