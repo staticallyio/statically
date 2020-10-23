@@ -6,6 +6,8 @@ import Features from '../components/features';
 import Social from '../components/social';
 import SponsorPlatinum from '../components/sponsor-platinum';
 import SponsorPlatinum2 from '../components/sponsor-platinum2';
+//import cloudfrontLogo from '../../static/images/sponsors/cloudfront.svg';
+//import gccdnLogo from '../../static/images/sponsors/google-cloud-cdn.svg';
 
 function IndexPage() {
   return (
@@ -74,6 +76,31 @@ function IndexPage() {
             <h3 className="font-bold mb-5">multi-CDN powered by</h3>
 
             <SponsorPlatinum />
+
+            {/*
+            <div className="mt-8">
+              <span className="font-bold mb-5 mr-5">and</span>
+              <a className="sponsors-logo mr-5">
+                <img
+                  className="inline w-auto"
+                  src={cloudfrontLogo}
+                  alt="Amazon CloudFront"
+                  title="Amazon CloudFront"
+                />
+              </a>
+
+              
+              <a className="sponsors-logo">
+                <img
+                  style={{ maxWidth: '50px' }}
+                  className="inline w-auto"
+                  src={gccdnLogo}
+                  alt="Google Cloud CDN"
+                  title="Google Cloud CDN"
+                />
+              </a>
+            </div>
+            */}
           </div>
         </section>
 
