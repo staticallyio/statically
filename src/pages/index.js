@@ -6,8 +6,8 @@ import Features from '../components/features';
 import Social from '../components/social';
 import SponsorPlatinum from '../components/sponsor-platinum';
 import SponsorPlatinum2 from '../components/sponsor-platinum2';
-//import cloudfrontLogo from '../../static/images/sponsors/cloudfront.svg';
-//import gccdnLogo from '../../static/images/sponsors/google-cloud-cdn.svg';
+import cloudfrontLogo from '../../static/images/sponsors/cloudfront.svg';
+import gccdnLogo from '../../static/images/sponsors/google-cloud-cdn.svg';
 
 function IndexPage() {
   return (
@@ -77,7 +77,6 @@ function IndexPage() {
 
             <SponsorPlatinum />
 
-            {/*
             <div className="mt-8">
               <span className="font-bold mb-5 mr-5">and</span>
               <a className="sponsors-logo mr-5">
@@ -89,7 +88,6 @@ function IndexPage() {
                 />
               </a>
 
-              
               <a className="sponsors-logo">
                 <img
                   style={{ maxWidth: '50px' }}
@@ -100,7 +98,6 @@ function IndexPage() {
                 />
               </a>
             </div>
-            */}
           </div>
         </section>
 

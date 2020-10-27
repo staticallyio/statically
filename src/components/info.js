@@ -16,9 +16,9 @@ function Info({ text, href, target }) {
 }
 
 Info.defaultProps = {
-  href: '/docs/using-staticzap/',
+  href: '/docs/our-network/',
   target: '_self',
-  text: `Statically Sites has been deprecated, read the documentation to replace it with Staticzap`,
+  text: `We added Google Cloud CDN and Amazon CloudFront to Statically's multi-CDN stack.`,
 };
 
 Info.propTypes = {
