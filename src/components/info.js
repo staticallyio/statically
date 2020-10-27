@@ -16,9 +16,9 @@ function Info({ text, href, target }) {
 }
 
 Info.defaultProps = {
-  href: '/convert/',
+  href: '/docs/our-network/',
   target: '_self',
-  text: `Convert GitHub, GitLab, and Bitbucket links to Statically CDN links here`,
+  text: `We added Google Cloud CDN and Amazon CloudFront to Statically's multi-CDN stack.`,
 };
 
 Info.propTypes = {

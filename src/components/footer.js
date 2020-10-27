@@ -92,12 +92,12 @@ function Footer() {
       </nav>
 
       <nav className="max-w-xl mx-auto text-center mb-5 text-base">
-        <Link className="px-2" to="/policies/terms/">
-          Terms
-        </Link>
-
         <Link className="px-2" to="/policies/privacy/">
           Privacy
+        </Link>
+
+        <Link className="px-2" to="/policies/terms/">
+          Terms
         </Link>
       </nav>
 
