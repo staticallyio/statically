@@ -101,13 +101,11 @@ function IndexPage() {
           </div>
         </section>
 
-        {/*
         <section className="mb-20 max-w-5xl mx-auto px-4 md:px-0">
           <label class="block">
             <input type="text" class="form-input block w-full p-4 border-gray-600" placeholder="Search packages on npm" />
           </label>
         </section>
-        */}
 
         <div className="border-b"></div>
 
