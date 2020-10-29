@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
+import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import DocsNav from '../components/docs-nav';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import * as Regular from "@fortawesome/free-regular-svg-icons";
 
 function DocsPost({ data }) {
   const { markdownRemark } = data; // data.markdownRemark holds our post data
@@ -49,6 +53,40 @@ function DocsPost({ data }) {
             />
           </div>
         </div>
+
+        <aside className="lg:w-1/4 xl:2/5 mt-5 p-5">
+          <div className="mb-10">
+            <a
+              className="text-lg umami--click--link-docs-chat"
+              href="https://twitter.com/staticallyio"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <FontAwesomeIcon className="mr-2" icon={Regular.faCommentDots} />
+              Chat with Us!
+            </a>
+            
+            <a
+              className="text-lg block mt-2 umami--click--link-docs-feedback"
+              href="https://github.com/staticallyio/statically/issues/new"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <FontAwesomeIcon className="mr-2" icon={Regular.faEdit} />
+              Feedback
+            </a>
+          </div>
+
+          <Helmet>
+            <script
+              key="carbonads"
+              type="text/javascript"
+              src="//cdn.carbonads.com/carbon.js?serve=CEBIV5Q7&amp;placement=staticallyio"
+              id="_carbonads_js"
+              async
+            />
+          </Helmet>
+        </aside>
       </section>
     </Layout>
   );

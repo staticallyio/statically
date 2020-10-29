@@ -1,5 +1,6 @@
 import { Link } from 'gatsby';
 import React from 'react';
+import Helmet from 'react-helmet';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as Icons from '@fortawesome/free-solid-svg-icons';
@@ -103,10 +104,10 @@ function Features() {
             </a>
           </p>
 
-          <div className="mt-4 flex items-center">
+          <div className="mt-4">
             or use
 
-            <Link className="btn btn-secondary btn-sm ml-2 mr-2 umami--click--btn-convert" to="/convert/">
+            <Link className="btn btn-secondary btn-sm ml-2 mr-2 umami--click--btn-convert -mb-2" to="/convert/">
               Convert
             </Link>
 
@@ -235,7 +236,7 @@ function Features() {
             </a>
           </p>
 
-          <div className="text-sm text-gray-700 mt-8">
+          <div className="text-sm text-gray-700 mt-8 max-w-xl">
             <FontAwesomeIcon icon={Icons.faInfoCircle} />
             <span>
               <strong> A feature:</strong> WebP will automatically served when
@@ -390,7 +391,7 @@ function Features() {
               Image resizing `w` and `h` available only on desktop mode.
             </span>
           </div>
-          <div className="text-sm text-gray-700">
+          <div className="text-sm text-gray-700 max-w-xl">
             <FontAwesomeIcon icon={Icons.faInfoCircle} />
             <span>
               {' '}
@@ -600,6 +601,18 @@ function Features() {
             </span>
           </div>
         </TabPanel>
+
+        <div id="carbonads-home" className="float-none mt-8 lg:float-right lg:block lg:-mt-40">
+          <Helmet>
+            <script
+              key="carbonads"
+              type="text/javascript"
+              src="//cdn.carbonads.com/carbon.js?serve=CEBIV5Q7&amp;placement=staticallyio"
+              id="_carbonads_js"
+              async
+            />
+          </Helmet>
+        </div>
       </div>
     </Tabs>
   );

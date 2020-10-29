@@ -1,5 +1,6 @@
 import { Link } from 'gatsby';
 import React from 'react';
+import Helmet from 'react-helmet';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as Regular from '@fortawesome/free-regular-svg-icons';
 import * as Brands from '@fortawesome/free-brands-svg-icons';
@@ -35,10 +36,21 @@ function WordpressPage() {
                 <h2 className="font-bold text-4xl md:max-w-sm mb-5">
                   WordPress, optimized!
                 </h2>
-                <p className="text-lg">
+
+                <p className="text-lg mb-5">
                   Minimize CSS and javascript, optimize and add transformation
                   capabilities to images, cache and deliver quickly.
                 </p>
+
+                <Helmet>
+                  <script
+                    key="carbonads"
+                    type="text/javascript"
+                    src="//cdn.carbonads.com/carbon.js?serve=CEBIV5Q7&amp;placement=staticallyio"
+                    id="_carbonads_js"
+                    async
+                  />
+                </Helmet>
               </div>
 
               <div className="w-full sm:w-1/4 md:w-1/4 lg:w-1/4 m-auto">

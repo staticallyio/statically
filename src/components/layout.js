@@ -22,7 +22,7 @@ function Layout({ children }) {
       <Info />
       <Header siteTitle={data.site.siteMetadata.title} />
 
-      <main className="flex flex-col flex-1 md:justify-center mx-auto w-full">
+      <main className="flex flex-col flex-1 mx-auto w-full">
         {children}
       </main>
 
