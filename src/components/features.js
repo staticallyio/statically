@@ -1,11 +1,19 @@
 import { Link } from 'gatsby';
-import React from 'react';
-import Helmet from 'react-helmet';
+import React, { useEffect, useState } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as Icons from '@fortawesome/free-solid-svg-icons';
+import loadCarbonAds from '../hooks/carbonads';
 
-function Features() {
+const Features = props => {
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    loadCarbonAds(() => {
+      setLoaded(true);
+    });
+  });
+
   return (
     <Tabs
       className="mx-auto my-8"
@@ -602,17 +610,7 @@ function Features() {
           </div>
         </TabPanel>
 
-        <div id="carbonads-home" className="float-none mt-8 lg:float-right lg:block lg:-mt-40">
-          <Helmet>
-            <script
-              key="carbonads"
-              type="text/javascript"
-              src="//cdn.carbonads.com/carbon.js?serve=CEBIV5Q7&amp;placement=staticallyio"
-              id="_carbonads_js"
-              async
-            />
-          </Helmet>
-        </div>
+        <div id="ads" className="float-none mt-8 lg:float-right lg:block lg:-mt-32"></div>
       </div>
     </Tabs>
   );

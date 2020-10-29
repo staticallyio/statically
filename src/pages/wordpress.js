@@ -1,6 +1,5 @@
 import { Link } from 'gatsby';
-import React from 'react';
-import Helmet from 'react-helmet';
+import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as Regular from '@fortawesome/free-regular-svg-icons';
 import * as Brands from '@fortawesome/free-brands-svg-icons';
@@ -9,7 +8,17 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import staticallyMark from '../../static/images/branding/statically-mark.svg';
 
-function WordpressPage() {
+import loadCarbonAds from '../hooks/carbonads';
+
+const WordpressPage = props => {
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    loadCarbonAds(() => {
+      setLoaded(true);
+    });
+  });
+
   return (
     <Layout>
       <SEO
@@ -42,15 +51,7 @@ function WordpressPage() {
                   capabilities to images, cache and deliver quickly.
                 </p>
 
-                <Helmet>
-                  <script
-                    key="carbonads"
-                    type="text/javascript"
-                    src="//cdn.carbonads.com/carbon.js?serve=CEBIV5Q7&amp;placement=staticallyio"
-                    id="_carbonads_js"
-                    async
-                  />
-                </Helmet>
+                <div id="ads"></div>
               </div>
 
               <div className="w-full sm:w-1/4 md:w-1/4 lg:w-1/4 m-auto">

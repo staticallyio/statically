@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import Helmet from 'react-helmet';
+import React, { useEffect, useState } from 'react';
 import { graphql } from 'gatsby';
 
 import Layout from '../components/layout';
@@ -9,10 +8,19 @@ import DocsNav from '../components/docs-nav';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as Regular from "@fortawesome/free-regular-svg-icons";
 
+import loadCarbonAds from '../hooks/carbonads';
+
 function DocsPost({ data }) {
   const { markdownRemark } = data; // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark;
-  const [isExpanded, toggleExpansion] = useState(false);
+  const [ isExpanded, toggleExpansion ] = useState(false);
+  const [ loaded, setLoaded ] = useState(false);
+
+  useEffect(() => {
+    loadCarbonAds(() => {
+      setLoaded(true);
+    });
+  });
 
   return (
     <Layout>
@@ -54,8 +62,8 @@ function DocsPost({ data }) {
           </div>
         </div>
 
-        <aside className="lg:w-1/4 xl:2/5 mt-5 p-5">
-          <div className="mb-10">
+        <aside className="lg:w-1/4 xl:2/5 mt-10 p-5">
+          <div className="mb-5">
             <a
               className="text-lg umami--click--link-docs-chat"
               href="https://twitter.com/staticallyio"
@@ -77,15 +85,7 @@ function DocsPost({ data }) {
             </a>
           </div>
 
-          <Helmet>
-            <script
-              key="carbonads"
-              type="text/javascript"
-              src="//cdn.carbonads.com/carbon.js?serve=CEBIV5Q7&amp;placement=staticallyio"
-              id="_carbonads_js"
-              async
-            />
-          </Helmet>
+          <div id="ads"></div>
         </aside>
       </section>
     </Layout>

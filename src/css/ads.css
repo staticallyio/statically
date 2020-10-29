@@ -1,26 +1,27 @@
-#carbonads {
+#ads {
   max-width: 300px;
 }
 
-#carbonads > span {
+#ads > div > span {
   position: relative;
   display: block;
   padding: 10px;
   border-radius: 4px;
   background-color: #fff;
+  border: 4px solid #eee;
   box-shadow: 0 1px 3px hsla(0, 0%, 0%, .05);
 }
 
-#carbonads .carbon-wrap {
+#ads .carbon-wrap {
   display: flex;
 }
 
-#carbonads .carbon-img {
+#ads .carbon-img {
   margin-right: 10px;
   line-height: 1;
 }
 
-#carbonads .carbon-text {
+#ads .carbon-text {
   margin-bottom: 12px;
   color: #637381;
   text-decoration: none;
@@ -28,7 +29,7 @@
   line-height: 1.45;
 }
 
-#carbonads .carbon-poweredby {
+#ads .carbon-poweredby {
   position: absolute;
   bottom: 10px;
   left: 152px;
