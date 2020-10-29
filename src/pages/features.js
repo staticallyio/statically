@@ -96,7 +96,7 @@ function FeaturesPage() {
           </div>
         </div>
 
-        <aside className="lg:w-1/4 xl:2/5 mt-5 p-5">
+        <aside className="lg:w-1/4 xl:2/5 mt-10 p-5">
           <div className="mb-5">
             <a
               className="text-lg umami--click--link-docs-chat"
