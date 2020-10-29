@@ -7,9 +7,17 @@ You might wondering if the content you access was already cached on CDN or not. 
 
 `curl -I https://cdn.statically.io/:path_to_content`
 
+You should use **curl** with `-k` if you get `curl: (60) SSL certificate problem` error.
+
+`curl -I -k https://cdn.statically.io/:path_to_content`
+
 ## Example
 
 `curl -I https://cdn.statically.io/gh/mrdoob/three.js/dev/build/three.js`
+
+OR
+
+`curl -I -k https://cdn.statically.io/gh/mrdoob/three.js/dev/build/three.js`
 
 ```
 HTTP/2 200 
