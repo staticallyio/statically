@@ -22,9 +22,9 @@ const WordpressPage = props => {
   return (
     <Layout>
       <SEO
-        title="WordPress Integration"
-        description="Finally here! CDN that is optimized for the needs of WordPress based websites."
-        keywords={[`statically`, `wordpress`, `integration`]}
+        title="Free WordPress CDN"
+        description="The best free and fast CDN for WordPress. Image, CSS, JS optimization."
+        keywords={[`statically`, `wordpress`, `integration`, `free cdn`]}
       />
 
       <div className="px-4 py-8 md:p-8">
