@@ -60,7 +60,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-umami`,
       options: {
-        websiteId: `9a5f45a8-2692-4b47-af37-40cdc9adaf38`,
+        websiteId: `2df54a35-bb8a-4367-a544-bf0342297172`,
         srcUrl: `https://anila.statically.io/script.js`,
         includeInDevelopment: false,
         autoTrack: true,
