@@ -78,3 +78,4 @@ Statically is free optimization & CDN for images, CSS, JavaScript, and open sour
 - Rytis Petkevicius
 - V&M Service Provider .Limited
 - Matt Christian
+- Russell Maier (ecobricks.org)
