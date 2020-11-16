@@ -18,7 +18,7 @@ function Info({ text, href, target }) {
 Info.defaultProps = {
   href: '/docs/our-network/',
   target: '_self',
-  text: `We added Google Cloud CDN and Amazon CloudFront to Statically's multi-CDN stack.`,
+  text: `Statically is now powered with Google Cloud CDN and Amazon CloudFront.`,
 };
 
 Info.propTypes = {
