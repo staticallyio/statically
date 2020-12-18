@@ -16,7 +16,7 @@ function Info({ text, href, target }) {
 }
 
 Info.defaultProps = {
-  href: '/docs/our-network/',
+  href: 'https://twitter.com/staticallyio/status/1321214043051311106',
   target: '_self',
   text: `Statically is now powered with Google Cloud CDN and Amazon CloudFront.`,
 };
