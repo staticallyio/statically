@@ -36,7 +36,7 @@
 
 - Multi-CDN
 - File Optimization
-- CDN for Open SOurce
+- CDN for Open Source
 
 ## :zap: Quick start
 
