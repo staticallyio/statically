@@ -8,5 +8,5 @@ Our network is backed by a multi-CDN infrastructure for the best performance at 
 - [Check the Fastly network here](https://www.fastly.com/network-map)
 - [Check the Cloudflare network here](https://www.cloudflare.com/network/)
 - [Check the BunnyCDN network here](https://bunnycdn.com/network)
-- [Check the Amazon CloudFront network here](https://aws.amazon.com/cloudfront/features/)
 - [Check the Google Cloud CDN network here](https://cloud.google.com/cdn/docs/locations)
+- [Check the Amazon CloudFront network here](https://aws.amazon.com/cloudfront/features/)
