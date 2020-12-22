@@ -147,11 +147,11 @@ class ConvertPage extends React.Component {
 
         <div className="px-4 py-8">
           <section className="text-center max-w-5xl mx-auto px-4 md:px-0">
-            <h1 className="text-3xl md:text-5xl font-bold inline-block max-w-5xl mt-8">
+            <h1 className="page-title mt-16 max-w-4xl">
               Convert GitHub links to Statically CDN links
             </h1>
             
-            <h2 className="text-gray-900 mb-8">
+            <h2 className="page-desc mb-12">
               You can also convert links of Gist, GitLab, Bitbucket, WordPress SVN, cdnjs, jsDelivr, and RawGit here.
             </h2>
 

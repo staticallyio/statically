@@ -27,16 +27,14 @@ const WordpressPage = props => {
         keywords={[`statically`, `wordpress`, `integration`, `free cdn`]}
       />
 
-      <div className="px-4 py-8 md:p-8">
-        <section className="mt-20 mb-24 max-w-4xl mx-auto">
-          <div className="text-center mb-20">
-            <h1 className="font-bold text-4xl max-w-xl mx-auto mt-5 mb-5">
-              WordPress + Statically
-            </h1>
-            <p className="text-lg mx-auto">
+      <div className="px-4 md:px-8">
+        <section className="mt-24 mb-20 max-w-6xl mx-auto">
+          <div className="text-center">
+            <h1 className="page-title max-w-6xl">Free WordPress CDN</h1>
+            <h2 className="page-desc">
               Finally here! CDN that is optimized for the needs of WordPress
               based websites.
-            </p>
+            </h2>
           </div>
 
           <section className="mt-20 max-w-4xl mx-auto px-8 lg:px-0">
@@ -56,7 +54,7 @@ const WordpressPage = props => {
 
               <div className="w-full sm:w-1/4 md:w-1/4 lg:w-1/4 m-auto">
                 <div
-                  className="w-32 rounded overflow-hidden border border-gray-400 mx-auto text-center px-6 py-4 mb-2"
+                  className="w-32 rounded-lg overflow-hidden border border-gray-400 mx-auto text-center px-6 py-4 mb-2"
                   title="Your WordPress site"
                 >
                   <FontAwesomeIcon
@@ -158,7 +156,7 @@ const WordpressPage = props => {
 
             <form
               action="https://api.statically.io/integrations/wordpress"
-              className="bg-white border border-gray-400 rounded px-8 pt-6 pb-8 mb-4 max-w-xl mx-auto"
+              className="bg-white border border-gray-400 rounded-lg px-8 pt-6 pb-8 mb-4 max-w-xl mx-auto"
               name="WordPress"
               method="POST"
               data-netlify="true"
@@ -173,7 +171,7 @@ const WordpressPage = props => {
                   Email
                 </label>
                 <input
-                  className="form-input w-full"
+                  className="form-input rounded-lg w-full"
                   id="email"
                   name="email"
                   type="email"
@@ -190,7 +188,7 @@ const WordpressPage = props => {
                   Domain
                 </label>
                 <input
-                  className="form-input w-full"
+                  className="form-input rounded-lg w-full"
                   id="domain"
                   name="domain"
                   type="text"
@@ -207,7 +205,7 @@ const WordpressPage = props => {
                   What is your role for this website?
                 </label>
                 <div className="relative">
-                  <select className="form-input w-full" id="role" name="role">
+                  <select className="form-input rounded-lg w-full" id="role" name="role">
                     <option>Owner</option>
                     <option>Admin</option>
                   </select>
@@ -232,7 +230,7 @@ const WordpressPage = props => {
                 </label>
                 <div className="relative">
                   <select
-                    className="form-input w-full"
+                    className="form-input rounded-lg w-full"
                     id="category"
                     name="category"
                   >

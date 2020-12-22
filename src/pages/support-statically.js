@@ -21,7 +21,7 @@ function SupportStaticallyPage() {
         <section className="mt-24 mb-20 max-w-4xl mx-auto">
           <div className="text-center">
             <h1 className="page-title">Become A Sponsor</h1>
-            <h2 className="page-desc max-w-2xl">
+            <h2 className="page-desc">
               Exclusively sponsor Statically and have your company logo placed
               on this website.
             </h2>

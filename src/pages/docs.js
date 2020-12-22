@@ -51,7 +51,7 @@ function DocsPage() {
         </div>
 
         <div className="min-h-screen w-full lg:static lg:max-h-full lg:overflow-visible lg:w-3/4 xl:w-4/5">
-          <div className="p-5 max-w-3xl">
+          <div className="p-5 pt-8 max-w-3xl">
             <h1 className="text-4xl font-bold">Statically Documentation</h1>
             <div className="markdown">
               <p>

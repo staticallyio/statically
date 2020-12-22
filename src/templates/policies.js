@@ -41,7 +41,7 @@ function PoliciesPost({ data }) {
         </div>
 
         <div className="lg:w-3/4 xl:w-4/5">
-          <div className="p-5 max-w-3xl">
+          <div className="p-5 pt-8 max-w-3xl">
             <h1 className="text-4xl font-bold">{frontmatter.title}</h1>
             <div
               className="markdown"

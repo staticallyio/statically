@@ -20,7 +20,7 @@ function ContactPage() {
           </div>
 
           <form
-            className="bg-white border border-gray-400 rounded px-8 pt-6 pb-8 mt-20 mb-4 max-w-xl mx-auto"
+            className="bg-white border border-gray-400 rounded-lg px-8 pt-6 pb-8 mt-20 mb-4 max-w-xl mx-auto"
             name="Contact Form"
             method="POST"
             data-netlify="true"
@@ -34,7 +34,7 @@ function ContactPage() {
                 Full Name
               </label>
               <input
-                className="form-input w-full"
+                className="form-input rounded-lg w-full"
                 id="name"
                 name="name"
                 type="text"
@@ -51,7 +51,7 @@ function ContactPage() {
                 Email
               </label>
               <input
-                className="form-input w-full"
+                className="form-input rounded-lg w-full"
                 id="email"
                 name="email"
                 type="text"
@@ -68,7 +68,7 @@ function ContactPage() {
                 Subject
               </label>
               <input
-                className="form-input w-full"
+                className="form-input rounded-lg w-full"
                 id="url"
                 name="subject"
                 type="text"
@@ -85,7 +85,7 @@ function ContactPage() {
                 Message
               </label>
               <textarea
-                className="form-input w-full"
+                className="form-input rounded-lg w-full"
                 id="message"
                 name="message"
                 type="text"

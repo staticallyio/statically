@@ -53,14 +53,14 @@ function AboutPage() {
 
           <form
             action="https://statically.us18.list-manage.com/subscribe/post?u=4dfd4ae04677bf4f6248182fc&amp;id=397ea962f2"
-            className="bg-white border border-gray-400 rounded px-8 pt-6 pb-8 mb-4 max-w-xl mx-auto"
+            className="bg-white border border-gray-400 rounded-lg px-8 pt-6 pb-8 mb-4 max-w-xl mx-auto"
             name="Contact Form"
             method="POST"
           >
             <input type="hidden" name="form-name" value="Contact Form" />
             <div className="mb-4">
               <input
-                className="form-input w-full"
+                className="form-input rounded-lg w-full"
                 id="email"
                 name="EMAIL"
                 type="text"

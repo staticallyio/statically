@@ -31,8 +31,8 @@ function IndexPage() {
 
       <div className="px-4 py-8">
         <section className="mb-24 text-center max-w-5xl mx-auto px-4 md:px-0">
-          <h1 className="text-3xl md:text-5xl font-bold inline-block max-w-4xl mt-8 mb-4">
-            Tools for optimizing your web projects.
+          <h1 className="text-3xl md:text-6xl font-black inline-block max-w-4xl mt-16 mb-8">
+            The fast and easy way to make your websites load faster
           </h1>
 
           <Features />

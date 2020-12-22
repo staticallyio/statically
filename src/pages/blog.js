@@ -17,10 +17,10 @@ const BlogPage = ({
   return (
     <Layout>
       <SEO title="Blog" keywords={[`statically`, `blogs`, `news`]} />
-      <section className="max-w-2xl mx-auto mt-20 px-5">
+      <section className="max-w-4xl mx-auto mt-24 px-5">
         <div className="text-center">
           <h1 className="page-title">We are preparing.</h1>
-          <h2 className="page-desc max-w-3xl">
+          <h2 className="page-desc">
             Join our mailing list so that you will be the first to know about
             our blog posts.
           </h2>
