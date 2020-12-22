@@ -3,8 +3,8 @@ import { Link } from 'gatsby';
 
 function DocsNav() {
   return (
-    <nav className="pt-8 p-5">
-      <div className="mb-8">
+    <nav className="p-5 pt-8">
+      <div className="mt-3 mb-8">
         <h5 className="mb-3 lg:mb-2 text-gray-500 uppercase font-bold text-sm lg:text-xs text-indigo-400">
           Getting Started
         </h5>

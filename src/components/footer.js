@@ -9,7 +9,7 @@ function Footer() {
     <footer className="mt-20 mb-24 text-lg text-center font-semibold">
       <nav className="flex flex-wrap content-center max-w-xl mx-auto mb-5">
         <div className="w-full sm:w-1/3 md:w-1/3 lg:w-1/3 pb-6 sm:pr-12">
-          <ul>
+          <ul className="space-y-1">
             <li>
               <Link to="/convert/">Convert</Link>
             </li>
@@ -25,7 +25,7 @@ function Footer() {
         </div>
 
         <div className="w-full sm:w-1/3 md:w-1/3 lg:w-1/3 pb-6 sm:px-12">
-          <ul>
+          <ul className="space-y-1">
             <li>
               <Link to="/about/">About</Link>
             </li>
@@ -41,7 +41,7 @@ function Footer() {
         </div>
 
         <div className="w-full sm:w-1/3 md:w-1/3 lg:w-1/3 pb-6 sm:pl-12">
-          <ul>
+          <ul className="space-y-1">
             <li>
               <a href="https://statically.discourse.group">Community</a>
             </li>
