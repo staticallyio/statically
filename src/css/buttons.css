@@ -1,5 +1,5 @@
 .btn {
-  @apply bg-gray-900 border-black inline-block font-bold py-3 px-4 rounded overflow-hidden relative;
+  @apply bg-gray-900 border-black inline-block font-bold py-3 px-4 rounded-lg overflow-hidden relative;
   color: #fff !important;
 }
 .btn:after {

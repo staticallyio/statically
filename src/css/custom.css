@@ -105,11 +105,11 @@ svg.fetch.green path {
  */
 
 .page-title {
-  @apply font-bold text-4xl max-w-xl mx-auto;
+  @apply font-black text-6xl max-w-xl mx-auto;
 }
 
 .page-desc {
-  @apply text-lg mt-5 max-w-xl mx-auto;
+  @apply text-2xl mt-5 max-w-4xl mx-auto;
 }
 
 @-webkit-keyframes animation-fetch {
