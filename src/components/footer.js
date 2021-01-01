@@ -102,7 +102,7 @@ function Footer() {
       </nav>
 
       <p className="font-normal text-center text-gray-900 text-base">
-        &copy; 2020 Statically &bull; a project by
+        &copy; 2021 Statically &bull; a project by
         <a
           href="https://upset.dev"
           className="ml-1 text-red-600 umami--click--link-footer-upsetdev"
