@@ -65,18 +65,18 @@ function Header({ siteTitle }) {
             Images
           </Link>
           <Link
+            to="/convert/"
+            className="block py-2 lg:py-6 lg:inline-block lg:mt-0 mr-4 text-gray-700 hover:text-red-600 border-b-2 border-transparent font-semibold"
+            activeClassName="text-red-600 lg:border-red-600"
+          >
+            Convert
+          </Link>
+          <Link
             to="/docs/"
             className="block py-2 lg:py-6 lg:inline-block lg:mt-0 mr-4 text-gray-700 hover:text-red-600 border-b-2 border-transparent font-semibold"
             activeClassName="text-red-600 lg:border-red-600"
           >
             Docs
-          </Link>
-          <Link
-            to="/blog/"
-            className="block py-2 lg:py-6 lg:inline-block lg:mt-0 mr-4 text-gray-700 hover:text-red-600 border-b-2 border-transparent font-semibold"
-            activeClassName="text-red-600 lg:border-red-600"
-          >
-            Blog
           </Link>
           <Link
             to="/support-statically/"
