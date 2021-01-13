@@ -7,19 +7,16 @@ function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
-    <nav className="border-b flex items-center justify-between flex-wrap px-5 py-5 lg:py-0">
-      <div className="flex items-center flex-shrink-0 text-white mr-6">
+    <nav className="flex items-center justify-between flex-wrap mt-2 p-5 lg:py-0 border-b md:border-transparent">
+      <div className="flex items-center flex-shrink-0 text-white mr-10">
         <h2>
           <Link
             to="/"
             id="logo"
-            className="flex items-center no-underline mr-6"
+            className="flex items-center no-underline -mt-1"
           >
-            <span className="font-bold text-xl tracking-tight hidden">
-              {siteTitle}
-            </span>
             <img
-              className="h-8"
+              className="h-6"
               src={staticallyLogo}
               alt="Statically"
               title="Statically logo"
@@ -49,66 +46,65 @@ function Header({ siteTitle }) {
           isExpanded ? `block` : `hidden`
         } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}
       >
-        <div className="text-lg lg:flex-grow pt-3 lg:pt-0">
+        <div className="lg:flex-grow text-gray-700">
           <Link
             to="/features/"
-            className="block py-2 lg:py-6 lg:inline-block lg:mt-0 mr-4 text-gray-700 hover:text-red-600 border-b-2 border-transparent font-semibold"
-            activeClassName="text-red-600 lg:border-red-600"
+            className="block py-2 lg:py-6 lg:inline-block lg:mt-0 mr-4 hover:text-red-500 border-b-2 border-transparent"
+            activeClassName="text-red-500"
           >
             Features
           </Link>
           <Link
             to="/docs/using-images/"
-            className="block py-2 lg:py-6 lg:inline-block lg:mt-0 mr-4 text-gray-700 hover:text-red-600 border-b-2 border-transparent font-semibold"
-            activeClassName="text-red-600 lg:border-red-600"
+            className="block py-2 lg:py-6 lg:inline-block lg:mt-0 mr-4 hover:text-red-600 border-b-2 border-transparent"
+            activeClassName="text-red-600"
           >
             Images
           </Link>
           <Link
             to="/convert/"
-            className="block py-2 lg:py-6 lg:inline-block lg:mt-0 mr-4 text-gray-700 hover:text-red-600 border-b-2 border-transparent font-semibold"
-            activeClassName="text-red-600 lg:border-red-600"
+            className="block py-2 lg:py-6 lg:inline-block lg:mt-0 mr-4 hover:text-red-600 border-b-2 border-transparent"
+            activeClassName="text-red-600"
           >
             Convert
           </Link>
           <Link
             to="/docs/"
-            className="block py-2 lg:py-6 lg:inline-block lg:mt-0 mr-4 text-gray-700 hover:text-red-600 border-b-2 border-transparent font-semibold"
-            activeClassName="text-red-600 lg:border-red-600"
+            className="block py-2 lg:py-6 lg:inline-block lg:mt-0 mr-4 hover:text-red-600 border-b-2 border-transparent"
+            activeClassName="text-red-600"
           >
             Docs
           </Link>
           <Link
             to="/support-statically/"
-            className="block py-2 lg:py-6 lg:inline-block lg:mt-0 mr-4 text-gray-700 hover:text-red-600 border-b-2 border-transparent font-semibold"
-            activeClassName="text-red-600 lg:border-red-600"
+            className="block py-2 lg:py-6 lg:inline-block lg:mt-0 mr-4 hover:text-red-600 border-b-2 border-transparent"
+            activeClassName="text-red-600"
           >
             Sponsors
           </Link>
           <a
             href="https://statically.discourse.group"
-            className="block py-2 lg:py-6 lg:inline-block lg:mt-0 mr-4 text-gray-700 hover:text-red-600 border-b-2 border-transparent font-semibold"
+            className="block py-2 lg:py-6 lg:inline-block lg:mt-0 mr-4 hover:text-red-600 border-b-2 border-transparent"
           >
             Community
           </a>
         </div>
 
         <div className="flex mt-3 lg:mt-0">
+          <Link
+            to="/login/"
+            className="block lg:inline-block mt-1 mr-6 hover:text-red-600 border-b-2 border-transparent"
+            activeClassName="text-red-600"
+          >
+            Login
+          </Link>
           <a
             href="https://www.patreon.com/fransallen"
             className="btn btn-primary btn-sm umami--click--btn-donate-1-dollar-patreon"
             rel="noopener noreferrer"
             target="_blank"
           >
-            Donate $1 via Patreon
-          </a>
-          <a
-            href="https://www.paypal.me/fransallen"
-            className="btn btn-sm ml-2 umami--click--btn-donate-1-dollar-paypal"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Donate $1 via PayPal
+            Donate $1
           </a>
         </div>
       </div>

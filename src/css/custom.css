@@ -3,6 +3,17 @@ a,
   transition-duration: 0.2s;
 }
 
+/**
+ * Heading
+ */
+h1, h2, h3, h4, h5, h6 {
+  @apply text-black;
+}
+
+ .font-heading {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 .sponsors-logo img {
   filter: grayscale(100%);
   transition-duration: 0.3s;
@@ -105,11 +116,16 @@ svg.fetch.green path {
  */
 
 .page-title {
+  font-family: 'Source Sans Pro', sans-serif;
   @apply font-black text-6xl max-w-xl mx-auto;
 }
 
 .page-desc {
   @apply text-2xl mt-5 max-w-4xl mx-auto;
+}
+
+.selected-testi img {
+  @apply bg-yellow-300 shadow-lg;
 }
 
 @-webkit-keyframes animation-fetch {
