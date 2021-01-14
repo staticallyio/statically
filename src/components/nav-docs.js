@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-function DocsNav() {
+function NavDocs() {
   return (
     <nav className="p-5 pt-8">
       <div className="mt-3 mb-8">
@@ -123,4 +123,4 @@ function DocsNav() {
   );
 }
 
-export default DocsNav;
+export default NavDocs;

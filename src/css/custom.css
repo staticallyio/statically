@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
   @apply text-black;
 }
 
- .font-heading {
+.font-heading {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -86,12 +86,6 @@ svg.fetch.green path {
   stroke: #3ed0e5;
 }
 
-#HW_frame_cont {
-  border: 1px solid #eee !important;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
-}
-
 .highlighted-form {
   padding: 2px;
   border-radius: 0.64rem;
@@ -128,6 +122,14 @@ svg.fetch.green path {
   @apply bg-yellow-300 shadow-lg;
 }
 
+.grayscale {
+  filter: grayscale(100%);
+}
+
+.hover\:grayscale-none:hover {
+  filter: grayscale(0);
+}
+
 @-webkit-keyframes animation-fetch {
   to {
     stroke-dashoffset: 10;
@@ -137,5 +139,12 @@ svg.fetch.green path {
 @keyframes animation-fetch {
   to {
     stroke-dashoffset: 10;
+  }
+}
+
+/* large */
+@media (min-width: 1024px) {
+  .img-tabpanel {
+    height: 32rem!important;
   }
 }

@@ -1,33 +1,64 @@
 import { Link } from 'gatsby';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-//import * as Icons from "@fortawesome/free-solid-svg-icons";
+import * as Solid from "@fortawesome/free-solid-svg-icons";
 import * as Brands from '@fortawesome/free-brands-svg-icons';
+import staticallyLogo from '../../static/images/branding/statically-logo-dark.svg';
 
 function Footer() {
   return (
-    <footer className="mt-20 mb-24 text-lg text-center font-semibold">
-      <nav className="flex flex-wrap content-center max-w-xl mx-auto mb-5">
-        <div className="w-full sm:w-1/3 md:w-1/3 lg:w-1/3 pb-6 sm:pr-12">
-          <ul className="space-y-1">
-            <li>
-              <Link to="/convert/">Convert</Link>
-            </li>
-            
-            <li>
-              <Link to="/wordpress/">WordPress</Link>
-            </li>
+    <footer className="mt-20 mb-24">
+      <nav className="flex flex-wrap mx-auto mb-5 px-5 xl:px-0">
+        <div className="w-full sm:w-1/4 md:w-1/5 pb-6">
+          <img className="h-6" src={staticallyLogo} alt="Statically logo" />
+          <p className="text-gray-700 mt-5 pr-6">
+            Statically is a cloud-based service for managing digital assets on production.
+          </p>
+        </div>
 
+        <div className="w-full sm:w-1/4 md:w-1/5 pb-6">
+          <h3 className="font-bold">Products</h3>
+          <ul className="space-y-1 mt-5">
             <li>
-              <Link to="/docs/">Docs</Link>
+              <Link to="/docs/">CDN</Link>
+            </li>
+            <li>
+              <Link to="/docs/">Image optimization</Link>
+            </li>
+            <li>
+              <Link to="/docs/">Image generator</Link>
+            </li>
+            <li>
+              <Link to="/docs/">File minification</Link>
+            </li>
+            <li>
+              <Link to="/docs/">Web screenshot</Link>
             </li>
           </ul>
         </div>
 
-        <div className="w-full sm:w-1/3 md:w-1/3 lg:w-1/3 pb-6 sm:px-12">
-          <ul className="space-y-1">
+        <div className="w-full sm:w-1/4 md:w-1/5 pb-6">
+          <h3 className="font-bold">Support</h3>
+          <ul className="space-y-1 mt-5">
             <li>
-              <Link to="/about/">About</Link>
+              <Link to="/about/">Community</Link>
+            </li>
+
+            <li>
+              <Link to="/blog/">Contact Us</Link>
+            </li>
+
+            <li>
+              <a href="https://status.statically.io/">Network status</a>
+            </li>
+          </ul>
+        </div>
+
+        <div className="w-full sm:w-1/4 md:w-1/5 pb-6">
+          <h3 className="font-bold">Company</h3>
+          <ul className="space-y-1 mt-5">
+            <li>
+              <Link to="/about/">About Us</Link>
             </li>
 
             <li>
@@ -35,31 +66,40 @@ function Footer() {
             </li>
 
             <li>
-              <Link to="/about/#newsletter">Newsletter</Link>
+              <Link to="/press/">Press</Link>
             </li>
           </ul>
         </div>
 
-        <div className="w-full sm:w-1/3 md:w-1/3 lg:w-1/3 pb-6 sm:pl-12">
-          <ul className="space-y-1">
-            <li>
-              <a href="https://statically.discourse.group">Community</a>
-            </li>
+        <div className="w-full sm:w-1/4 md:w-1/5 pb-6 md:-ml-10">
+          <form
+              action="https://statically.us18.list-manage.com/subscribe/post?u=4dfd4ae04677bf4f6248182fc&amp;id=397ea962f2"
+              name="Contact Form"
+              method="POST"
+            >
+              <input type="hidden" name="form-name" value="Contact Form" />
+              <label className="flex items-center border border-black px-4 rounded mb-2">
+                <span><FontAwesomeIcon icon={Solid.faEnvelope}/></span>
+                <input
+                  className="form-input w-full"
+                  id="email"
+                  name="EMAIL"
+                  type="text"
+                  placeholder="frans@example.com"
+                  required
+                />
+              </label>
 
-            <li>
-              <Link to="/docs/our-network/">Our Network</Link>
-            </li>
-
-            <li>
-              <a href="https://status.statically.io">Status</a>
-            </li>
-          </ul>
+              <button className="btn w-full" type="submit">
+                Subscribe
+              </button>
+            </form>
         </div>
       </nav>
 
-      <nav className="max-w-xl mx-auto text-center text-3xl mb-10">
+      <nav className="max-w-xl mx-auto text-center text-3xl my-10">
         <a
-          className="px-4"
+          className="px-4 text-blue-400"
           href="https://twitter.com/staticallyio"
           title="Twitter"
           rel="noopener noreferrer"
@@ -78,20 +118,18 @@ function Footer() {
           <FontAwesomeIcon icon={Brands.faGithub} />
         </a>
 
-        {/**
         <Link
-          className="px-4"
-          to="/shop"
+          className="px-4 text-green-400"
+          to="/shop/"
           title="Shop"
         >
           <FontAwesomeIcon
-            icon={Icons.faTshirt}
+            icon={Solid.faTshirt}
           />
         </Link>
-        */}
       </nav>
 
-      <nav className="max-w-xl mx-auto text-center mb-5 text-base">
+      <nav className="max-w-xl mx-auto text-center mb-5">
         <Link className="px-2" to="/policies/privacy/">
           Privacy
         </Link>
@@ -99,16 +137,14 @@ function Footer() {
         <Link className="px-2" to="/policies/terms/">
           Terms
         </Link>
+
+        <Link className="px-2" to="/abuse/">
+          Abuse
+        </Link>
       </nav>
 
-      <p className="font-normal text-center text-gray-900 text-base">
-        &copy; 2021 Statically &bull; a project by
-        <a
-          href="https://upset.dev"
-          className="ml-1 text-red-600 umami--click--link-footer-upsetdev"
-        >
-          upset.dev
-        </a>
+      <p className="font-normal text-center text-gray-900">
+        &copy; 2021 Statically
       </p>
     </footer>
   );

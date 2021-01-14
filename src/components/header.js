@@ -43,8 +43,8 @@ function Header({ siteTitle }) {
 
       <div
         className={`${
-          isExpanded ? `block` : `hidden`
-        } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}
+          isExpanded ? `block pt-5 pb-10 border-b` : `hidden`
+        } w-full block lg:flex flex-grow lg:items-center lg:w-auto`}
       >
         <div className="lg:flex-grow text-gray-700">
           <Link
@@ -82,15 +82,9 @@ function Header({ siteTitle }) {
           >
             Sponsors
           </Link>
-          <a
-            href="https://statically.discourse.group"
-            className="block py-2 lg:py-6 lg:inline-block lg:mt-0 mr-4 hover:text-red-600 border-b-2 border-transparent"
-          >
-            Community
-          </a>
         </div>
 
-        <div className="flex mt-3 lg:mt-0">
+        <div className="flex mt-5 lg:mt-0">
           <Link
             to="/login/"
             className="block lg:inline-block mt-1 mr-6 hover:text-red-600 border-b-2 border-transparent"

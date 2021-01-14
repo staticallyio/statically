@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import DocsNav from '../components/docs-nav';
+import NavDocs from '../components/nav-docs';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as Regular from "@fortawesome/free-regular-svg-icons";
@@ -49,7 +49,7 @@ function FeaturesPage() {
           } bg-white border-b lg:border-b-0 lg:pt-0 lg:w-1/4 lg:block lg:border-0 xl:w-1/5`}
         >
           <div className="scrolling-touch">
-            <DocsNav />
+            <NavDocs />
           </div>
         </div>
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import fastlyLogo from '../../static/images/sponsors/fastly.svg';
 import cloudflareLogo from '../../static/images/sponsors/cloudflare.svg';
-import bunnycdnLogo from '../../static/images/sponsors/bunnycdn.svg';
+import bunnyLogo from '../../static/images/sponsors/bunny.svg';
 
 function SponsorPlatinum() {
   return (
@@ -30,12 +30,12 @@ function SponsorPlatinum() {
 
       <div className="w-full md:w-1/3 lg:w-1/3 p-1">
         <a
-          href="https://bunnycdn.com"
+          href="https://bunny.net"
           className="sponsors-logo"
           rel="noopener noreferrer"
           target="_blank"
         >
-          <img src={bunnycdnLogo} alt="BunnyCDN" />
+          <img src={bunnyLogo} alt="BunnyCDN" />
         </a>
       </div>
     </div>
