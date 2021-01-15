@@ -24,9 +24,9 @@ function DocsPage() {
     <Layout>
       <SEO title="Docs" keywords={[`statically`, `docs`, `updates`]} />
       <section className="lg:flex">
-        <div className="block lg:hidden p-3 bg-gray-300">
+        <div className="block lg:hidden p-3 bg-gradient-to-r from-yellow-400 to-pink-500">
           <button
-            className="flex items-center px-3 py-2 border rounded text-black border-0"
+            className="flex items-center px-3 py-2 bg-white rounded text-black"
             onClick={() => toggleExpansion(!isExpanded)}
           >
             <svg
@@ -52,7 +52,7 @@ function DocsPage() {
 
         <div className="min-h-screen w-full lg:static lg:max-h-full lg:overflow-visible lg:w-3/4 xl:w-4/5">
           <div className="p-5 pt-8 max-w-3xl">
-            <h1 className="text-4xl font-bold">Statically Documentation</h1>
+            <h1 className="text-4xl font-bold font-heading">Statically Documentation</h1>
             <div className="markdown">
               <p>
                 This page is an overview of the Statically documentation and

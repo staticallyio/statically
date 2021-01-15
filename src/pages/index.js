@@ -37,8 +37,8 @@ function IndexPage() {
         ]}
       />
 
-      <div className="px-4 py-8">
-        <section className="text-center mx-auto max-w-5xl pb-12">
+      <div className="px-4">
+        <section className="text-center mx-auto max-w-5xl pt-8 pb-12">
           <h1 className="font-heading text-5xl lg:text-7xl font-black inline-block mt-16 leading-none tracing-tighter">
             The all-in-one solution for modern web apps
           </h1>
@@ -333,7 +333,7 @@ main {
               </TabPanel>
 
               <TabPanel>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel fringilla ligula."
+                "Statically saves us from the burden of maintaining our own CDN."
 
                 <div className="font-normal text-xl mt-5">
                   Julien Danjou <FontAwesomeIcon className="text-red-400" icon={Solid.faAt}/> Mergify

@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 function NavPolicies() {
   return (
     <nav className="p-5 pt-8">
-      <div className="mt-3 mb-8">
+      <div className="mt-3 mb-4">
         <h5 className="mb-3 lg:mb-2 uppercase font-bold text-sm lg:text-xs text-indigo-400">
           Policies
         </h5>

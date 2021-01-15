@@ -111,11 +111,11 @@ svg.fetch.green path {
 
 .page-title {
   font-family: 'Source Sans Pro', sans-serif;
-  @apply font-black text-6xl max-w-xl mx-auto;
+  @apply text-5xl font-black inline-block leading-none;
 }
 
 .page-desc {
-  @apply text-2xl mt-5 max-w-4xl mx-auto;
+  @apply text-xl text-gray-800 mt-8;
 }
 
 .selected-testi img {
@@ -144,6 +144,10 @@ svg.fetch.green path {
 
 /* large */
 @media (min-width: 1024px) {
+  .page-title {
+    @apply text-7xl;
+  }
+
   .img-tabpanel {
     height: 32rem!important;
   }

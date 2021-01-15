@@ -14,9 +14,9 @@ function PoliciesPost({ data }) {
     <Layout>
       <SEO title={frontmatter.title} />
       <section className="lg:flex">
-        <div className="block lg:hidden p-3 bg-gray-300">
+        <div className="block lg:hidden p-3 bg-gradient-to-r from-green-400 to-purple-500">
           <button
-            className="flex items-center px-3 py-2 border rounded text-black border-0"
+            className="flex items-center px-3 py-2 bg-white rounded text-black"
             onClick={() => toggleExpansion(!isExpanded)}
           >
             <svg
@@ -42,7 +42,7 @@ function PoliciesPost({ data }) {
 
         <div className="lg:w-3/4 xl:w-4/5">
           <div className="p-5 pt-8 max-w-3xl">
-            <h1 className="text-4xl font-bold">{frontmatter.title}</h1>
+            <h1 className="text-4xl font-bold font-heading">{frontmatter.title}</h1>
             <div
               className="markdown"
               dangerouslySetInnerHTML={{ __html: html }}

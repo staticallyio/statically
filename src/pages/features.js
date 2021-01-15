@@ -55,7 +55,7 @@ function FeaturesPage() {
 
         <div className="min-h-screen w-full lg:static lg:max-h-full lg:overflow-visible lg:w-3/4 xl:w-4/5">
           <div className="p-5 pt-8 max-w-3xl">
-            <h1 className="text-4xl font-bold">Features</h1>
+            <h1 className="text-4xl font-bold font-heading">Features</h1>
             <div className="markdown">
               <p>
                 Statically offers optimization and CDN for open source static

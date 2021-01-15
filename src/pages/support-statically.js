@@ -22,8 +22,7 @@ function SupportStaticallyPage() {
           <div className="text-center">
             <h1 className="page-title">Become A Sponsor</h1>
             <h2 className="page-desc">
-              Exclusively sponsor Statically and have your company logo placed
-              on this website.
+              Thanks to our sponsors for helping us in the mission of optimizing the web.
             </h2>
 
             <div className="mt-8">

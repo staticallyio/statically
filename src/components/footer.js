@@ -23,16 +23,16 @@ function Footer() {
               <Link to="/docs/">CDN</Link>
             </li>
             <li>
-              <Link to="/docs/">Image optimization</Link>
+              <Link to="/docs/">Image Optimization</Link>
             </li>
             <li>
-              <Link to="/docs/">Image generator</Link>
+              <Link to="/docs/">Image Generator</Link>
             </li>
             <li>
-              <Link to="/docs/">File minification</Link>
+              <Link to="/docs/">File Minification</Link>
             </li>
             <li>
-              <Link to="/docs/">Web screenshot</Link>
+              <Link to="/docs/">Web Screenshot</Link>
             </li>
           </ul>
         </div>
@@ -41,7 +41,11 @@ function Footer() {
           <h3 className="font-bold">Support</h3>
           <ul className="space-y-1 mt-5">
             <li>
-              <Link to="/about/">Community</Link>
+              <Link to="/docs/faqs/">FAQs</Link>
+            </li>
+
+            <li>
+              <a href="https://statically.discourse.group/">Community</a>
             </li>
 
             <li>
@@ -49,7 +53,7 @@ function Footer() {
             </li>
 
             <li>
-              <a href="https://status.statically.io/">Network status</a>
+              <a href="https://status.statically.io/">Network Status</a>
             </li>
           </ul>
         </div>
@@ -84,7 +88,7 @@ function Footer() {
                   className="form-input w-full"
                   id="email"
                   name="EMAIL"
-                  type="text"
+                  type="email"
                   placeholder="frans@example.com"
                   required
                 />

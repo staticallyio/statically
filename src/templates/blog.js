@@ -14,7 +14,7 @@ export default function blogPost({
       <SEO title={frontmatter.title} />
       <section className="max-w-2xl mx-auto pt-10 pb-20 px-5">
         <div className="markdown mt-10">
-          <h1 className="text-4xl font-bold">{frontmatter.title}</h1>
+          <h1 className="text-4xl font-bold font-heading">{frontmatter.title}</h1>
           <h2 className="text-sm text-gray-900 mt-2">
             {frontmatter.author} on {frontmatter.date}
           </h2>

@@ -14,6 +14,14 @@ function NavDocs() {
             <Link
               className="text-gray-600 hover:text-gray-900 block py-1"
               activeClassName="text-gray-900"
+              to="/docs/"
+            >
+              Overview
+            </Link>
+
+            <Link
+              className="text-gray-600 hover:text-gray-900 block py-1"
+              activeClassName="text-gray-900"
               to="/docs/using-staticzap/"
             >
               Using Staticzap
@@ -117,6 +125,44 @@ function NavDocs() {
           >
             Purging Cache
           </Link>
+        </ul>
+      </div>
+
+      <div className="mb-4">
+        <h5 className="mb-3 lg:mb-2 text-gray-500 uppercase font-bold text-sm lg:text-xs text-yellow-500">
+          Support
+        </h5>
+
+        <ul>
+          <Link
+            className="text-gray-600 hover:text-gray-900 block py-1"
+            activeClassName="text-gray-900"
+            to="/docs/faqs/"
+          >
+            FAQs
+          </Link>
+
+          <a
+            className="text-gray-600 hover:text-gray-900 block py-1"
+            href="https://statically.discourse.group/"
+          >
+            Community
+          </a>
+
+          <Link
+            className="text-gray-600 hover:text-gray-900 block py-1"
+            activeClassName="text-gray-900"
+            to="/contact/"
+          >
+            Contact Us
+          </Link>
+
+          <a
+            className="text-gray-600 hover:text-gray-900 block py-1"
+            href="https://status.statically.io/"
+          >
+            Network Status
+          </a>
         </ul>
       </div>
     </nav>

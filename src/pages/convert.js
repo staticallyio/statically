@@ -147,7 +147,7 @@ class ConvertPage extends React.Component {
 
         <div className="px-4 py-8">
           <section className="text-center max-w-5xl mx-auto px-4 md:px-0">
-            <h1 className="page-title mt-16 max-w-4xl">
+            <h1 className="page-title mt-16 max-w-4xl tracing-tighter">
               Convert GitHub links to Statically CDN links
             </h1>
             

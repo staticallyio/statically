@@ -43,7 +43,7 @@ function Header({ siteTitle }) {
 
       <div
         className={`${
-          isExpanded ? `block pt-5 pb-10 border-b` : `hidden`
+          isExpanded ? `block py-5` : `hidden`
         } w-full block lg:flex flex-grow lg:items-center lg:w-auto`}
       >
         <div className="lg:flex-grow text-gray-700">
