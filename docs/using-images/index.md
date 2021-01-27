@@ -58,13 +58,23 @@ Example:
 
 ### f=auto
 
-Automatically converts image into WebP format when browser supports it.
+Automatically convert images to WebP format when browser supports it.
 
 Example:
 
 `/img/static.web.id/f=auto/dog.jpg`
 
 ![f=auto](https://cdn.statically.io/img/static.web.id/f=auto,w=350/dog.jpg)
+
+### f=webp
+
+Forcibly convert images to WebP format.
+
+Example:
+
+`/img/static.web.id/f=webp/dog.jpg`
+
+![f=auto](https://cdn.statically.io/img/static.web.id/f=webp,w=350/dog.jpg)
 
 ### q=:percentage
 
