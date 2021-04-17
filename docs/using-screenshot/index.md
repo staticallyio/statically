@@ -41,18 +41,12 @@ Getting PDF version.
 
 `/screenshot/pdf/:url`
 
-### Combine params
-
-Params can be combined using commas and after /screenshot/ path.
-
-`/screenshot/device=mobile,full=true/:url`
-
 ## Live Demo
 
 `/screenshot/dev.to`
 
 ![Screenshot](https://cdn.statically.io/screenshot/dev.to)
 
-`/screenshot/device=mobile/dev.to`
+`/screenshot/mobile/dev.to`
 
-![Screenshot (mobile)](https://cdn.statically.io/screenshot/device=mobile/dev.to)
+![Screenshot (mobile)](https://cdn.statically.io/screenshot/mobile/dev.to)
