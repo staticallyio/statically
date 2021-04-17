@@ -23,17 +23,17 @@ Every website screenshot image files will be cached on the CDN for 1 month.
 
 ## Parameters
 
-### device=mobile
-
-Get a mobile version.
-
-`/screenshot/device=mobile/:url`
-
 ### full=true
 
 Get a full page version.
 
 `/screenshot/full=true/:url`
+
+### mobile (path)
+
+Get a mobile version.
+
+`/screenshot/mobile/:url`
 
 ### pdf (path)
 
