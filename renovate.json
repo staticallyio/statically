@@ -1,5 +1,0 @@
-{
-  "extends": ["config:base"],
-  "assignees": ["fransallen"],
-  "bumpVersion": "patch"
-}

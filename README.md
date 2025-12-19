@@ -1,43 +1,76 @@
 <p align="center">
   <a href="https://statically.io/screenshot/">
-    <img src="https://cdn.statically.io/img/statically.io/images/branding/statically-mark.svg" alt="Screenshot" height="80"/>
+    <img src="https://statically.io/images/branding/statically-mark.svg" alt="Statically" height="80"/>
   </a>
 </p>
 
 <h1 align="center">Statically</h1>
 
-<p align="center">Tools for optimizing your web projects.</p>
+<p align="center">A free, fast global content delivery network for open-source projects.</p>
 
 <p align="center">
-  <a href="https://statically.io">statically.io</a> |
-  <a href="https://twitter.com/staticallyio">Twitter</a> |
-  <a href="https://statically.discourse.group">Community</a> |
-  <a href="https://statically.io/sponsors/">Sponsors</a>
+  <a href="https://statically.io">statically.io</a>
   <br /><br />
-	<a href="https://twitter.com/staticallyio">
-    <img src="https://img.shields.io/twitter/follow/staticallyio?label=Follow&style=social" alt="Twitter" />
-  </a>
-  <a href="https://statically.io">
-    <img src="https://img.shields.io/badge/users-10K%2B-success" alt="Users" />
-  </a>
-  <a href="https://statically.discourse.group">
-    <img src="https://img.shields.io/discourse/status?server=https%3A%2F%2Fstatically.discourse.group" alt="Community" />
+	<a href="https://x.com/staticallyio">
+    <img src="https://img.shields.io/twitter/follow/staticallyio?label=Follow&style=social" alt="X" />
   </a>
   <a href="https://www.patreon.com/fransallen">
     <img src="https://img.shields.io/badge/donate-Patreon-ff69b4" alt="Donate" />
   </a>
 </p>
 
-## :sparkles: Overview
+## Overview
 
-**Statically** is a free optimization & CDN for images, CSS, JavaScript, open source, and much more.
+**Statically** is a free, fast global content delivery network (CDN) for open-source projects. It helps developers easily distribute static assets such as CSS and JavaScript libraries. It supports popular platforms like GitHub, GitLab, Bitbucket, and npm, making it simple and reliable for developers to serve their files.
 
-## :bulb: Features
+## Getting Started
 
-- Multi-CDN
-- File Optimization
-- CDN for Open Source
+How to use Statically in your projects:
 
-## :zap: Quick start
+**GitHub**
 
-To get started using Statically, visit [our website](https://statically.io) today!
+```
+https://cdn.statically.io/gh/:user/:repo@:tag/:file
+```
+
+**GitLab**
+
+```
+https://cdn.statically.io/gl/:user/:repo@:tag/:file
+```
+
+**Bitbucket**
+
+```
+https://cdn.statically.io/bb/:user/:repo@:tag/:file
+```
+
+**npm**
+
+```
+https://cdn.statically.io/npm/:package
+https://cdn.statically.io/npm/:package@:version/:file
+```
+
+## Features
+
+- CDN for repositories (GitHub, GitLab, Bitbucket)
+- CDN for npm packages
+
+## Limitations
+
+Statically has some limitations to be aware of:
+
+- Only public repositories are supported.
+- File size limit: 25MB per file.
+- In cases of abuse, rate limiting may be applied.
+
+## Contributing & Sponsorship
+
+Contributions are welcome! If you'd like to contribute to Statically, here's how you can help:
+
+- Sponsor the project on [Patreon](https://www.patreon.com/fransallen).
+- Companies are welcome to sponsor the project with time, resources, or services.
+- Report bugs or suggest features via GitHub Issues.
+
+If you have any questions about contributing or sponsorship, feel free to reach out at me@upset.dev.

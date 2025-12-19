@@ -1,19 +1,27 @@
-# Project dependencies
-# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
-.cache
-node_modules
-yarn-error.log
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Workers site
-workers-site
+# dependencies
+/node_modules
 
-# Build directory
-/public
+# next.js
+/.next/
+/out/
 
-# macOS
-.DS_Store
+# production
+/build
 
-# deployment-specific configs
-.netlify
-now.json
-wrangler.toml
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
