@@ -111,7 +111,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="relative border-t border-border/40 bg-gradient-to-b from-background to-muted/20">
+      <footer className="relative border-t border-foreground/10 bg-gradient-to-b from-background to-muted/20">
         <div className="max-w-2xl mx-auto px-6 py-12">
           {/* Main footer content */}
           <div className="flex flex-col md:flex-row justify-between gap-8 text-center md:text-left">
