@@ -2,28 +2,195 @@
 
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Check, Copy, Link2 } from "lucide-react";
+import {
+  Check,
+  Copy,
+  Loader2,
+  AlertCircle,
+  CheckCircle2,
+  XCircle,
+} from "lucide-react";
+import {
+  validateGitHubRepo,
+  validateGitLabRepo,
+  validateBitbucketRepo,
+  type RepoInfo,
+} from "@/lib/git-api";
+
+interface ParsedRepoUrl {
+  platform: "github" | "gitlab" | "bitbucket";
+  owner: string;
+  repo: string;
+  branch?: string;
+  filePath?: string;
+}
 
 export default function UrlConverter() {
   const [inputUrl, setInputUrl] = useState("");
   const [convertedUrl, setConvertedUrl] = useState("");
   const [copied, setCopied] = useState(false);
+  const [validating, setValidating] = useState(false);
+  const [repoInfo, setRepoInfo] = useState<RepoInfo | null>(null);
+  const [parsedUrl, setParsedUrl] = useState<ParsedRepoUrl | null>(null);
+  const [useCommitSha, setUseCommitSha] = useState(false);
+  const [useDefaultBranch, setUseDefaultBranch] = useState(false);
 
-  // Convert URL as user types
+  // Convert URL and validate as user types
   useEffect(() => {
     if (!inputUrl) {
       setConvertedUrl("");
+      setRepoInfo(null);
+      setParsedUrl(null);
       return;
     }
 
     // Simple debounce
     const timer = setTimeout(() => {
+      const parsed = parseRepoUrl(inputUrl);
+      if (parsed) {
+        setParsedUrl(parsed);
+        validateRepo(parsed);
+      } else {
+        setParsedUrl(null);
+        setRepoInfo(null);
+      }
+
       const url = convertUrl(inputUrl);
       setConvertedUrl(url);
-    }, 300);
+    }, 500);
 
     return () => clearTimeout(timer);
   }, [inputUrl]);
+
+  // Update converted URL when options change
+  useEffect(() => {
+    if (parsedUrl && repoInfo?.valid) {
+      const url = buildConvertedUrl(parsedUrl, repoInfo);
+      setConvertedUrl(url);
+    }
+  }, [useCommitSha, useDefaultBranch, repoInfo, parsedUrl]);
+
+  const parseRepoUrl = (url: string): ParsedRepoUrl | null => {
+    try {
+      const parsed = new URL(url);
+      const hostname = parsed.hostname;
+      const pathname = parsed.pathname.split("/");
+
+      // Handle GitHub URLs
+      if (hostname === "github.com" && pathname.length >= 5) {
+        return {
+          platform: "github",
+          owner: pathname[1],
+          repo: pathname[2],
+          branch: pathname[4],
+          filePath: pathname.slice(5).join("/"),
+        };
+      }
+
+      // Handle GitLab URLs
+      if (hostname === "gitlab.com" && pathname.length >= 5) {
+        if (
+          pathname[3] === "-" &&
+          (pathname[4] === "blob" || pathname[4] === "raw")
+        ) {
+          return {
+            platform: "gitlab",
+            owner: pathname[1],
+            repo: pathname[2],
+            branch: pathname[5],
+            filePath: pathname.slice(6).join("/"),
+          };
+        }
+
+        return {
+          platform: "gitlab",
+          owner: pathname[1],
+          repo: pathname[2],
+          branch: pathname[4],
+          filePath: pathname.slice(5).join("/"),
+        };
+      }
+
+      // Handle Bitbucket URLs
+      if (hostname === "bitbucket.org" && pathname.length >= 5) {
+        return {
+          platform: "bitbucket",
+          owner: pathname[1],
+          repo: pathname[2],
+          branch: pathname[4],
+          filePath: pathname.slice(5).join("/"),
+        };
+      }
+
+      return null;
+    } catch {
+      return null;
+    }
+  };
+
+  const validateRepo = async (parsed: ParsedRepoUrl) => {
+    setValidating(true);
+    try {
+      let info: RepoInfo;
+
+      switch (parsed.platform) {
+        case "github":
+          info = await validateGitHubRepo(
+            parsed.owner,
+            parsed.repo,
+            parsed.branch,
+            parsed.filePath
+          );
+          break;
+        case "gitlab":
+          info = await validateGitLabRepo(
+            parsed.owner,
+            parsed.repo,
+            parsed.branch,
+            parsed.filePath
+          );
+          break;
+        case "bitbucket":
+          info = await validateBitbucketRepo(
+            parsed.owner,
+            parsed.repo,
+            parsed.branch,
+            parsed.filePath
+          );
+          break;
+      }
+
+      setRepoInfo(info);
+    } catch (error) {
+      setRepoInfo({
+        valid: false,
+        error: "Failed to validate repository",
+      });
+    } finally {
+      setValidating(false);
+    }
+  };
+
+  const buildConvertedUrl = (parsed: ParsedRepoUrl, info: RepoInfo): string => {
+    const platformPrefix =
+      parsed.platform === "github"
+        ? "gh"
+        : parsed.platform === "gitlab"
+        ? "gl"
+        : "bb";
+
+    // Determine the ref (branch or commit SHA)
+    let ref: string;
+    if (useCommitSha && info.latestCommitSha) {
+      ref = info.latestCommitSha;
+    } else if (useDefaultBranch && info.defaultBranch) {
+      ref = info.defaultBranch;
+    } else {
+      ref = parsed.branch || info.defaultBranch || "main";
+    }
+
+    return `https://cdn.statically.io/${platformPrefix}/${parsed.owner}/${parsed.repo}@${ref}/${parsed.filePath}`;
+  };
 
   const convertUrl = (url: string) => {
     try {
@@ -73,7 +240,10 @@ export default function UrlConverter() {
 
         // GitLab URLs have the format: /user/repo/-/blob|raw/branch/file
         // We need to skip the "-" separator and "blob"/"raw" parts
-        if (pathname[3] === "-" && (pathname[4] === "blob" || pathname[4] === "raw")) {
+        if (
+          pathname[3] === "-" &&
+          (pathname[4] === "blob" || pathname[4] === "raw")
+        ) {
           const branch = pathname[5];
           const filePath = pathname.slice(6).join("/");
           return `https://cdn.statically.io/gl/${user}/${repo}@${branch}/${filePath}`;
@@ -128,10 +298,49 @@ export default function UrlConverter() {
         </div>
 
         {convertedUrl && (
-          <div className="mt-4 space-y-2 animate-in fade-in slide-in-from-bottom-1">
-            <label className="text-sm text-muted-foreground">
-              Converted CDN URL
-            </label>
+          <div className="mt-4 space-y-3 animate-in fade-in slide-in-from-bottom-1">
+            <div className="flex items-center justify-between">
+              <label className="text-sm text-muted-foreground">
+                Converted CDN URL
+              </label>
+              {validating && (
+                <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
+                  <Loader2 className="h-3 w-3 animate-spin" />
+                  Validating...
+                </div>
+              )}
+              {!validating && repoInfo && (
+                <div className="flex items-center gap-1.5 text-xs">
+                  {repoInfo.valid ? (
+                    repoInfo.fileExists !== undefined && (
+                      <div className="flex items-center gap-1.5 text-xs">
+                        {repoInfo.fileExists ? (
+                          <>
+                            <CheckCircle2 className="h-3 w-3 text-green-500" />
+                            <span className="text-green-600">Valid</span>
+                          </>
+                        ) : (
+                          <>
+                            <AlertCircle className="h-3 w-3 text-amber-500" />
+                            <span className="text-amber-600">
+                              File not found
+                            </span>
+                          </>
+                        )}
+                      </div>
+                    )
+                  ) : (
+                    <>
+                      <XCircle className="h-3 w-3 text-red-500" />
+                      <span className="text-red-600">
+                        {repoInfo.error || "Invalid"}
+                      </span>
+                    </>
+                  )}
+                </div>
+              )}
+            </div>
+
             <div className="flex items-center gap-2">
               <div className="flex-1 min-w-0 px-4 py-3 rounded-lg border border-input bg-muted/30 text-xs font-mono truncate">
                 {convertedUrl}
@@ -152,6 +361,45 @@ export default function UrlConverter() {
                 )}
               </Button>
             </div>
+
+            {repoInfo?.valid && (
+              <div className="space-y-2 pt-1">
+                <div className="text-xs text-muted-foreground">Options:</div>
+                <div className="flex flex-wrap gap-2">
+                  {repoInfo.defaultBranch && (
+                    <label className="flex items-center gap-2 text-xs cursor-pointer">
+                      <input
+                        type="checkbox"
+                        checked={useDefaultBranch}
+                        onChange={(e) => {
+                          setUseDefaultBranch(e.target.checked);
+                          if (e.target.checked) setUseCommitSha(false);
+                        }}
+                        className="rounded border-input"
+                      />
+                      <span>Use default branch ({repoInfo.defaultBranch})</span>
+                    </label>
+                  )}
+                  {repoInfo.latestCommitSha && (
+                    <label className="flex items-center gap-2 text-xs cursor-pointer">
+                      <input
+                        type="checkbox"
+                        checked={useCommitSha}
+                        onChange={(e) => {
+                          setUseCommitSha(e.target.checked);
+                          if (e.target.checked) setUseDefaultBranch(false);
+                        }}
+                        className="rounded border-input"
+                      />
+                      <span>
+                        Pin to commit SHA (
+                        {repoInfo.latestCommitSha.substring(0, 7)})
+                      </span>
+                    </label>
+                  )}
+                </div>
+              </div>
+            )}
           </div>
         )}
       </div>
