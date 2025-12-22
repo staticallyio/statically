@@ -35,7 +35,7 @@ export default function Home() {
         {/* URL Converter */}
         <UrlConverter />
 
-        <div className="w-full max-w-2xl mx-auto space-y-6 mt-3">
+        <div className="w-full max-w-3xl mx-auto space-y-6 mt-3">
           <div className="space-y-3">
             <h3 className="text-base font-semibold">About</h3>
             <div className="border rounded-lg border-foreground/10 bg-background p-4 space-y-4">
@@ -112,7 +112,7 @@ export default function Home() {
       </section>
 
       <footer className="relative border-t border-foreground/10 bg-gradient-to-b from-background to-muted/20">
-        <div className="max-w-2xl mx-auto px-6 py-12">
+        <div className="max-w-3xl mx-auto px-6 py-12">
           {/* Main footer content */}
           <div className="flex flex-col md:flex-row justify-between gap-8 text-center md:text-left">
             {/* Brand & Copyright */}

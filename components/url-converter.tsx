@@ -100,7 +100,7 @@ export default function UrlConverter() {
   };
 
   return (
-    <div className="w-full max-w-2xl mx-auto space-y-6">
+    <div className="w-full max-w-3xl mx-auto space-y-6">
       {/* Converter Card */}
       <div className="relative border rounded-xl border-foreground/10 bg-background p-4 shadow-sm">
         <div className="absolute inset-x-0 -top-px h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent" />
