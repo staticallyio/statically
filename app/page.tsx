@@ -60,6 +60,20 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          <div className="space-y-3">
+            <h3 className="text-base font-semibold">Important Notice</h3>
+            <div className="border rounded-lg border-foreground/10 bg-background p-4 space-y-4">
+              <div className="space-y-1">
+                <p className="text-sm text-muted-foreground">
+                  Due to abuse and high traffic, the{" "}
+                  <code className="text-xs">/img/</code> endpoint has been
+                  disabled. We apologize for the inconvenience and appreciate
+                  your understanding. Please use Statically responsibly.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
