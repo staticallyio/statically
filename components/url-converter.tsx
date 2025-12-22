@@ -70,9 +70,18 @@ export default function UrlConverter() {
       else if (hostname === "gitlab.com" && pathname.length >= 5) {
         const user = pathname[1];
         const repo = pathname[2];
+
+        // GitLab URLs have the format: /user/repo/-/blob|raw/branch/file
+        // We need to skip the "-" separator and "blob"/"raw" parts
+        if (pathname[3] === "-" && (pathname[4] === "blob" || pathname[4] === "raw")) {
+          const branch = pathname[5];
+          const filePath = pathname.slice(6).join("/");
+          return `https://cdn.statically.io/gl/${user}/${repo}@${branch}/${filePath}`;
+        }
+
+        // Fallback for other GitLab URL formats
         const branch = pathname[4];
         const filePath = pathname.slice(5).join("/");
-
         return `https://cdn.statically.io/gl/${user}/${repo}@${branch}/${filePath}`;
       }
 
